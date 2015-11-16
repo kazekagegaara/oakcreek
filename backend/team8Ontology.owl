@@ -1,0 +1,459 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://my.asu.edu/ontologies/ser594/team8Ontology#"
+     xml:base="http://my.asu.edu/ontologies/ser594/team8Ontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasComment -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasComment">
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Comment"/>
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasDescription -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasDescription">
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Description"/>
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasEntityName -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasEntityName">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#EntityName"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasEntityType -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasEntityType">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#EntityType"/>
+        <rdfs:subPropertyOf rdf:resource="&owl;topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasImage -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasImage">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Image"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasKeywordText -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasKeywordText">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#KeywordText"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasLDSource -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasLDSource">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#LinkedDataSource"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasLabel -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasLabel">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Label"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasRDFTypes -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasRDFTypes">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#RDFTypes"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasReferences -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasReferences">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#References"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource">
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#SocialMediaSource"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+                    <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasSentiment -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasSentiment">
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Sentiment"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+                    <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasThumbnail -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasThumbnail">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Thumbnail"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasUrl -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasUrl">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#WebURL"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#hasWebsite -->
+
+    <owl:ObjectProperty rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#hasWebsite">
+        <rdfs:domain rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+        <rdfs:range rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Website"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#Comment -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Comment"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#Description -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Description"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#Entity -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource"/>
+                <owl:onClass rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#SocialMediaSource"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasUrl"/>
+                <owl:onClass rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#WebURL"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasReferences"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#References"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasUrl"/>
+                <owl:onClass rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#WebURL"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasLDSource"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#LinkedDataSource"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasDescription"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Description"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasRDFTypes"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#RDFTypes"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasWebsite"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Website"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasThumbnail"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Thumbnail"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasEntityName"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#EntityName"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource"/>
+                <owl:onClass rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#SocialMediaSource"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasEntityType"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#EntityType"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasImage"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Image"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasSentiment"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Sentiment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasComment"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Comment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasLabel"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Label"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#EntityName -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#EntityName"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#EntityType -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#EntityType"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#Image -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Image"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource"/>
+                <owl:onClass rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#SocialMediaSource"/>
+                <owl:maxQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">3</owl:maxQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasSentiment"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#Sentiment"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasKeywordText"/>
+                <owl:someValuesFrom rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#KeywordText"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource"/>
+                <owl:onClass rdf:resource="http://my.asu.edu/ontologies/ser594/team8Ontology#SocialMediaSource"/>
+                <owl:minQualifiedCardinality rdf:datatype="&xsd;nonNegativeInteger">1</owl:minQualifiedCardinality>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#KeywordText -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#KeywordText"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#Label -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Label"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#LinkedDataSource -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#LinkedDataSource"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#RDFTypes -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#RDFTypes"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#References -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#References"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#Sentiment -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Sentiment"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#SocialMediaSource -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#SocialMediaSource"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#Thumbnail -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Thumbnail"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#WebURL -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#WebURL"/>
+    
+
+
+    <!-- http://my.asu.edu/ontologies/ser594/team8Ontology#Website -->
+
+    <owl:Class rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Website"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="&owl;AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Comment"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Description"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#EntityName"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#EntityType"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Image"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#KeywordText"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Label"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#LinkedDataSource"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#RDFTypes"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#References"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Sentiment"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#SocialMediaSource"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Thumbnail"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#WebURL"/>
+            <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Website"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
