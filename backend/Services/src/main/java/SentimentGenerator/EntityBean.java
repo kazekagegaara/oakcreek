@@ -1,6 +1,6 @@
 package SentimentGenerator;
-
-public class EntityBean implements java.io.Serializable{
+import java.io.Serializable;
+public class EntityBean implements Serializable{
 
 	private String EntityName = null;
 	private String Description =  null;
@@ -13,8 +13,8 @@ public class EntityBean implements java.io.Serializable{
 	private String EntityType = null;
 	private String Website = null;
 	private String Sentiment = null;
-	private String SocialMediaSource = null;
-	private String WebUrl = null;
+	private String[] SocialMediaSource = new String[3];
+	private String[] WebUrl = new String[3];
 	private String LinkedDataSource = null;
 
 
@@ -53,10 +53,10 @@ public class EntityBean implements java.io.Serializable{
 	public void setSentiment(String value){
 		this.Sentiment = value;
 	}
-	public void setSocialMediaSource(String value){
+	public void setSocialMediaSource(String value[]){
 		this.SocialMediaSource = value;
 	}
-	public void setWebUrl(String value){
+	public void setWebUrl(String value[]){
 		this.WebUrl = value;
 	}
 	public void setLinkedDataSource(String value){
@@ -99,10 +99,10 @@ public class EntityBean implements java.io.Serializable{
 	public String getSentiment(){
 		return this.Sentiment;
 	}
-	public String getSocialMediaSource(){
+	public String[] getSocialMediaSource(){
 		return this.SocialMediaSource;
 	}
-	public String getWebUrl(){
+	public String[] getWebUrl(){
 		return this.WebUrl;
 	}
 	public String getLinkedDataSource(){

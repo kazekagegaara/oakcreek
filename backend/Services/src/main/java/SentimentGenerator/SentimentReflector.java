@@ -12,6 +12,8 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class SentimentReflector{
 
+    
+
     private final long id;
     private final String content;
     public SentimentReflector(long id, String content) {
@@ -25,24 +27,7 @@ public class SentimentReflector{
     }
 
     public String getTwitterData() {
-        String temp = "";
-        try {
-             URL url = new URL("http://www.google.com");
-            HttpURLConnection con = (HttpURLConnection)url.openConnection();
-            int responseCode = con.getResponseCode();
-            System.out.println(responseCode);
-            if (responseCode == 200){
-                BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream()));
-                String strTemp = "";
-                while (null != (strTemp = br.readLine())) {
-                    temp += strTemp;
-                }
-                
-            }
-        } catch (Exception ex) {
-            ex.printStackTrace();
-        }
-        return  temp;
+        return  "";
     }
     public String getYouTubeData() {
         return  "";

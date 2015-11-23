@@ -1,10 +1,10 @@
 package SentimentGenerator;
-
-public class KeywordBean implements java.io.Serializable{
+import java.io.Serializable;
+public class KeywordBean implements Serializable{
 
 	private String Keywordtext = null;
 	private String Sentiment = null;
-	private String SocialMediaSource = null;
+	private String[] SocialMediaSource = new String[3];
 
 	// setters
 
@@ -14,7 +14,7 @@ public class KeywordBean implements java.io.Serializable{
 	public void setSentiment(String value){
 		this.Sentiment = value;
 	}
-	public void setSocialMediaSource(String value){
+	public void setSocialMediaSource(String value[]){
 		this.SocialMediaSource = value;
 	}
 
@@ -26,7 +26,7 @@ public class KeywordBean implements java.io.Serializable{
 	public String getSentiment(){
 		return this.Sentiment;
 	}
-	public String getSocialMediaSource(){
+	public String[] getSocialMediaSource(){
 		return this.SocialMediaSource;
 	}
 }
