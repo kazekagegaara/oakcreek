@@ -16,8 +16,6 @@ import java.util.*;
 
 public class YoutubeHelper {
 
- //private static final String key = "******"; // put your youtube key here
-
  public List<YoutubeBean> getYoutubeTrending() throws ClientProtocolException, IOException, JSONException {
     AllKeys ak = new AllKeys();
     String key = ak.getYoutubeKey();
@@ -68,7 +66,7 @@ public class YoutubeHelper {
  		  if (snippet.has("tags")) {
   		   tags =snippet.getJSONArray("tags");
  		  }  		
-  		//YoutubeObject yo = new YoutubeObject(id,videoTitle,description,channelTitle,thumbnailURL,jsonArrayToStringArray(tags));
+  		
       YoutubeBean yb = new YoutubeBean();
       yb.setvideoId(id);
       yb.setvideoTitle(videoTitle);

@@ -15,7 +15,6 @@ import java.util.*;
 
 
 public class FlickrHelper {
- //private static String key = "xxxxxxxxxx"; // put your flickr key here
 
  public List<FlickrBean> getFlickrTrending() throws ClientProtocolException, IOException, JSONException {
     AllKeys ak = new AllKeys();
@@ -44,8 +43,7 @@ public class FlickrHelper {
       String server = o.getString("server");
       int farm = o.getInt("farm");
       String title = o.getString("title");
-
-      //FlickrObject fo = new FlickrObject(imageId,secret,server,farm,title);
+      
       FlickrBean fb = new FlickrBean();
       fb.setimageId(imageId);
       fb.setsecret(secret);
