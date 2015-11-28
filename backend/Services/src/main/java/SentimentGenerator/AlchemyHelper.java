@@ -17,7 +17,7 @@ import java.util.*;
 
 public class AlchemyHelper {
 
- private static final key = "xxxxxxxxxxxxxxxxxx"; // put your alchemy key here
+ private static final String key = "xxxxxxxxxxxxxxxxxx"; // put your alchemy key here
 
  public String getTextSentiment(String text) throws ClientProtocolException, IOException, JSONException {
   	HttpClient client = new DefaultHttpClient();

@@ -8,14 +8,14 @@ public class KeywordBean implements Serializable{
 
 	// setters
 
-	public void setKeywordtext(String value){
-		this.Keywordtext = value;
+	public void setKeywordtext(String Keywordtext){
+		this.Keywordtext = Keywordtext;
 	}
-	public void setSentiment(String value){
-		this.Sentiment = value;
+	public void setSentiment(String Sentiment){
+		this.Sentiment = Sentiment;
 	}
-	public void setSocialMediaSource(String value[]){
-		this.SocialMediaSource = value;
+	public void setSocialMediaSource(String SocialMediaSource[]){
+		this.SocialMediaSource = SocialMediaSource;
 	}
 
 	// getters

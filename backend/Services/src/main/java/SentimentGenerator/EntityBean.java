@@ -20,47 +20,47 @@ public class EntityBean implements Serializable{
 
 	// setters
 
-	public void setEntityName(String value){
-		this.EntityName = value;
+	public void setEntityName(String EntityName){
+		this.EntityName = EntityName;
 	}
-	public void setDescription(String value){
-		this.Description = value;
+	public void setDescription(String Description){
+		this.Description = Description;
 	}
-	public void setImage(String value){
-		this.Image = value;
+	public void setImage(String Image){
+		this.Image = Image;
 	}
-	public void setThumbnail(String value){
-		this.Thumbnail = value;
+	public void setThumbnail(String Thumbnail){
+		this.Thumbnail = Thumbnail;
 	}
-	public void setRefrences(String value){
-		this.References = value;
+	public void setRefrences(String References){
+		this.References = References;
 	}
-	public void setRdfTypes(String value){
-		this.RdfTypes = value;
+	public void setRdfTypes(String RdfTypes){
+		this.RdfTypes = RdfTypes;
 	}
-	public void setLabel(String value){
-		this.Label = value;
+	public void setLabel(String Label){
+		this.Label = Label;
 	}
-	public void setComment(String value){
-		this.Comment = value;
+	public void setComment(String Comment){
+		this.Comment = Comment;
 	}
-	public void setEntityType(String value){
-		this.EntityType = value;
+	public void setEntityType(String EntityType){
+		this.EntityType = EntityType;
 	}
-	public void setWebsite(String value){
-		this.Website = value;
+	public void setWebsite(String Website){
+		this.Website = Website;
 	}
-	public void setSentiment(String value){
-		this.Sentiment = value;
+	public void setSentiment(String Sentiment){
+		this.Sentiment = Sentiment;
 	}
-	public void setSocialMediaSource(String value[]){
-		this.SocialMediaSource = value;
+	public void setSocialMediaSource(String SocialMediaSource[]){
+		this.SocialMediaSource = SocialMediaSource;
 	}
-	public void setWebUrl(String value[]){
-		this.WebUrl = value;
+	public void setWebUrl(String WebUrl[]){
+		this.WebUrl = WebUrl;
 	}
-	public void setLinkedDataSource(String value){
-		this.LinkedDataSource = value;
+	public void setLinkedDataSource(String LinkedDataSource){
+		this.LinkedDataSource = LinkedDataSource;
 	}
 
 

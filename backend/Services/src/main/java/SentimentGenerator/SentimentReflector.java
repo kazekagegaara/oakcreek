@@ -56,10 +56,10 @@ public class SentimentReflector{
         return sentiment;
     }
     public String[] getEntitiesFromAlchemy(String text) {
-        return ["",""];
+        return new String[]{""};
     }
     public String[] getKeywordsFromAlchemy(String text) {
-        return ["",""];
+        return new String[]{""};
     }
     public String getFlickrData(){        
         return  "";
