@@ -18,7 +18,7 @@ public class YoutubeHelper {
 
  //private static final String key = "******"; // put your youtube key here
 
- public List<YoutubeObject> getYoutubeTrending() throws ClientProtocolException, IOException, JSONException {
+ public List<YoutubeBean> getYoutubeTrending() throws ClientProtocolException, IOException, JSONException {
     AllKeys ak = new AllKeys();
     String key = ak.getYoutubeKey();
   	HttpClient client = new DefaultHttpClient();
@@ -34,7 +34,7 @@ public class YoutubeHelper {
   	JSONObject obj = new JSONObject(result.toString());  
   	JSONArray items = obj.getJSONArray("items");
 
-  	List<YoutubeObject> youtubeObjects = new ArrayList<YoutubeObject>();
+  	List<YoutubeBean> youtubeBeans = new ArrayList<YoutubeBean>();
 
   	for (int i = 0; i < items.length(); i++) {
   		JSONObject o = items.getJSONObject(i);
@@ -68,12 +68,19 @@ public class YoutubeHelper {
  		  if (snippet.has("tags")) {
   		   tags =snippet.getJSONArray("tags");
  		  }  		
-  		YoutubeObject yo = new YoutubeObject(id,videoTitle,description,channelTitle,thumbnailURL,jsonArrayToStringArray(tags));
-  		youtubeObjects.add(yo);
+  		//YoutubeObject yo = new YoutubeObject(id,videoTitle,description,channelTitle,thumbnailURL,jsonArrayToStringArray(tags));
+      YoutubeBean yb = new YoutubeBean();
+      yb.setvideoId(id);
+      yb.setvideoTitle(videoTitle);
+      yb.setdescription(description);
+      yb.setchannelTitle(channelTitle);
+      yb.setthumbnailURL(thumbnailURL);
+      yb.settags(jsonArrayToStringArray(tags));
+  		youtubeBeans.add(yb);
 	  }	
 
-	   System.out.println(youtubeObjects.toString());
-  return youtubeObjects;
+	   System.out.println(youtubeBeans.toString());
+  return youtubeBeans;
  }
 
  private static String[] jsonArrayToStringArray(JSONArray arr) throws JSONException{ 	

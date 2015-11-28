@@ -17,7 +17,7 @@ import java.util.*;
 public class FlickrHelper {
  //private static String key = "xxxxxxxxxx"; // put your flickr key here
 
- public List<FlickrObject> getFlickrTrending() throws ClientProtocolException, IOException, JSONException {
+ public List<FlickrBean> getFlickrTrending() throws ClientProtocolException, IOException, JSONException {
     AllKeys ak = new AllKeys();
     String key = ak.getFlickerKey();
 
@@ -34,7 +34,7 @@ public class FlickrHelper {
   	JSONObject obj = new JSONObject(result.toString());  
     JSONArray photos = obj.getJSONObject("photos").getJSONArray("photo");  
 
-    List<FlickrObject> flickrObjects = new ArrayList<FlickrObject>();
+    List<FlickrBean> flickrBeans = new ArrayList<FlickrBean>();
 
     for (int i = 0; i < photos.length(); i++) {
       JSONObject o = photos.getJSONObject(i);
@@ -45,10 +45,16 @@ public class FlickrHelper {
       int farm = o.getInt("farm");
       String title = o.getString("title");
 
-      FlickrObject fo = new FlickrObject(imageId,secret,server,farm,title);
-      flickrObjects.add(fo);
+      //FlickrObject fo = new FlickrObject(imageId,secret,server,farm,title);
+      FlickrBean fb = new FlickrBean();
+      fb.setimageId(imageId);
+      fb.setsecret(secret);
+      fb.setserver(server);
+      fb.setfarm(farm);
+      fb.settitle(title);
+      flickrBeans.add(fb);
     }
-    System.out.println(flickrObjects.toString());
-    return flickrObjects;
+    System.out.println(flickrBeans.toString());
+    return flickrBeans;
  } 
 }
