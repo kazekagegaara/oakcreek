@@ -17,9 +17,12 @@ import java.util.*;
 
 public class AlchemyHelper {
 
- private static final String key = "xxxxxxxxxxxxxxxxxx"; // put your alchemy key here
+// private static final String key = "xxxxxxxxxxxxxxxxxx"; // put your alchemy key here
 
  public String getTextSentiment(String text) throws ClientProtocolException, IOException, JSONException {
+    AllKeys ak = new AllKeys();
+    String key = ak.getAlchemyKey();
+
   	HttpClient client = new DefaultHttpClient();
     String getURL = "http://gateway-a.watsonplatform.net/calls/text/TextGetTextSentiment?apikey="+key+"&text="+URLEncoder.encode(text, "UTF-8")+"&outputMode=json";
   	HttpGet request = new HttpGet(getURL);
