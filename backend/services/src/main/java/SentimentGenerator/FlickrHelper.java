@@ -15,9 +15,12 @@ import java.util.*;
 
 
 public class FlickrHelper {
- private static key = "xxxxxxxxxx"; // put your flickr key here
+ //private static String key = "xxxxxxxxxx"; // put your flickr key here
 
- public List<FlickrObject> getFlickrTrending throws ClientProtocolException, IOException, JSONException {
+ public List<FlickrObject> getFlickrTrending() throws ClientProtocolException, IOException, JSONException {
+    AllKeys ak = new AllKeys();
+    String key = ak.getFlickerKey();
+
   	HttpClient client = new DefaultHttpClient();
   	HttpGet request = new HttpGet("https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key="+key+"&format=json&nojsoncallback=1");
   	HttpResponse response = client.execute(request);

@@ -1,3 +1,6 @@
+apply plugin: 'java'
+apply plugin: 'spring-boot'
+
 buildscript {
     repositories {
         mavenCentral()
@@ -7,10 +10,6 @@ buildscript {
     }
 }
 
-apply plugin: 'java'
-apply plugin: 'eclipse'
-apply plugin: 'idea'
-apply plugin: 'spring-boot'
 
 jar {
     baseName = 'SentimentGenerator'
@@ -26,10 +25,9 @@ targetCompatibility = 1.8
 
 dependencies {
     compile("org.springframework.boot:spring-boot-starter-web")
-    testCompile("junit:junit")
+    compile fileTree(dir: 'lib', include: ['*.jar'])
 }
 
 task wrapper(type: Wrapper) {
     gradleVersion = '2.3'
 }
-

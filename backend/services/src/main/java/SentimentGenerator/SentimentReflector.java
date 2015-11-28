@@ -30,6 +30,15 @@ public class SentimentReflector{
         return  "";
     }
     public String getYouTubeData() {
+        YoutubeHelper yt = new YoutubeHelper();
+        try{
+        System.out.println(yt.getYoutubeTrending());
+    }
+    catch(Exception ex)
+    {
+        ex.printStackTrace();
+    }
+
         return  "";
     }
     public String getInstagramData() {
@@ -37,6 +46,27 @@ public class SentimentReflector{
     }
     public String getAnalysisFromAlchemy() {
         return  "";
+    }
+    public String getFlickrData(){
+        String temp = "";
+        try {
+             URL url = new URL("http://flickr.interestingness.getList");
+            HttpURLConnection con = (HttpURLConnection)url.openConnection();
+            int responseCode = con.getResponseCode();
+            System.out.println(responseCode);
+            if (responseCode == 200){
+                BufferedReader br = new BufferedReader(new InputStreamReader(con.getInputStream()));
+                String strTemp = "";
+                while (null != (strTemp = br.readLine())) {
+                    temp += strTemp;
+                }
+                
+            }
+            System.out.println("Flickr Output is "+ temp);
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+        return  temp;
     }
 
 }

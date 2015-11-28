@@ -13,9 +13,11 @@ public class SentimentGeneratorController {
     @RequestMapping("/getSentiments")
     public Output getSentiments() {
     	SentimentReflector test = new SentimentReflector(counter.incrementAndGet());
-    	ClassProperty cp = new ClassProperty();
-		System.out.println(cp.getmongodbUrl());
-		System.out.println(cp.getdefaultDb());
+        test.getYouTubeData();
+        
+  //   	ClassProperty cp = new ClassProperty();
+		// System.out.println(cp.getmongodbUrl());
+		// System.out.println(cp.getdefaultDb());
     	String returnData = "testingData from getSentiments";
         return new Output(counter.incrementAndGet(),returnData);
     }
@@ -35,6 +37,14 @@ public class SentimentGeneratorController {
     public Output getHistory() {
     	SentimentReflector test = new SentimentReflector(counter.incrementAndGet());
     	String returnData = "testingData from getHistory";
+        return new Output(counter.incrementAndGet(),returnData);
+    }
+
+    // For mine testing
+    @RequestMapping("/getFlickr")
+    public Output getFlickr() {
+        SentimentReflector test = new SentimentReflector(counter.incrementAndGet());
+        String returnData = test.getFlickrData();
         return new Output(counter.incrementAndGet(),returnData);
     }
 }
