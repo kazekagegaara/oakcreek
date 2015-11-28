@@ -16,9 +16,11 @@ import java.util.*;
 
 public class YoutubeHelper {
 
- private static final key = "xxxxxxxxxxx"; // put your youtube key here
+ //private static final String key = "******"; // put your youtube key here
 
- public List<YoutubeObject> getYoutubeTrending throws ClientProtocolException, IOException, JSONException {
+ public List<YoutubeObject> getYoutubeTrending() throws ClientProtocolException, IOException, JSONException {
+    AllKeys ak = new AllKeys();
+    String key = ak.getYoutubeKey();
   	HttpClient client = new DefaultHttpClient();
   	HttpGet request = new HttpGet("https://www.googleapis.com/youtube/v3/videos?chart=mostPopular&key="+key+"&part=snippet&maxResults=10");
   	HttpResponse response = client.execute(request);
@@ -70,7 +72,7 @@ public class YoutubeHelper {
   		youtubeObjects.add(yo);
 	  }	
 
-	System.out.println(youtubeObjects.toString());
+	   System.out.println(youtubeObjects.toString());
   return youtubeObjects;
  }
 

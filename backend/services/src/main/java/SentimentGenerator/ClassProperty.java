@@ -1,5 +1,6 @@
 package SentimentGenerator;
 import java.io.Serializable;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 // @Configuration
 // @PropertySource("classpath:config.properties")
