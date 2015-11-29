@@ -70,4 +70,34 @@ public class AlchemyHelper {
     return entityBeans;
  }
 
+ public List<KeywordBean> getKeywords(String text) throws ClientProtocolException, IOException, JSONException {
+    AllKeys ak = new AllKeys();
+    String key = ak.getAlchemyKey();
+
+    HttpClientHelper hch = new HttpClientHelper();
+    String getURL = "http://gateway-a.watsonplatform.net/calls/text/TextGetRankedKeywords?apikey="+key+"&text="+URLEncoder.encode(text, "UTF-8")+"&outputMode=json&sentiment=1";
+    HttpResponse response = hch.serviceCall(getURL);    
+    BufferedReader rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
+    StringBuilder result = new StringBuilder();
+    String temp = "";   
+    while ((temp = rd.readLine()) != null) {      
+      result.append(temp);
+    }
+    JSONObject obj = new JSONObject(result.toString());    
+    JSONArray keywords = obj.getJSONArray("keywords");
+    List<KeywordBean> keywordBeans = new ArrayList<KeywordBean>();
+    for (int i = 0; i < keywords.length(); i++) {
+      JSONObject o = keywords.getJSONObject(i);
+      String sentiment = o.getJSONObject("sentiment").getString("type");
+      String name = o.getString("text");
+      KeywordBean kb = new KeywordBean();
+      kb.setKeywordtext(name);
+      kb.setSentiment(sentiment);
+
+      keywordBeans.add(kb);
+    }
+
+    return keywordBeans;
+ }
+
 }
