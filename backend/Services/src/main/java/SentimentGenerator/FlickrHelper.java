@@ -54,7 +54,7 @@ public class FlickrHelper {
       fb.settitle(title);
       flickrBeans.add(fb);
     }
-    System.out.println(flickrBeans.toString());
+    //System.out.println(flickrBeans.toString());
     return flickrBeans;
  } 
 }

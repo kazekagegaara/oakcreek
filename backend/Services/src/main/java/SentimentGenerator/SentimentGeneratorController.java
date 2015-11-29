@@ -5,6 +5,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+
+
 @RestController
 public class SentimentGeneratorController {
 
@@ -13,12 +15,9 @@ public class SentimentGeneratorController {
     @RequestMapping("/getSentiments")
     public Output getSentiments() {
     	SentimentReflector test = new SentimentReflector(counter.incrementAndGet());
-        test.getYouTubeData();
-        
-  //   	ClassProperty cp = new ClassProperty();
-		// System.out.println(cp.getmongodbUrl());
-		// System.out.println(cp.getdefaultDb());
-    	String returnData = "testingData from getSentiments";
+        String returnData = test.getYouTubeData();
+        returnData += " <-Flickr-> ";
+        returnData += test.getFlickrData();        
         return new Output(counter.incrementAndGet(),returnData);
     }
     @RequestMapping("/getEntitiesAndKeywords")

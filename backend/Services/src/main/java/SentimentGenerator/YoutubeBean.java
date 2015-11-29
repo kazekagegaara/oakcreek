@@ -44,6 +44,9 @@ public class YoutubeBean implements Serializable{
 	public String getchannelTitle(){
 		return this.channelTitle;
 	}
+	public String getthumbnailURL(){
+		return this.thumbnailURL;
+	}
 	public String[] gettags(){
 		return this.tags;
 	}
