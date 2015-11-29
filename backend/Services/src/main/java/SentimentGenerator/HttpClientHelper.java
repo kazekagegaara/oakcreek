@@ -7,12 +7,13 @@ import org.apache.http.client.entity.UrlEncodedFormEntity;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.impl.client.DefaultHttpClient;
+import java.io.IOException;
 import org.apache.http.NameValuePair;
 import java.util.List;
 
 public class HttpClientHelper {
 
-	public HttpResponse serviceCall(String url) throws ClientProtocolException{
+	public HttpResponse serviceCall(String url) throws ClientProtocolException, IOException{
 		HttpClient client = new DefaultHttpClient();
 
 		HttpGet request = new HttpGet(url);
@@ -22,7 +23,7 @@ public class HttpClientHelper {
 	}
 
 	// only used by Alchemy API as of now
-	public HttpResponse serviceCall(String url, List<NameValuePair> urlParameters) throws ClientProtocolException{
+	public HttpResponse serviceCall(String url, List<NameValuePair> urlParameters) throws ClientProtocolException, IOException{
 		HttpClient client = new DefaultHttpClient();
 
 		HttpPost request = new HttpPost(url);

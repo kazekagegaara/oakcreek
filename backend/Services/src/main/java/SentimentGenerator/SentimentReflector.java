@@ -29,7 +29,18 @@ public class SentimentReflector{
     }
 
     public String getTwitterData() {
+<<<<<<< HEAD
         return  "";
+=======
+        TwitterHelper th = new TwitterHelper();
+        List<String> trendNames = th.getTwitterTrending();
+        String twitterString = "";
+        for (int i = 0; i < trendNames.size(); i++) {
+            twitterString += trendNames.get(i) + " ";
+        }
+        twitterString = twitterString.substring(0,twitterString.length()-1);
+        return  getSentimentFromAlchemy(twitterString);
+>>>>>>> b1e3d05293e76ec7f570afe6fe5ae61598931fb3
     }
     public String getYouTubeData() {
         YoutubeHelper yt = new YoutubeHelper();
@@ -45,7 +56,10 @@ public class SentimentReflector{
                     youtubeString += temp[j] + " ";
                 }                           
             }
+<<<<<<< HEAD
             // youtubeString = youtubeString.substring(0,youtubeString.length()-1);
+=======
+>>>>>>> b1e3d05293e76ec7f570afe6fe5ae61598931fb3
         }
         catch(Exception ex)
         {
@@ -61,10 +75,13 @@ public class SentimentReflector{
             List<FlickrBean> flickerBeans = flk.getFlickrTrending();
             for (int i = 0; i < flickerBeans.size(); i++) {
                 FlickrBean element = flickerBeans.get(i);
+<<<<<<< HEAD
                 flickerString += element.getimageId() + " ";
                 flickerString += element.getsecret() + " " ;               
                 flickerString += element.getserver() + " ";
                 flickerString += element.getfarm() + " ";
+=======
+>>>>>>> b1e3d05293e76ec7f570afe6fe5ae61598931fb3
                 flickerString += element.gettitle() + " ";                            
             }
         }
