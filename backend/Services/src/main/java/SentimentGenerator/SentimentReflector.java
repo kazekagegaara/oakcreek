@@ -5,6 +5,7 @@ import java.io.DataOutputStream;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URLConnection;
+import java.util.*;
 
 import java.net.URL;
 
@@ -12,7 +13,8 @@ import javax.net.ssl.HttpsURLConnection;
 
 public class SentimentReflector{
 
-    
+    private String youtubeString = "";
+    private String flickerString = "";
 
     private final long id;
     private final String content;
@@ -32,13 +34,48 @@ public class SentimentReflector{
     public String getYouTubeData() {
         YoutubeHelper yt = new YoutubeHelper();
         try{
-            System.out.println(yt.getYoutubeTrending());
+            List<YoutubeBean> youtubeBeans = yt.getYoutubeTrending();
+            for (int i = 0; i < youtubeBeans.size(); i++) {
+                YoutubeBean element = youtubeBeans.get(i);
+                youtubeString += element.getvideoTitle() + " ";
+                youtubeString += element.getdescription() + " " ;               
+                youtubeString += element.getchannelTitle() + " ";
+                String[] temp = element.gettags();
+                for (int j=0; j<temp.length ;j++){
+                    youtubeString += temp[j] + " ";
+                }                           
+            }
+            // youtubeString = youtubeString.substring(0,youtubeString.length()-1);
         }
         catch(Exception ex)
         {
             ex.printStackTrace();
         }
-        return  "";
+        youtubeString = youtubeString.substring(0,youtubeString.length()-1);
+        System.out.println(youtubeString);
+        return  getSentimentFromAlchemy(youtubeString);
+    }
+    public String getFlickrData(){
+        FlickrHelper flk = new FlickrHelper();
+        try{
+            List<FlickrBean> flickerBeans = flk.getFlickrTrending();
+            for (int i = 0; i < flickerBeans.size(); i++) {
+                FlickrBean element = flickerBeans.get(i);
+                flickerString += element.getimageId() + " ";
+                flickerString += element.getsecret() + " " ;               
+                flickerString += element.getserver() + " ";
+                flickerString += element.getfarm() + " ";
+                flickerString += element.gettitle() + " ";                            
+            }
+        }
+        catch(Exception ex)
+        {
+            ex.printStackTrace();
+        }
+        
+        flickerString = flickerString.substring(0,flickerString.length()-1);
+        System.out.println(flickerString);
+        return getSentimentFromAlchemy(flickerString);
     }
     public String getInstagramData() {
         return  "";
@@ -61,8 +98,6 @@ public class SentimentReflector{
     public String[] getKeywordsFromAlchemy(String text) {
         return new String[]{""};
     }
-    public String getFlickrData(){        
-        return  "";
-    }
+
 
 }
