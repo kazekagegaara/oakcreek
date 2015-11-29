@@ -29,7 +29,14 @@ public class SentimentReflector{
     }
 
     public String getTwitterData() {
-        return  "";
+        TwitterHelper th = new TwitterHelper();
+        List<String> trendNames = th.getTwitterTrending();
+        String twitterString = "";
+        for (int i = 0; i < trendNames.size(); i++) {
+            twitterString += trendNames.get(i) + " ";
+        }
+        twitterString = twitterString.substring(0,twitterString.length()-1);
+        return  getSentimentFromAlchemy(twitterString);
     }
     public String getYouTubeData() {
         YoutubeHelper yt = new YoutubeHelper();
