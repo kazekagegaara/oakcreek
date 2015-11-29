@@ -5,25 +5,22 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;
 import org.json.JSONArray;
 import org.json.JSONException;
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
 
 
 public class FlickrHelper {
- //private static String key = "xxxxxxxxxx"; // put your flickr key here
 
  public List<FlickrBean> getFlickrTrending() throws ClientProtocolException, IOException, JSONException {
     AllKeys ak = new AllKeys();
     String key = ak.getFlickerKey();
 
-  	HttpClient client = new DefaultHttpClient();
-  	HttpGet request = new HttpGet("https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key="+key+"&format=json&nojsoncallback=1");
-  	HttpResponse response = client.execute(request);
+    HttpClientHelper hch = new HttpClientHelper();
+    String getURL = "https://api.flickr.com/services/rest/?method=flickr.interestingness.getList&api_key="+key+"&format=json&nojsoncallback=1";
+    HttpResponse response = hch.serviceCall(getURL);
   	BufferedReader rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
   	StringBuilder result = new StringBuilder();
   	String temp = "";  	
@@ -44,8 +41,7 @@ public class FlickrHelper {
       String server = o.getString("server");
       int farm = o.getInt("farm");
       String title = o.getString("title");
-
-      //FlickrObject fo = new FlickrObject(imageId,secret,server,farm,title);
+      
       FlickrBean fb = new FlickrBean();
       fb.setimageId(imageId);
       fb.setsecret(secret);
