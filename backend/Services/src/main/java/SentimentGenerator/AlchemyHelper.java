@@ -5,14 +5,12 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;
 import org.json.JSONArray;
 import org.json.JSONException;
 import java.net.URLEncoder;
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
 
 
 public class AlchemyHelper {
@@ -21,10 +19,9 @@ public class AlchemyHelper {
     AllKeys ak = new AllKeys();
     String key = ak.getAlchemyKey();
 
-  	HttpClient client = new DefaultHttpClient();
-    String getURL = "http://gateway-a.watsonplatform.net/calls/text/TextGetTextSentiment?apikey="+key+"&text="+URLEncoder.encode(text, "UTF-8")+"&outputMode=json";
-  	HttpGet request = new HttpGet(getURL);
-  	HttpResponse response = client.execute(request);
+    HttpClientHelper hch = new HttpClientHelper();
+    String getURL = "http://gateway-a.watsonplatform.net/calls/text/TextGetTextSentiment?apikey="+key+"&text="+URLEncoder.encode(text, "UTF-8")+"&outputMode=json";  	
+  	HttpResponse response = hch.serviceCall(getURL);
   	BufferedReader rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
   	StringBuilder result = new StringBuilder();
   	String temp = "";  	
@@ -40,11 +37,9 @@ public class AlchemyHelper {
     AllKeys ak = new AllKeys();
     String key = ak.getAlchemyKey();
 
-    HttpClient client = new DefaultHttpClient();
-    String text = "ISIS bombed France. Obama isn't happy.";
+    HttpClientHelper hch = new HttpClientHelper();
     String getURL = "http://access.alchemyapi.com/calls/text/TextGetRankedNamedEntities?apikey="+key+"&text="+URLEncoder.encode(text, "UTF-8")+"&outputMode=json&sentiment=1";
-    HttpGet request = new HttpGet(getURL);
-    HttpResponse response = client.execute(request);
+    HttpResponse response = hch.serviceCall(getURL);    
     BufferedReader rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
     StringBuilder result = new StringBuilder();
     String temp = "";   
