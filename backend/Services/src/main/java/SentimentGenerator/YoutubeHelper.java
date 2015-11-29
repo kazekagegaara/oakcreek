@@ -75,7 +75,7 @@ public class YoutubeHelper {
   		youtubeBeans.add(yb);
 	  }	
 
-	   //System.out.println(youtubeBeans.toString());
+	   System.out.println(youtubeBeans.toString());
   return youtubeBeans;
 
  }
