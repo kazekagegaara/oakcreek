@@ -5,13 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.ClientProtocolException;
-import org.apache.http.client.HttpClient;
-import org.apache.http.client.methods.HttpGet;
-import org.apache.http.impl.client.DefaultHttpClient;
 import org.json.JSONObject;
 import org.json.JSONArray;
 import org.json.JSONException;
-import java.util.*;
+import java.util.List;
+import java.util.ArrayList;
 
 
 public class YoutubeHelper {
@@ -19,9 +17,9 @@ public class YoutubeHelper {
  public List<YoutubeBean> getYoutubeTrending() throws ClientProtocolException, IOException, JSONException {
     AllKeys ak = new AllKeys();
     String key = ak.getYoutubeKey();
-  	HttpClient client = new DefaultHttpClient();
-  	HttpGet request = new HttpGet("https://www.googleapis.com/youtube/v3/videos?chart=mostPopular&key="+key+"&part=snippet&maxResults=10");
-  	HttpResponse response = client.execute(request);
+    HttpClientHelper hch = new HttpClientHelper();
+    String getURL = "https://www.googleapis.com/youtube/v3/videos?chart=mostPopular&key="+key+"&part=snippet&maxResults=10";
+    HttpResponse response = hch.serviceCall(getURL);
   	BufferedReader rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
   	StringBuilder result = new StringBuilder();
   	String temp = "";  	
@@ -77,8 +75,8 @@ public class YoutubeHelper {
   		youtubeBeans.add(yb);
 	  }	
 
-	   System.out.println(youtubeBeans.toString());
-  return youtubeBeans;
+	 System.out.println(youtubeBeans.toString());
+   return youtubeBeans;
  }
 
  private static String[] jsonArrayToStringArray(JSONArray arr) throws JSONException{ 	
