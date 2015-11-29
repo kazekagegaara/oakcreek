@@ -45,7 +45,6 @@ public class SentimentReflector{
                     youtubeString += temp[j] + " ";
                 }                           
             }
-            // youtubeString = youtubeString.substring(0,youtubeString.length()-1);
         }
         catch(Exception ex)
         {
@@ -61,10 +60,6 @@ public class SentimentReflector{
             List<FlickrBean> flickerBeans = flk.getFlickrTrending();
             for (int i = 0; i < flickerBeans.size(); i++) {
                 FlickrBean element = flickerBeans.get(i);
-                flickerString += element.getimageId() + " ";
-                flickerString += element.getsecret() + " " ;               
-                flickerString += element.getserver() + " ";
-                flickerString += element.getfarm() + " ";
                 flickerString += element.gettitle() + " ";                            
             }
         }

@@ -20,7 +20,10 @@ public class AlchemyHelper {
     String key = ak.getAlchemyKey();
 
     HttpClientHelper hch = new HttpClientHelper();
+    System.out.println("------------------------------------------------------------------------------------------------------------------------------------");
     String getURL = "http://gateway-a.watsonplatform.net/calls/text/TextGetTextSentiment?apikey="+key+"&text="+URLEncoder.encode(text, "UTF-8")+"&outputMode=json";  	
+    System.out.println(getURL);
+    System.out.println("------------------------------------------------------------------------------------------------------------------------------------");
   	HttpResponse response = hch.serviceCall(getURL);
   	BufferedReader rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
   	StringBuilder result = new StringBuilder();
