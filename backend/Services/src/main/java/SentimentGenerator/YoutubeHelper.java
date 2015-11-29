@@ -75,11 +75,6 @@ public class YoutubeHelper {
   		youtubeBeans.add(yb);
 	  }	
 
-<<<<<<< HEAD
-	   System.out.println(youtubeBeans.toString());
-=======
-	   // System.out.println(youtubeBeans.toString());
->>>>>>> b1e3d05293e76ec7f570afe6fe5ae61598931fb3
   return youtubeBeans;
 
  }

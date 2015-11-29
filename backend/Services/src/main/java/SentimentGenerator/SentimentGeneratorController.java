@@ -17,14 +17,10 @@ public class SentimentGeneratorController {
     	SentimentReflector test = new SentimentReflector(counter.incrementAndGet());
         String returnData = test.getYouTubeData();
         returnData += " <-Flickr-> ";
-<<<<<<< HEAD
-        returnData += test.getFlickrData();        
-=======
         returnData += test.getFlickrData();
         returnData += " <-Twitter-> ";
         returnData +=test.getTwitterData();
-           
->>>>>>> b1e3d05293e76ec7f570afe6fe5ae61598931fb3
+                   
         return new Output(counter.incrementAndGet(),returnData);
     }
     @RequestMapping("/getEntitiesAndKeywords")
