@@ -4,11 +4,12 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
+import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONObject;
 import org.json.JSONArray;
 import org.json.JSONException;
-import java.net.URLEncoder;
 import java.util.List;
 import java.util.ArrayList;
 
@@ -20,11 +21,14 @@ public class AlchemyHelper {
     String key = ak.getAlchemyKey();
 
     HttpClientHelper hch = new HttpClientHelper();
-    System.out.println("------------------------------------------------------------------------------------------------------------------------------------");
-    String getURL = "http://gateway-a.watsonplatform.net/calls/text/TextGetTextSentiment?apikey="+key+"&text="+URLEncoder.encode(text, "UTF-8")+"&outputMode=json";  	
-    System.out.println(getURL);
-    System.out.println("------------------------------------------------------------------------------------------------------------------------------------");
-  	HttpResponse response = hch.serviceCall(getURL);
+
+    String url = "http://gateway-a.watsonplatform.net/calls/text/TextGetTextSentiment";
+    List<NameValuePair> urlParameters = new ArrayList<NameValuePair>();
+    urlParameters.add(new BasicNameValuePair("apikey", key));
+    urlParameters.add(new BasicNameValuePair("text", text));
+    urlParameters.add(new BasicNameValuePair("outputMode", "json"));
+  	HttpResponse response = hch.serviceCall(url,urlParameters);
+
   	BufferedReader rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
   	StringBuilder result = new StringBuilder();
   	String temp = "";  	
@@ -33,7 +37,11 @@ public class AlchemyHelper {
   	}
 
   	JSONObject obj = new JSONObject(result.toString());
-  	return obj.getJSONObject("docSentiment").getString("type");
+    if (obj.has("docSentiment")){
+  	 return obj.getJSONObject("docSentiment").getString("type");
+    }else{
+      return "No sentiment returned.";
+    }
  }
 
  public List<EntityBean> getEntities(String text) throws ClientProtocolException, IOException, JSONException {
@@ -41,8 +49,13 @@ public class AlchemyHelper {
     String key = ak.getAlchemyKey();
 
     HttpClientHelper hch = new HttpClientHelper();
-    String getURL = "http://access.alchemyapi.com/calls/text/TextGetRankedNamedEntities?apikey="+key+"&text="+URLEncoder.encode(text, "UTF-8")+"&outputMode=json&sentiment=1";
-    HttpResponse response = hch.serviceCall(getURL);    
+    String url = "http://access.alchemyapi.com/calls/text/TextGetRankedNamedEntities";
+    List<NameValuePair> urlParameters = new ArrayList<NameValuePair>();
+    urlParameters.add(new BasicNameValuePair("apikey", key));
+    urlParameters.add(new BasicNameValuePair("text", text));
+    urlParameters.add(new BasicNameValuePair("outputMode", "json"));
+    urlParameters.add(new BasicNameValuePair("sentiment", "1"));
+    HttpResponse response = hch.serviceCall(url, urlParameters);    
     BufferedReader rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
     StringBuilder result = new StringBuilder();
     String temp = "";   
@@ -78,8 +91,13 @@ public class AlchemyHelper {
     String key = ak.getAlchemyKey();
 
     HttpClientHelper hch = new HttpClientHelper();
-    String getURL = "http://gateway-a.watsonplatform.net/calls/text/TextGetRankedKeywords?apikey="+key+"&text="+URLEncoder.encode(text, "UTF-8")+"&outputMode=json&sentiment=1";
-    HttpResponse response = hch.serviceCall(getURL);    
+    String url = "http://gateway-a.watsonplatform.net/calls/text/TextGetRankedKeywords";    
+    List<NameValuePair> urlParameters = new ArrayList<NameValuePair>();
+    urlParameters.add(new BasicNameValuePair("apikey", key));
+    urlParameters.add(new BasicNameValuePair("text", text));
+    urlParameters.add(new BasicNameValuePair("outputMode", "json"));
+    urlParameters.add(new BasicNameValuePair("sentiment", "1"));
+    HttpResponse response = hch.serviceCall(url, urlParameters);    
     BufferedReader rd = new BufferedReader (new InputStreamReader(response.getEntity().getContent()));
     StringBuilder result = new StringBuilder();
     String temp = "";   

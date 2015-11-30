@@ -36,7 +36,26 @@ public class SentimentReflector{
             twitterString += trendNames.get(i) + " ";
         }
         twitterString = twitterString.substring(0,twitterString.length()-1);
-        return  getSentimentFromAlchemy(twitterString);
+
+        System.out.println("--------------------------------------------------------------------------------------------------------> Twitter DATA S ");
+        System.out.println(twitterString);
+        System.out.println("--------------------------------------------------------------------------------------------------------> Twitter DATA E ");
+        
+        String sentiment = " Twitter Sentiment -> ";
+        if(getSentimentFromAlchemy(twitterString) == "No sentiment returned."){
+            sentiment = " Twitter -> No sentiments and entities returned. ";
+        }else{
+            sentiment += getSentimentFromAlchemy(twitterString); 
+            sentiment += " Twitter entities -> ";
+            List<String> entitysList = getEntitiesFromAlchemy(twitterString);
+            for (int i = 0; i < entitysList.size(); i++) {
+                sentiment += entitysList.get(i) + " , ";
+            }
+            
+            sentiment = sentiment.substring(0,sentiment.length()-3);
+        }
+        return  sentiment;
+
     }
     public String getYouTubeData() {
         YoutubeHelper yt = new YoutubeHelper();
@@ -58,8 +77,24 @@ public class SentimentReflector{
             ex.printStackTrace();
         }
         youtubeString = youtubeString.substring(0,youtubeString.length()-1);
+        System.out.println("--------------------------------------------------------------------------------------------------------> YOUTUBE DATA S ");
         System.out.println(youtubeString);
-        return  getSentimentFromAlchemy(youtubeString);
+        System.out.println("--------------------------------------------------------------------------------------------------------> YOUTUBE DATA E ");
+
+        String sentiment = " Youtube Sentiment -> ";
+        
+        if(getSentimentFromAlchemy(youtubeString) == "No sentiment returned."){
+            sentiment = " Youtube -> No sentiments and entities returned. ";
+        }else{
+            sentiment += getSentimentFromAlchemy(youtubeString);
+            sentiment += " Youtube entities -> ";
+            List<String> entitysList = getEntitiesFromAlchemy(youtubeString);
+            for (int i = 0; i < entitysList.size(); i++) {
+                sentiment += entitysList.get(i) + " , ";
+            }
+            sentiment = sentiment.substring(0,sentiment.length()-3);
+        }
+        return  sentiment;
     }
     public String getFlickrData(){
         FlickrHelper flk = new FlickrHelper();
@@ -76,8 +111,23 @@ public class SentimentReflector{
         }
         
         flickerString = flickerString.substring(0,flickerString.length()-1);
+        System.out.println("--------------------------------------------------------------------------------------------------------> Flickr DATA S ");
         System.out.println(flickerString);
-        return getSentimentFromAlchemy(flickerString);
+        System.out.println("--------------------------------------------------------------------------------------------------------> Flickr DATA E ");
+        
+        String sentiment = " Flicker Sentiment -> ";
+        if(getSentimentFromAlchemy(flickerString) == "No sentiment returned."){
+            sentiment = " Flicker -> No sentiments and entities returned. ";
+        }else{
+            sentiment += getSentimentFromAlchemy(flickerString);
+            sentiment += " Flicker entities -> ";
+            List<String> entitysList = getEntitiesFromAlchemy(flickerString);
+            for (int i = 0; i < entitysList.size(); i++) {
+                sentiment += entitysList.get(i) + " , ";
+            }
+            sentiment = sentiment.substring(0,sentiment.length()-3);
+        }
+        return  sentiment;
     }
     public String getInstagramData() {
         return  "";
@@ -94,8 +144,22 @@ public class SentimentReflector{
         }
         return sentiment;
     }
-    public String[] getEntitiesFromAlchemy(String text) {
-        return new String[]{""};
+    public List<String> getEntitiesFromAlchemy(String text) {
+        AlchemyHelper ah = new AlchemyHelper();
+        List<EntityBean> entityBeans = new ArrayList<EntityBean>();
+        List<String> entitysList = new ArrayList<String>();
+        try{
+            entityBeans = ah.getEntities(text);
+            for (int i = 0; i < entityBeans.size(); i++) {
+                EntityBean element = entityBeans.get(i);
+                entitysList.add(element.getEntityName());
+            }
+        }
+        catch(Exception ex)
+        {
+            ex.printStackTrace();
+        }
+        return entitysList;
     }
     public String[] getKeywordsFromAlchemy(String text) {
         return new String[]{""};

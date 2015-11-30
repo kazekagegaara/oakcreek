@@ -15,12 +15,14 @@ public class SentimentGeneratorController {
     @RequestMapping("/getSentiments")
     public Output getSentiments() {
     	SentimentReflector test = new SentimentReflector(counter.incrementAndGet());
-        String returnData = test.getYouTubeData();
-        returnData += " <-Flickr-> ";
+        String returnData = "";
+        //returnData += " Youtube-> ";
+        returnData += test.getYouTubeData();
+        //returnData += " Flickr-> ";
         returnData += test.getFlickrData();
-        returnData += " <-Twitter-> ";
+        //returnData += " Twitter-> ";
         returnData +=test.getTwitterData();
-           
+
         return new Output(counter.incrementAndGet(),returnData);
     }
     @RequestMapping("/getEntitiesAndKeywords")
@@ -42,7 +44,6 @@ public class SentimentGeneratorController {
         return new Output(counter.incrementAndGet(),returnData);
     }
 
-    // For mine testing
     @RequestMapping("/getFlickr")
     public Output getFlickr() {
         SentimentReflector test = new SentimentReflector(counter.incrementAndGet());
