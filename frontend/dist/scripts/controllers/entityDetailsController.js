@@ -1,0 +1,1 @@
+!function(){"use strict";angular.module("socialSentimentApp").controller("entityDetailsController",["$scope","$location",function(n,t){n.controllerInit=function(){},n.changePage=function(n){t.path(n)},n.controllerInit()}])}();
