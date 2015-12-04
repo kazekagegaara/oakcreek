@@ -62,12 +62,21 @@ public class AlchemyHelper {
     while ((temp = rd.readLine()) != null) {      
       result.append(temp);
     }
+
+    System.out.println("RAW DATA GET ENTITIES FROM ALCHEMY");
+    System.out.println(result.toString()); 
+    System.out.println("RAW DATA GET ENTITIES FROM ALCHEMY");
     JSONObject obj = new JSONObject(result.toString());    
     JSONArray entities = obj.getJSONArray("entities");
     List<EntityBean> entityBeans = new ArrayList<EntityBean>();
     for (int i = 0; i < entities.length(); i++) {
       JSONObject o = entities.getJSONObject(i);
-      String sentiment = o.getJSONObject("sentiment").getString("type");
+      String sentiment = "";
+      if (o.has("docSentiment")){
+        sentiment = o.getJSONObject("sentiment").getString("type");
+      }else{
+        sentiment = "";
+      }
       String name = o.getString("text");      
       String dbpedia = "";
       if (o.has("disambiguated")) {
