@@ -25,10 +25,8 @@
   		};
 
       $scope.getDetails = function() {
-        var detailsCall = new serviceCall("getSentiments","GET");
-        $timeout(function() {
-          detailsCall.call("",$scope.detailsCallSuccess,$scope.serviceError,"json/getEntities.json");        
-        }, 2000);      
+        var detailsCall = new serviceCall("getSentiments","GET");        
+        detailsCall.call("",$scope.detailsCallSuccess,$scope.serviceError,"json/getEntities.json");        
       };
 
       $scope.serviceError = function(data, status, headers, config){
@@ -37,8 +35,9 @@
       };
 
       $scope.detailsCallSuccess = function(data, status, headers, config){
-        console.log(data);
-        activeData.setEntities(data.entity);
+        console.log(data);            
+        activeData.setEntities(data.entities);
+        activeData.setKeywords(data.keywords);
         $scope.changePage("/showEntities");
       };
 

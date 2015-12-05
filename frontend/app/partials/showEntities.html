@@ -1,5 +1,10 @@
-<div ng-repeat="entity in Entities" class="card" ng-click="showDetails()">	
+<div ng-repeat="entity in Entities" class="card" ng-click="showDetails(entity.name,'ENTITY')">	
 	{{entity.name}}<br>
 	{{entity.sentiment}}<br><br>
+	<a>See More</a>
+</div>
+<div ng-repeat="keyword in Keywords" class="card" ng-click="showDetails(keyword.name,'KEYWORD')">	
+	{{keyword.name}}<br>
+	{{keyword.sentiment}}<br><br>
 	<a>See More</a>
 </div>

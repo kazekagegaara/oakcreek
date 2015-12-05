@@ -6,17 +6,20 @@
   	angular.module('socialSentimentApp').controller('showEntitiesController', ['$scope','$location','$timeout','activeData','serviceCall',function($scope,$location,$timeout,activeData,serviceCall) {
       	
   		$scope.Entities;
+      $scope.Keywords;
 
   		$scope.controllerInit = function() {        
-        console.log(activeData.getEntities());
         $scope.Entities = activeData.getEntities();        
+        $scope.Keywords = activeData.getKeywords();
   		};
   		
       $scope.changePage = function(path) {
         $location.path(path);       
       };
 
-      $scope.showDetails = function() {        
+      $scope.showDetails = function(name,type) {        
+        console.log(name);
+        console.log(type);
         $scope.changePage("/entityDetails");
       };
 

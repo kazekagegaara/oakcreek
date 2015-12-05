@@ -14,15 +14,24 @@
   		};
 
       $scope.getSentiment = function() {
-        var sentimentCall = new serviceCall("getSentiments","GET");
-        $timeout(function() {
-          sentimentCall.call("",$scope.sentimentCallSuccess,$scope.serviceError,"json/getSentiment.json");        
-        }, 5000);        
+        var sentimentCall = new serviceCall("getSentiments","GET");        
+        sentimentCall.call("",$scope.sentimentCallSuccess,$scope.serviceError,"json/getSentiment.json");
       };
+
+      $scope.getHistory = function() {
+        var historyCall = new serviceCall("getHistory","GET");        
+        historyCall.call("",$scope.historyCallSuccess,$scope.serviceError,"json/getHistory.json");        
+      }
 
       $scope.serviceError = function(data, status, headers, config){
         console.log(data);
         alert("Error! Please try again later.");
+      };
+
+      $scope.historyCallSuccess = function(data, status, headers, config){        
+        console.log(data);
+        activeData.setSentimentHistory(data.result);
+        $scope.changePage("/showHistory");
       };
 
       $scope.sentimentCallSuccess = function(data, status, headers, config){

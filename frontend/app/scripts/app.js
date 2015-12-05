@@ -23,6 +23,10 @@
           templateUrl: "partials/entityDetails.html",
           controller: "entityDetailsController"
         })
+        .when("/showHistory",{
+          templateUrl: "partials/showHistory.html",
+          controller: "showHistoryController"
+        })
         .otherwise({
            redirectTo: '/'
         });        

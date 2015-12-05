@@ -12,6 +12,7 @@
       $scope.References = '';
       $scope.RdfTypes = '';
       $scope.Label = '';
+      $scope.Comment = '';
       $scope.EntityType = '';
       $scope.Website = '';
       $scope.Sentiment = '';
@@ -30,19 +31,20 @@
       };
 
       $scope.entityDetailsCallSuccess = function(data, status, headers, config){
-        console.log(data);
-        $scope.EntityName = data.EntityName;
-        $scope.Description = data.Description;
-        $scope.Image = data.Image;
-        $scope.Thumbnail = data.Thumbnail;
-        $scope.References = data.References;
-        $scope.RdfTypes = data.RdfTypes;
-        $scope.Label = data.Label;
-        $scope.EntityType = data.EntityType;
-        $scope.Website = data.Website;
-        $scope.Sentiment = data.Sentiment;
-        $scope.LinkedDataSource = data.LinkedDataSource;
-        $scope.SocialMediaSource = data.SocialMediaSource;
+        console.log(data.result[0]);        
+        $scope.EntityName = data.result[0].entityName;
+        $scope.Description = data.result[0].description;
+        $scope.Image = data.result[0].image;
+        $scope.Thumbnail = data.result[0].thumbnail;
+        $scope.References = data.result[0].refrences;
+        $scope.RdfTypes = data.result[0].rdfTypes;
+        $scope.Label = data.result[0].label;
+        $scope.Comment = data.result[0].comment;
+        $scope.EntityType = data.result[0].entityType;
+        $scope.Website = data.result[0].website;
+        $scope.Sentiment = data.result[0].sentiment;
+        $scope.LinkedDataSource = data.result[0].linkedDataSource;
+        $scope.SocialMediaSource = data.result[0].socialMediaSource;
       };
 
   	  $scope.controllerInit();

@@ -12,6 +12,18 @@ html {
     left: 45%;
 }
 
+.centerLeftBtn {
+	position: absolute;
+    top: 50%;
+    left: 40%;
+}
+
+.centerRightBtn {
+	position: absolute;
+    top: 50%;
+    left: 55%;
+}
+
 .btn.outline {
     background: rgba(255,255,255,0.5);
     padding: 12px 22px;

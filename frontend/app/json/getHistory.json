@@ -1,0 +1,22 @@
+{
+	"id": 8,
+	"result": [{
+		"sentiment": "positive",
+		"timstamp": "1449333465"
+	}, {
+		"sentiment": "neutral",
+		"timstamp": "1449333466"
+	}, {
+		"sentiment": "negative",
+		"timstamp": "1449333467"
+	}, {
+		"sentiment": "positive",
+		"timstamp": "1449333468"
+	}, {
+		"sentiment": "mixed",
+		"timstamp": "1449333469"
+	}, {
+		"sentiment": "positive",
+		"timstamp": "1449333470"
+	}]
+}

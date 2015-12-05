@@ -1,64 +1,302 @@
 {
 	"id": 4,
-	"entity": [{
-		"name": "Los Angeles",
+	"keywords": [{
+		"name": "kimmel jimmy kimmel",
 		"sentiment": "positive"
 	}, {
+		"name": "defense attorney Robert",
+		"sentiment": "negative"
+	}, {
 		"name": "O.J. Simpson",
+		"sentiment": "negative"
+	}, {
+		"name": "late night talk",
+		"sentiment": "positive"
+	}, {
+		"name": "BuzzFeed Violet Series",
 		"sentiment": "neutral"
 	}, {
-		"name": "#PremiosTwitterAwards2015",
+		"name": "executive producer",
+		"sentiment": "positive"
+	}, {
+		"name": "HBO Online",
+		"sentiment": "positive"
+	}, {
+		"name": "american crime story",
 		"sentiment": "neutral"
 	}, {
-		"name": "#ALDUBRendezvous",
+		"name": "jimmy fallon colbert",
+		"sentiment": "positive"
+	}, {
+		"name": "Comic Book Character",
+		"sentiment": "positive"
+	}, {
+		"name": "Jimmy Kimmel Live",
+		"sentiment": "positive"
+	}, {
+		"name": "Movie Trailer Trailer",
+		"sentiment": "negative"
+	}, {
+		"name": "HBO Documentary Films",
+		"sentiment": "positive"
+	}, {
+		"name": "HBO Latino",
+		"sentiment": "positive"
+	}, {
+		"name": "single Snow Cat",
 		"sentiment": "neutral"
 	}, {
-		"name": "jimmy jimmy",
+		"name": "infamous O.J. Simpson",
+		"sentiment": "negative"
+	}, {
+		"name": "fx O.J. Simpson",
+		"sentiment": "neutral"
+	}, {
+		"name": "awesome BuzzFeedViolet videos",
+		"sentiment": "positive"
+	}, {
+		"name": "Youtube cat video",
+		"sentiment": "neutral"
+	}, {
+		"name": "Thrones merchandise",
+		"sentiment": "neutral"
+	}, {
+		"name": "Thrones YouTube",
+		"sentiment": "positive"
+	}, {
+		"name": "FX American crime",
+		"sentiment": "neutral"
+	}, {
+		"name": "Snow Cat",
+		"sentiment": "positive"
+	}, {
+		"name": "HBO Connect",
+		"sentiment": "neutral"
+	}, {
+		"name": "Jimmy Kimmel Lie",
+		"sentiment": "positive"
+	}, {
+		"name": "carrie underwood carpool",
+		"sentiment": "negative"
+	}, {
+		"name": "Thrones Viewer",
+		"sentiment": "neutral"
+	}, {
+		"name": "buzzfeed buzzfeedyellow BFMP",
+		"sentiment": "neutral"
+	}, {
+		"name": "Thrones Season",
+		"sentiment": "neutral"
+	}, {
+		"name": "Kimmel Live Online",
+		"sentiment": "neutral"
+	}, {
+		"name": "Crescent Moon Foundation",
+		"sentiment": "positive"
+	}, {
+		"name": "HBO Shop",
+		"sentiment": "neutral"
+	}, {
+		"name": "Late Late",
+		"sentiment": "negative"
+	}, {
+		"name": "fairy tale wedding",
+		"sentiment": "neutral"
+	}, {
+		"name": "Series Drama Trailer",
+		"sentiment": "neutral"
+	}, {
+		"name": "HBO GO® http://itsh.bo/eIDxfw",
+		"sentiment": "neutral"
+	}, {
+		"name": "trailer new dc",
+		"sentiment": "negative"
+	}, {
+		"name": "Batman v Superman",
+		"sentiment": "positive"
+	}, {
+		"name": "HBO Channels",
+		"sentiment": "positive"
+	}, {
+		"name": "Thrones  Official Site",
+		"sentiment": "neutral"
+	}, {
+		"name": "O.J. Simpson trial",
+		"sentiment": "negative"
+	}, {
+		"name": "Kimmel Live WEBSITE",
+		"sentiment": "positive"
+	}, {
+		"name": "Thrones Online",
+		"sentiment": "neutral"
+	}, {
+		"name": "HBO Sports",
+		"sentiment": "positive"
+	}, {
+		"name": "FX limited series",
+		"sentiment": "negative"
+	}, {
+		"name": "Snow Cat Snowcat",
+		"sentiment": "neutral"
+	}, {
+		"name": "stream live TV",
+		"sentiment": "positive"
+	}, {
+		"name": "HBO Official Site",
+		"sentiment": "neutral"
+	}, {
+		"name": "Cat Simon Simonscat",
+		"sentiment": "neutral"
+	}],
+	"entities": [{
+		"name": "Ellen DeGeneres",
+		"sentiment": "neutral"
+	}, {
+		"name": "Amy Poehler",
+		"sentiment": "positive"
+	}, {
+		"name": "Warner Chappell Production Music Inc",
+		"sentiment": "positive"
+	}, {
+		"name": "Simon Simonscat Tofield Simon",
+		"sentiment": "positive"
+	}, {
+		"name": "Real Time",
+		"sentiment": "positive"
+	}, {
+		"name": "HBO Online",
+		"sentiment": "positive"
+	}, {
+		"name": "Crescent Moon Foundation",
+		"sentiment": "positive"
+	}, {
+		"name": "Producer",
+		"sentiment": "neutral"
+	}, {
+		"name": "dc comics",
+		"sentiment": "positive"
+	}, {
+		"name": "Ryan Murphy",
+		"sentiment": "negative"
+	}, {
+		"name": "Foursquare",
+		"sentiment": "neutral"
+	}, {
+		"name": "O.J. Simpson",
+		"sentiment": "positive"
+	}, {
+		"name": "John Cena",
+		"sentiment": "negative"
+	}, {
+		"name": "HBO",
+		"sentiment": "positive"
+	}, {
+		"name": "Youtube",
+		"sentiment": "negative"
+	}, {
+		"name": "Emmy Award",
+		"sentiment": "neutral"
+	}, {
+		"name": "jimmy fallon colbert",
+		"sentiment": "neutral"
+	}, {
+		"name": "Robert Shapiro David Schwimmer Robert Kardashian Sarah Paulson Marcia Clark Courtney B. Vance Johnnie Cochran Bruce Green",
+		"sentiment": "neutral"
+	}, {
+		"name": "BuzzFeed",
+		"sentiment": "positive"
+	}, {
+		"name": "Joe Manganiello",
+		"sentiment": "positive"
+	}, {
+		"name": "FX Productions",
+		"sentiment": "positive"
+	}, {
+		"name": "HBO",
+		"sentiment": "positive"
+	}, {
+		"name": "stephen colbert",
+		"sentiment": "negative"
+	}, {
+		"name": "Joffrey Jon Snow",
 		"sentiment": "neutral"
 	}, {
 		"name": "Martin Peter Dinklage Aidan Gillen Lena Headey Jack Gleeson",
 		"sentiment": "neutral"
 	}, {
-		"name": "Thrones Official",
+		"name": "Carrie Underwood",
+		"sentiment": "negative"
+	}, {
+		"name": "jimmy jimmy",
 		"sentiment": "neutral"
 	}, {
-		"name": "Scotland",
-		"sentiment": "positive"
+		"name": "Los Angeles",
+		"sentiment": "negative"
 	}, {
-		"name": "#BlueNeighbourhood",
+		"name": "Official",
 		"sentiment": "neutral"
-	}, {
-		"name": "sonsbeck Sunset",
-		"sentiment": "neutral"
-	}, {
-		"name": "#ViernesIntratable",
-		"sentiment": "positive"
-	}, {
-		"name": "Mark Hamill",
-		"sentiment": "positive"
 	}, {
 		"name": "Batman",
 		"sentiment": "positive"
 	}, {
 		"name": "Sofia Vergara",
-		"sentiment": "negative"
-	}, {
-		"name": "#NASCARawards",
-		"sentiment": "positive"
-	}, {
-		"name": "#SweeterAcronyms",
-		"sentiment": "positive"
-	}, {
-		"name": "Kamala El Mediterráneo",
-		"sentiment": "positive"
+		"sentiment": "neutral"
 	}, {
 		"name": "James Corden",
 		"sentiment": "positive"
 	}, {
-		"name": "#RDFamilyHoliday",
+		"name": "Jimmy Kimmel",
 		"sentiment": "positive"
 	}, {
-		"name": "#LoMejorDeDiciembre",
+		"name": "Halloween",
+		"sentiment": "neutral"
+	}, {
+		"name": "Larry Flynt",
+		"sentiment": "neutral"
+	}, {
+		"name": "Simon Tofield",
 		"sentiment": "positive"
+	}, {
+		"name": "Executive Producer",
+		"sentiment": "positive"
+	}, {
+		"name": "Thrones Official",
+		"sentiment": "neutral"
+	}, {
+		"name": "BuzzFeedYellow",
+		"sentiment": "positive"
+	}, {
+		"name": "Thrones Online",
+		"sentiment": "neutral"
+	}, {
+		"name": "Tumblr",
+		"sentiment": "neutral"
+	}, {
+		"name": "Bill Maher",
+		"sentiment": "positive"
+	}, {
+		"name": "Facebook",
+		"sentiment": "neutral"
+	}, {
+		"name": "CBS",
+		"sentiment": "negative"
+	}, {
+		"name": "Mark Hamill",
+		"sentiment": "positive"
+	}, {
+		"name": "Jason Palmer",
+		"sentiment": "positive"
+	}, {
+		"name": "LAPD",
+		"sentiment": "neutral"
+	}, {
+		"name": "Twitter",
+		"sentiment": "positive"
+	}, {
+		"name": "Cinemax",
+		"sentiment": "neutral"
+	}, {
+		"name": "Omaze",
+		"sentiment": "negative"
 	}]
 }
