@@ -4,13 +4,14 @@ public class Output {
 
     private final long id;
     private final String result;
-
-    public Output(long id, String result) {
+    private final String timestamp;
+    
+    public Output(long id, String result , String timestamp) {
         this.id = id;
         this.result = result;
+        this.timestamp = timestamp;
     }
     
-
     public long getId() {
         return id;
     }
@@ -18,4 +19,8 @@ public class Output {
     public String getResult() {
         return result;
     }
+    public String getTimestamp() {
+        return timestamp;
+    }
+
 }

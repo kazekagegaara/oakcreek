@@ -6,6 +6,7 @@ public class FlickrBean implements Serializable{
 	private String server;
 	private int farm;
 	private String title;	
+	private String flickerURL;
 
 	// setters
 
@@ -25,6 +26,18 @@ public class FlickrBean implements Serializable{
 		this.title = title;
 	}
 
+	// https://farm{farm-id}.staticflickr.com/{server-id}/{id}_{secret}.jpg  
+	public void setflickerURL(int farm,String server, String imageId,String secret){
+		this.title = "https://farm";
+		this.title += farm;
+		this.title += ".staticflickr.com/";
+		this.title += server;
+		this.title += "/";
+		this.title += imageId;
+		this.title += "_";
+		this.title += secret;
+		this.title += ".jpg";
+	}
 
 	// getters
 
@@ -43,4 +56,9 @@ public class FlickrBean implements Serializable{
 	public String gettitle(){
 		return this.title;
 	}
+	public String getflickerURL(){
+		return this.flickerURL;
+	}
+
+
 }

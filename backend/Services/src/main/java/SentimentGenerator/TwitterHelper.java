@@ -12,7 +12,7 @@ import java.util.ArrayList;
 
 public class TwitterHelper {
 
-	public List<String> getTwitterTrending() {
+	public List<TwitterBean> getTwitterTrending() {
 		AllKeys ak = new AllKeys();
     	String twitterConsumerKey = ak.getTwitterConsumerKey();
     	String twitterConsumerSecret = ak.getTwitterConsumerSecret();
@@ -29,15 +29,19 @@ public class TwitterHelper {
         	Twitter twitter = tf.getInstance();
 
         	Trends trends = twitter.getPlaceTrends(1); // 1 for global trends
-        	List<String> trendNames = new ArrayList<String>();
+        	List<TwitterBean> trendNames = new ArrayList<TwitterBean>();
+            
         	for (int i = 0; i < trends.getTrends().length; i++) {
-        		trendNames.add(trends.getTrends()[i].getName().toString());        		
+                TwitterBean tb = new TwitterBean();
+                tb.settwitterTopic(trends.getTrends()[i].getName().toString());
+                tb.settwitterURL(trends.getTrends()[i].getURL().toString());
+        		trendNames.add(tb);        		
         	}
         	return trendNames;	
 	    } catch (TwitterException te) {
         	te.printStackTrace();
         	System.out.println("Failed to get trends: " + te.getMessage());
-        	return new ArrayList<String>();
+        	return new ArrayList<TwitterBean>();
     	}
 	}
 }

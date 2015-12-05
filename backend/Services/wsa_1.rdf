@@ -1,0 +1,2056 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://my.asu.edu/ontologies/ser594/team8Ontology#" > 
+  <rdf:Description rdf:nodeID="A0">
+    <j.0:hasReferences>http://caribe.hbo-la.tv;http://m.hbo.com;http://www.hbo-br.tv;http://www.hbo-europe.com;http://www.hbo-la.tv;http://www.hbo.bg;http://www.hbo.com;http://www.hbo.com/#/;http://www.hbo.hr;http://www.hbo.hu;http://www.hbo.mk;http://www.hbo.pl;http://www.hbo.ro;http://www.hbo.rs;http://www.hboasia.com;http://www.hboau.com;http://www.hbocanada.com;http://www.hbodefined.in;http://www.hbofamily-br.tv;http://www.hbofamily-la.tv;http://www.hbofamily.com;http://www.hbogo.com;http://www.hbohits.in;http://www.hbolatino.com;http://www.hbonordic.com;http://www.hboondemand.com;http://www.hbopremium.com;http://www.hbosouthasia.com;http://www.hbouk.com;http://www.homeboxoffice.com;http://www.itsHBO.nl;http://www.theguidearchive.com</j.0:hasReferences>
+    <j.0:hasEntityName>HBO</j.0:hasEntityName>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLabel>HBO@en</j.0:hasLabel>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Abstraction100002137;http://dbpedia.org/class/yago/Act100030358;http://dbpedia.org/class/yago/AmericanTelevisionNetworks;http://dbpedia.org/class/yago/Channel106259898;http://dbpedia.org/class/yago/Commercial-freeTelevisionNetworks;http://dbpedia.org/class/yago/Communication106252138;http://dbpedia.org/class/yago/Event100029378;http://dbpedia.org/class/yago/Group100031264;http://dbpedia.org/class/yago/MovieChannels;http://dbpedia.org/class/yago/Network108434259;http://dbpedia.org/class/yago/PsychologicalFeature100023100;http://dbpedia.org/class/yago/System108435388;http://dbpedia.org/class/yago/Transmission106251781;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Organisation;http://schema.org/Organization;http://umbel.org/umbel/rc/Business;http://umbel.org/umbel/rc/Organization;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q43229</j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/HBO_logo.svg</j.0:hasImage>
+    <j.0:hasEntityType>HBO</j.0:hasEntityType>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasLDSource>http://dbpedia.org/resource/HBO</j.0:hasLDSource>
+    <j.0:hasDescription>HBO is an American premium cable and satellite television network that is owned by Home Box Office Inc., an operating subsidiary of Time Warner. HBO's programming consists primarily of theatrically released motion pictures and original television series, along with made-for-cable movies and documentaries, boxing matches and occasional stand-up comedy and concert specials. HBO is the oldest and longest continuously operating pay television service (basic or premium) in the United States, having been in operation since November 8, 1972.@en</j.0:hasDescription>
+    <j.0:hasComment>HBO is an American premium cable and satellite television network that is owned by Home Box Office Inc., an operating subsidiary of Time Warner. HBO's programming consists primarily of theatrically released motion pictures and original television series, along with made-for-cable movies and documentaries, boxing matches and occasional stand-up comedy and concert specials.@en</j.0:hasComment>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/HBO_logo.svg?width=300</j.0:hasThumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <j.0:hasEntityType>sonsbeck Sunset</j.0:hasEntityType>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityName>sonsbeck Sunset</j.0:hasEntityName>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <j.0:hasEntityName>dc comics</j.0:hasEntityName>
+    <j.0:hasEntityType>dc comics</j.0:hasEntityType>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+    <j.0:hasLDSource>http://dbpedia.org/resource/DC_Comics</j.0:hasLDSource>
+    <j.0:hasComment></j.0:hasComment>
+    <j.0:hasImage></j.0:hasImage>
+    <j.0:hasDescription></j.0:hasDescription>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasLabel></j.0:hasLabel>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasSentiment></j.0:hasSentiment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasEntityType>Simon Simonscat Tofield Simon</j.0:hasEntityType>
+    <j.0:hasEntityName>Simon Simonscat Tofield Simon</j.0:hasEntityName>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityName>Pelican Chillin Winder</j.0:hasEntityName>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasEntityType>Pelican Chillin Winder</j.0:hasEntityType>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasEntityType>#DefraudoComoLaFEPADE</j.0:hasEntityType>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityName>#DefraudoComoLaFEPADE</j.0:hasEntityName>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLabel> </j.0:hasLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <j.0:hasDescription>HBO is an American premium cable and satellite television network that is owned by Home Box Office Inc., an operating subsidiary of Time Warner. HBO's programming consists primarily of theatrically released motion pictures and original television series, along with made-for-cable movies and documentaries, boxing matches and occasional stand-up comedy and concert specials. HBO is the oldest and longest continuously operating pay television service (basic or premium) in the United States, having been in operation since November 8, 1972.@en</j.0:hasDescription>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLDSource>http://dbpedia.org/resource/HBO</j.0:hasLDSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/HBO_logo.svg?width=300</j.0:hasThumbnail>
+    <j.0:hasEntityName>HBO</j.0:hasEntityName>
+    <j.0:hasReferences>http://caribe.hbo-la.tv;http://m.hbo.com;http://www.hbo-br.tv;http://www.hbo-europe.com;http://www.hbo-la.tv;http://www.hbo.bg;http://www.hbo.com;http://www.hbo.com/#/;http://www.hbo.hr;http://www.hbo.hu;http://www.hbo.mk;http://www.hbo.pl;http://www.hbo.ro;http://www.hbo.rs;http://www.hboasia.com;http://www.hboau.com;http://www.hbocanada.com;http://www.hbodefined.in;http://www.hbofamily-br.tv;http://www.hbofamily-la.tv;http://www.hbofamily.com;http://www.hbogo.com;http://www.hbohits.in;http://www.hbolatino.com;http://www.hbonordic.com;http://www.hboondemand.com;http://www.hbopremium.com;http://www.hbosouthasia.com;http://www.hbouk.com;http://www.homeboxoffice.com;http://www.itsHBO.nl;http://www.theguidearchive.com</j.0:hasReferences>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/HBO_logo.svg</j.0:hasImage>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Abstraction100002137;http://dbpedia.org/class/yago/Act100030358;http://dbpedia.org/class/yago/AmericanTelevisionNetworks;http://dbpedia.org/class/yago/Channel106259898;http://dbpedia.org/class/yago/Commercial-freeTelevisionNetworks;http://dbpedia.org/class/yago/Communication106252138;http://dbpedia.org/class/yago/Event100029378;http://dbpedia.org/class/yago/Group100031264;http://dbpedia.org/class/yago/MovieChannels;http://dbpedia.org/class/yago/Network108434259;http://dbpedia.org/class/yago/PsychologicalFeature100023100;http://dbpedia.org/class/yago/System108435388;http://dbpedia.org/class/yago/Transmission106251781;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Organisation;http://schema.org/Organization;http://umbel.org/umbel/rc/Business;http://umbel.org/umbel/rc/Organization;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q43229</j.0:hasRDFTypes>
+    <j.0:hasLabel>HBO@en</j.0:hasLabel>
+    <j.0:hasComment>HBO is an American premium cable and satellite television network that is owned by Home Box Office Inc., an operating subsidiary of Time Warner. HBO's programming consists primarily of theatrically released motion pictures and original television series, along with made-for-cable movies and documentaries, boxing matches and occasional stand-up comedy and concert specials.@en</j.0:hasComment>
+    <j.0:hasEntityType>HBO</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasEntityType>Wren</j.0:hasEntityType>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasEntityName>Wren</j.0:hasEntityName>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <j.0:hasEntityType>Joe Manganiello</j.0:hasEntityType>
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasComment></j.0:hasComment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <j.0:hasEntityName>Joe Manganiello</j.0:hasEntityName>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasImage></j.0:hasImage>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Joe_Manganiello</j.0:hasLDSource>
+    <j.0:hasDescription></j.0:hasDescription>
+    <j.0:hasLabel></j.0:hasLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <j.0:hasEntityName>Real Time</j.0:hasEntityName>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>Real Time</j.0:hasEntityType>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasComment> </j.0:hasComment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>Zillertal House</j.0:hasEntityType>
+    <j.0:hasEntityName>Zillertal House</j.0:hasEntityName>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasDescription>Tumblr (stylized in its logo as tumblr.) is a microblogging platform and social networking website founded by David Karp and owned by Yahoo! Inc. The service allows users to post multimedia and other content to a short-form blog. Users can follow other users' blogs, as well as make their blogs private. Much of the website's features are accessed from the "dashboard" interface, where the option to post content and posts of followed blogs appear.As of February 1, 2015, Tumblr hosts over 221.3 million blogs. The company's headquarters is in New York City. Yahoo! announced its intention to acquire Tumblr on May 20, 2013, for approximately $1.1 billion. The deal closed on June 20, 2013.@en</j.0:hasDescription>
+    <j.0:hasReferences>https://tumblr.com/;https://www.tumblr.com/</j.0:hasReferences>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Tumblr_Logo.svg</j.0:hasImage>
+    <j.0:hasEntityType>Tumblr</j.0:hasEntityType>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Tumblr</j.0:hasLDSource>
+    <j.0:hasComment>Tumblr (stylized in its logo as tumblr.) is a microblogging platform and social networking website founded by David Karp and owned by Yahoo! Inc. The service allows users to post multimedia and other content to a short-form blog. Users can follow other users' blogs, as well as make their blogs private.@en</j.0:hasComment>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Tumblr_Logo.svg?width=300</j.0:hasThumbnail>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Abstraction100002137;http://dbpedia.org/class/yago/InternetPropertiesEstablishedIn2007;http://dbpedia.org/class/yago/Possession100032613;http://dbpedia.org/class/yago/Property113244109;http://dbpedia.org/class/yago/Relation100031921;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Company;http://dbpedia.org/ontology/Organisation;http://schema.org/Organization;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q43229</j.0:hasRDFTypes>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLabel>Tumblr@en</j.0:hasLabel>
+    <j.0:hasEntityName>Tumblr</j.0:hasEntityName>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityName>Greinke</j.0:hasEntityName>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>Greinke</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasEntityType>#RTqNozesSdv</j.0:hasEntityType>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasEntityName>#RTqNozesSdv</j.0:hasEntityName>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityType>#FicaMinerato</j.0:hasEntityType>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityName>#FicaMinerato</j.0:hasEntityName>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasReferences> </j.0:hasReferences>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A15">
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityType>#ALDUBRendezvous</j.0:hasEntityType>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasEntityName>#ALDUBRendezvous</j.0:hasEntityName>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A16">
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityName>#NASCARawards</j.0:hasEntityName>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>#NASCARawards</j.0:hasEntityType>
+    <j.0:hasLDSource></j.0:hasLDSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A17">
+    <j.0:hasDescription>Ellen Lee DeGeneres (/dɨˈdʒɛnərəs/; born January 26, 1958) is an American comedian, television host, actress, writer, and television producer. She was the star in the popular sitcom Ellen from 1994 to 1998, and has hosted her syndicated talk show The Ellen DeGeneres Show since 2003.Her stand up career started in the early 1980s, culminating in a 1986 appearance on The Tonight Show Starring Johnny Carson, who likened her to Bob Newhart, and invited her for an onscreen chat after her set. She was the first comedienne invited by Johnny Carson to join him, a national, and the most influential endorsement available at the time for comics. As a film actress, she starred in Mr. Wrong (1996), appeared in EDtv (1999), and The Love Letter (1999), and provided the voice of Dory in the Pixar animated film Finding Nemo (2003), for which she was awarded the Saturn Award for Best Supporting Actress, the first time an actress won a Saturn Award for a voice performance. In 2010 she was a judge on American Idol for its ninth season.She starred in two television sitcoms, Ellen from 1994 to 1998, and The Ellen Show from 2001 to 2002. During the fourth season of Ellen in 1997, she came out publicly as lesbian in an appearance on The Oprah Winfrey Show. Shortly afterwards, her character, Ellen Morgan, also came out to a therapist played by Winfrey, and the series went on to explore various LGBT issues including the coming-out process. In 2008, she married her long-time girlfriend Portia de Rossi.DeGeneres has hosted the Academy Awards, Grammy Awards, and the Primetime Emmys. She has authored three books, and started her own record company, Eleveneleven. She has won 13 Emmys, 14 People's Choice Awards, and numerous other awards for her work and charitable efforts.@en</j.0:hasDescription>
+    <j.0:hasEntityName>Ellen DeGeneres</j.0:hasEntityName>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/20th-centuryActors;http://dbpedia.org/class/yago/21st-centuryActors;http://dbpedia.org/class/yago/Actor109765278;http://dbpedia.org/class/yago/ActorsFromLouisiana;http://dbpedia.org/class/yago/Adjudicator109769636;http://dbpedia.org/class/yago/Adult109605289;http://dbpedia.org/class/yago/AmericanChristianScientists;http://dbpedia.org/class/yago/AmericanComedians;http://dbpedia.org/class/yago/AmericanFilmActors;http://dbpedia.org/class/yago/AmericanPeopleOfEnglishDescent;http://dbpedia.org/class/yago/AmericanPeopleOfFrenchDescent;http://dbpedia.org/class/yago/AmericanPeopleOfGermanDescent;http://dbpedia.org/class/yago/AmericanPeopleOfIrishDescent;http://dbpedia.org/class/yago/AmericanPhilanthropists;http://dbpedia.org/class/yago/AmericanStand-upComedians;http://dbpedia.org/class/yago/AmericanTelevisionActors;http://dbpedia.org/class/yago/AmericanTelevisionTalkShowHosts;http://dbpedia.org/class/yago/AmericanVegans;http://dbpedia.org/class/yago/Benefactor109608709;http://dbpedia.org/class/yago/CausalAgent100007347;http://dbpedia.org/class/yago/Comedian109940146;http://dbpedia.org/class/yago/Consumer109612848;http://dbpedia.org/class/yago/Disputant109615465;http://dbpedia.org/class/yago/Donor110025730;http://dbpedia.org/class/yago/Eater110042300;http://dbpedia.org/class/yago/Entertainer109616922;http://dbpedia.org/class/yago/GoodPerson110138767;http://dbpedia.org/class/yago/Host110187130;http://dbpedia.org/class/yago/Judge110225219;http://dbpedia.org/class/yago/LGBTPeopleFromTheUnitedStates;http://dbpedia.org/class/yago/LGBTRightsActivistsFromTheUnitedStates;http://dbpedia.org/class/yago/LesbianActors;http://dbpedia.org/class/yago/LesbianComedians;http://dbpedia.org/class/yago/LivingPeople;http://dbpedia.org/class/yago/LivingThing100004258;http://dbpedia.org/class/yago/Militant110315837;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/Official110372373;http://dbpedia.org/class/yago/Organism100004475;http://dbpedia.org/class/yago/PeopleFromNewOrleans,Louisiana;http://dbpedia.org/class/yago/Performer110415638;http://dbpedia.org/class/yago/Person100007846;http://dbpedia.org/class/yago/Philanthropist110421956;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/RealityTelevisionJudges;http://dbpedia.org/class/yago/Reformer110515194;http://dbpedia.org/class/yago/ReligiousPerson109628382;http://dbpedia.org/class/yago/SkilledWorker110605985;http://dbpedia.org/class/yago/User110741590;http://dbpedia.org/class/yago/Vegan110747424;http://dbpedia.org/class/yago/Vegetarian110747119;http://dbpedia.org/class/yago/Whole100003553;http://dbpedia.org/class/yago/WomenComedians;http://dbpedia.org/class/yago/Worker109632518;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Artist;http://dbpedia.org/ontology/Comedian;http://dbpedia.org/ontology/Person;http://schema.org/Person;http://umbel.org/umbel/rc/Artist;http://umbel.org/umbel/rc/Comedian;http://umbel.org/umbel/rc/PersonWithOccupation;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q215627;http://www.wikidata.org/entity/Q483501;http://www.wikidata.org/entity/Q5;http://xmlns.com/foaf/0.1/Person</j.0:hasRDFTypes>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>Ellen DeGeneres</j.0:hasEntityType>
+    <j.0:hasComment>Ellen Lee DeGeneres (/dɨˈdʒɛnərəs/; born January 26, 1958) is an American comedian, television host, actress, writer, and television producer. She was the star in the popular sitcom Ellen from 1994 to 1998, and has hosted her syndicated talk show The Ellen DeGeneres Show since 2003.Her stand up career started in the early 1980s, culminating in a 1986 appearance on The Tonight Show Starring Johnny Carson, who likened her to Bob Newhart, and invited her for an onscreen chat after her set.@en</j.0:hasComment>
+    <j.0:hasReferences>http://www.ellentv.com/;http://www.makers.com/ellen-degeneres-0</j.0:hasReferences>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Ellen_DeGeneres</j.0:hasLDSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasLabel>Ellen DeGeneres@en</j.0:hasLabel>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Ellen_DeGeneres_2011.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Ellen_DeGeneres_2011.jpg</j.0:hasImage>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A18">
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityType>#BlueNeighbourhood</j.0:hasEntityType>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasEntityName>#BlueNeighbourhood</j.0:hasEntityName>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasLDSource></j.0:hasLDSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A19">
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityName>Batman</j.0:hasEntityName>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Batman_(1989_film)</j.0:hasLDSource>
+    <j.0:hasEntityType>Batman</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A20">
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasEntityType>Kamala El Mediterráneo</j.0:hasEntityType>
+    <j.0:hasEntityName>Kamala El Mediterráneo</j.0:hasEntityName>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A21">
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityName>#LoMejorDeDiciembre</j.0:hasEntityName>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasEntityType>#LoMejorDeDiciembre</j.0:hasEntityType>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasLabel> </j.0:hasLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A22">
+    <j.0:hasDescription> </j.0:hasDescription>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityType>Owl Tete Batu Sunset Windy Wain</j.0:hasEntityType>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityName>Owl Tete Batu Sunset Windy Wain</j.0:hasEntityName>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A23">
+    <j.0:hasDescription>Stephen Tyrone Colbert (/koʊlˈbɛər/, né: /ˈkoʊlbərt/; born May 13, 1964) is an American political satirist, writer, producer, singer, television host, actor, media critic, and comedian. From 2005 to 2014, he was the host of Comedy Central's The Colbert Report, a satirical news show in which Colbert portrayed a caricatured version of conservative political pundits. It was announced on April 10, 2014, that Colbert had been chosen to succeed David Letterman as the host of the Late Show on CBS after Letterman retires in 2015.Colbert originally studied to be an actor, but became interested in improvisational theatre when he met famed Second City director Del Close while attending Northwestern University. He first performed professionally as an understudy for Steve Carell at Second City Chicago; among his troupe mates were comedians Paul Dinello and Amy Sedaris, with whom he developed the sketch comedy series Exit 57.Colbert also wrote and performed on the short-lived Dana Carvey Show before collaborating with Sedaris and Dinello again on the cult television series Strangers with Candy. He gained considerable attention for his role on the latter as closeted gay history teacher Chuck Noblet. His work as a correspondent on Comedy Central's news-parody series The Daily Show first introduced him to a wide audience.In 2005, he left The Daily Show to host a spin-off series, The Colbert Report. Following The Daily Show '​s news-parody concept, The Colbert Report was a parody of personality-driven political opinion shows such as The O'Reilly Factor. The series established itself as one of Comedy Central's highest-rated series, earning Colbert an invitation to perform as featured entertainer at the White House Correspondents' Association Dinner in 2006. Colbert has been nominated for over twenty Primetime Emmy Awards, winning six, and has won two Grammy Awards and two Peabody Awards.  He was named one of Time '​s 100 most influential people in 2006 and 2012. His book I Am America (And So Can You!) was number one on The New York Times Best Seller list.@en</j.0:hasDescription>
+    <j.0:hasComment>Stephen Tyrone Colbert (/koʊlˈbɛər/, né: /ˈkoʊlbərt/; born May 13, 1964) is an American political satirist, writer, producer, singer, television host, actor, media critic, and comedian. From 2005 to 2014, he was the host of Comedy Central's The Colbert Report, a satirical news show in which Colbert portrayed a caricatured version of conservative political pundits.@en</j.0:hasComment>
+    <j.0:hasEntityName>stephen colbert</j.0:hasEntityName>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Actor109765278;http://dbpedia.org/class/yago/ActorsFromNewJersey;http://dbpedia.org/class/yago/ActorsFromSouthCarolina;http://dbpedia.org/class/yago/ActorsFromWashington,D.C.;http://dbpedia.org/class/yago/Adult109605289;http://dbpedia.org/class/yago/Alumnus109786338;http://dbpedia.org/class/yago/AmericanComediansOfIrishDescent;http://dbpedia.org/class/yago/AmericanFilmActors;http://dbpedia.org/class/yago/AmericanMediaCritics;http://dbpedia.org/class/yago/AmericanPeopleOfEnglishDescent;http://dbpedia.org/class/yago/AmericanPoliticalPundits;http://dbpedia.org/class/yago/AmericanSatirists;http://dbpedia.org/class/yago/AmericanTelevisionActors;http://dbpedia.org/class/yago/AmericanTelevisionTalkShowHosts;http://dbpedia.org/class/yago/AmericanTelevisionWriters;http://dbpedia.org/class/yago/AmericanVoiceActors;http://dbpedia.org/class/yago/AmericanWritersOfGermanDescent;http://dbpedia.org/class/yago/AmericanWritersOfIrishDescent;http://dbpedia.org/class/yago/Authority109824361;http://dbpedia.org/class/yago/CausalAgent100007347;http://dbpedia.org/class/yago/Comedian109940146;http://dbpedia.org/class/yago/Communicator109610660;http://dbpedia.org/class/yago/Correspondent109966554;http://dbpedia.org/class/yago/Critic109979321;http://dbpedia.org/class/yago/Entertainer109616922;http://dbpedia.org/class/yago/Evaluator110066732;http://dbpedia.org/class/yago/Expert109617867;http://dbpedia.org/class/yago/Hampden%E2%80%93SydneyCollegeAlumni;http://dbpedia.org/class/yago/Host110187130;http://dbpedia.org/class/yago/Humorist110191943;http://dbpedia.org/class/yago/Initiate110206887;http://dbpedia.org/class/yago/Intellectual109621545;http://dbpedia.org/class/yago/LivingPeople;http://dbpedia.org/class/yago/LivingThing100004258;http://dbpedia.org/class/yago/NorthwesternUniversityAlumni;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/Organism100004475;http://dbpedia.org/class/yago/PeopleFromCharleston,SouthCarolina;http://dbpedia.org/class/yago/PeopleFromEssexCounty,NewJersey;http://dbpedia.org/class/yago/Performer110415638;http://dbpedia.org/class/yago/Person100007846;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/Satirist110552742;http://dbpedia.org/class/yago/Scholar110557854;http://dbpedia.org/class/yago/SecondCityAlumni;http://dbpedia.org/class/yago/TheDailyShowCorrespondentsAndContributors;http://dbpedia.org/class/yago/Whole100003553;http://dbpedia.org/class/yago/Writer110794014;http://dbpedia.org/class/yago/WritersFromNewJersey;http://dbpedia.org/class/yago/WritersFromSouthCarolina;http://dbpedia.org/class/yago/WritersFromWashington,D.C.;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Artist;http://dbpedia.org/ontology/Comedian;http://dbpedia.org/ontology/Person;http://schema.org/Person;http://umbel.org/umbel/rc/Artist;http://umbel.org/umbel/rc/Comedian;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q215627;http://www.wikidata.org/entity/Q483501;http://www.wikidata.org/entity/Q5;http://xmlns.com/foaf/0.1/Person</j.0:hasRDFTypes>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasLabel>Stephen Colbert@en</j.0:hasLabel>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Stephen_Colbert_2014.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences>http://books.google.com/books?id=g8tEU0S3-_cC;http://topics.nytimes.com/topics/reference/timestopics/people/c/stephen_colbert;http://www.cbsnews.com/stories/2006/04/27/60minutes/main1553506.shtml;http://www.colbertnation.com/;https://www.youtube.com/watch?v=-iTizg8Q0s4;https://www.youtube.com/watch?v=U7FTF4Oz4dI;https://www.youtube.com/watch?v=q5iGtGITzi0</j.0:hasReferences>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Stephen_Colbert_2014.jpg</j.0:hasImage>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Stephen_Colbert</j.0:hasLDSource>
+    <j.0:hasEntityType>stephen colbert</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A24">
+    <j.0:hasEntityType>Ryan Murphy</j.0:hasEntityType>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasEntityName>Ryan Murphy</j.0:hasEntityName>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasReferences> </j.0:hasReferences>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A25">
+    <j.0:hasEntityName>BuzzFeedYellow</j.0:hasEntityName>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>BuzzFeedYellow</j.0:hasEntityType>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A26">
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>#MañanaSlipknot</j.0:hasEntityType>
+    <j.0:hasEntityName>#MañanaSlipknot</j.0:hasEntityName>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A27">
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityName>#LaBerisoFrases70K</j.0:hasEntityName>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasImage> </j.0:hasImage>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityType>#LaBerisoFrases70K</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A28">
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasImage> </j.0:hasImage>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasEntityType>#SabadoComOClubeSDV</j.0:hasEntityType>
+    <j.0:hasEntityName>#SabadoComOClubeSDV</j.0:hasEntityName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A29">
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasDescription>BuzzFeed is an American internet news media company. Founded in 2006 in New York City as a viral lab by Jonah Peretti, the company has grown into a global media and technology company providing coverage on a variety of topics including politics, DIY, animals and business. In 2012, Ben Smith of Politico was hired as Editor-in-Chief, and is responsible for expanding the site into  serious journalism, long-form and reportage while maintaining its popular fun and entertainment-oriented content. The site was rocked by scandal in July 2014 after it was discovered one of its political writers, Benny Johnson, had plagiarized from other sources more than 40 times. On August 10, 2014, BuzzFeed announced they had received an additional $50 million in funding from venture capital firm Andreessen Horowitz.@en</j.0:hasDescription>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasEntityType>BuzzFeed</j.0:hasEntityType>
+    <j.0:hasReferences>http://bits.blogs.nytimes.com/2009/08/04/has-google-found-a-stairway-to-heaven-in-brooklyn/;http://www.buzzfeed.com;http://www.buzzfeed.com/;http://www.c-span.org/video/?307609-1/qa-andrew-kaczysnki;http://www.guardian.co.uk/media/2013/jan/03/buzzfeed-new-funding-transforms-advertising;http://www.nytimes.com/2008/12/18/technology/personaltech/18basics.html</j.0:hasReferences>
+    <j.0:hasEntityName>BuzzFeed</j.0:hasEntityName>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/BuzzFeed.svg</j.0:hasImage>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Abstraction100002137;http://dbpedia.org/class/yago/CompaniesBasedInNewYorkCity;http://dbpedia.org/class/yago/Company108058098;http://dbpedia.org/class/yago/Group100031264;http://dbpedia.org/class/yago/Institution108053576;http://dbpedia.org/class/yago/Organization108008335;http://dbpedia.org/class/yago/SocialGroup107950920;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity</j.0:hasRDFTypes>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment>BuzzFeed is an American internet news media company. Founded in 2006 in New York City as a viral lab by Jonah Peretti, the company has grown into a global media and technology company providing coverage on a variety of topics including politics, DIY, animals and business. In 2012, Ben Smith of Politico was hired as Editor-in-Chief, and is responsible for expanding the site into  serious journalism, long-form and reportage while maintaining its popular fun and entertainment-oriented content.@en</j.0:hasComment>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasLDSource>http://dbpedia.org/resource/BuzzFeed</j.0:hasLDSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLabel>BuzzFeed@en</j.0:hasLabel>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/BuzzFeed.svg?width=300</j.0:hasThumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A30">
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasEntityName>#TheExperience10</j.0:hasEntityName>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasEntityType>#TheExperience10</j.0:hasEntityType>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSentiment></j.0:hasSentiment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A31">
+    <j.0:hasEntityType>Thrones Online</j.0:hasEntityType>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasComment> </j.0:hasComment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasEntityName>Thrones Online</j.0:hasEntityName>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A32">
+    <j.0:hasEntityType>#MomentoDeActuar</j.0:hasEntityType>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityName>#MomentoDeActuar</j.0:hasEntityName>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasImage> </j.0:hasImage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A33">
+    <j.0:hasEntityType>Robert Loggia</j.0:hasEntityType>
+    <j.0:hasDescription>Robert Loggia (born Salvatore Loggia on January 3, 1930) is an American actor and director.  He was nominated for an Academy Award for Best Supporting Actor for Jagged Edge.@en</j.0:hasDescription>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Actor109765278;http://dbpedia.org/class/yago/ActorsFromNewYorkCity;http://dbpedia.org/class/yago/Administrator109770949;http://dbpedia.org/class/yago/Alumnus109786338;http://dbpedia.org/class/yago/AmericanFilmActors;http://dbpedia.org/class/yago/AmericanPeopleOfItalianDescent;http://dbpedia.org/class/yago/AmericanPeopleOfSicilianDescent;http://dbpedia.org/class/yago/AmericanStageActors;http://dbpedia.org/class/yago/AmericanTelevisionActors;http://dbpedia.org/class/yago/AmericanTelevisionDirectors;http://dbpedia.org/class/yago/AmericanVoiceActors;http://dbpedia.org/class/yago/CausalAgent100007347;http://dbpedia.org/class/yago/Director110014939;http://dbpedia.org/class/yago/EnlistedPerson110058777;http://dbpedia.org/class/yago/Entertainer109616922;http://dbpedia.org/class/yago/Head110162991;http://dbpedia.org/class/yago/Intellectual109621545;http://dbpedia.org/class/yago/Leader109623038;http://dbpedia.org/class/yago/LivingPeople;http://dbpedia.org/class/yago/LivingThing100004258;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/Organism100004475;http://dbpedia.org/class/yago/PeopleFromStatenIsland;http://dbpedia.org/class/yago/Performer110415638;http://dbpedia.org/class/yago/Person100007846;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/Scholar110557854;http://dbpedia.org/class/yago/Serviceman110582746;http://dbpedia.org/class/yago/SkilledWorker110605985;http://dbpedia.org/class/yago/Soldier110622053;http://dbpedia.org/class/yago/UnitedStatesArmySoldiers;http://dbpedia.org/class/yago/WagnerCollegeAlumni;http://dbpedia.org/class/yago/Whole100003553;http://dbpedia.org/class/yago/Worker109632518;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Person;http://schema.org/Person;http://umbel.org/umbel/rc/Actor;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q215627;http://www.wikidata.org/entity/Q5;http://xmlns.com/foaf/0.1/Person</j.0:hasRDFTypes>
+    <j.0:hasReferences>http://digicoll.library.wisc.edu/cgi/f/findaid/findaid-idx?c=wiarchives;cc=wiarchives;type=simple;rgn=Entire%20Finding%20Aid;q1=Bob%20Loggia;view=reslist;subview=detail;sort=freq;didno=uw-whs-tape00339a;http://digicoll.library.wisc.edu/cgi/f/findaid/findaid-idx?c=wiarchives;view=reslist;subview=standard;didno=uw-whs-tape00339a;focusrgn=summaryinfo;cc=wiarchives;byte=50771135</j.0:hasReferences>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Robert_Loggia.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Robert_Loggia.jpg</j.0:hasImage>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Robert_Loggia</j.0:hasLDSource>
+    <j.0:hasComment>Robert Loggia (born Salvatore Loggia on January 3, 1930) is an American actor and director.  He was nominated for an Academy Award for Best Supporting Actor for Jagged Edge.@en</j.0:hasComment>
+    <j.0:hasEntityName>Robert Loggia</j.0:hasEntityName>
+    <j.0:hasLabel>Robert Loggia@en</j.0:hasLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A34">
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasEntityType>#PrimerPlano</j.0:hasEntityType>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityName>#PrimerPlano</j.0:hasEntityName>
+    <j.0:hasLDSource></j.0:hasLDSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A35">
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasEntityName>pardus</j.0:hasEntityName>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityType>pardus</j.0:hasEntityType>
+    <j.0:hasReferences> </j.0:hasReferences>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A36">
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasEntityType>#ShowtimeAguinaLdo</j.0:hasEntityType>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasEntityName>#ShowtimeAguinaLdo</j.0:hasEntityName>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A37">
+    <j.0:hasEntityName>Thrones Official</j.0:hasEntityName>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityType>Thrones Official</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A38">
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasEntityName>Schrei</j.0:hasEntityName>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityType>Schrei</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A39">
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasEntityType>#Felices37Marian</j.0:hasEntityType>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasEntityName>#Felices37Marian</j.0:hasEntityName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A40">
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityType>Sofia Vergara</j.0:hasEntityType>
+    <j.0:hasEntityName>Sofia Vergara</j.0:hasEntityName>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Sofía_Vergara</j.0:hasLDSource>
+    <j.0:hasComment></j.0:hasComment>
+    <j.0:hasDescription></j.0:hasDescription>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasImage></j.0:hasImage>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <j.0:hasLabel></j.0:hasLabel>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A41">
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasEntityType>jimmy fallon colbert</j.0:hasEntityType>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityName>jimmy fallon colbert</j.0:hasEntityName>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A42">
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasEntityName>#MuslimApartment</j.0:hasEntityName>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasImage> </j.0:hasImage>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityType>#MuslimApartment</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A43">
+    <j.0:hasLabel></j.0:hasLabel>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasEntityType>James Corden</j.0:hasEntityType>
+    <j.0:hasEntityName>James Corden</j.0:hasEntityName>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasImage></j.0:hasImage>
+    <j.0:hasLDSource>http://dbpedia.org/resource/James_Corden</j.0:hasLDSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment></j.0:hasComment>
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasDescription></j.0:hasDescription>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A44">
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Abstraction100002137;http://dbpedia.org/class/yago/CompaniesEstablishedIn2004;http://dbpedia.org/class/yago/Company108058098;http://dbpedia.org/class/yago/Group100031264;http://dbpedia.org/class/yago/Institution108053576;http://dbpedia.org/class/yago/InternetCompaniesOfTheUnitedStates;http://dbpedia.org/class/yago/Organization108008335;http://dbpedia.org/class/yago/PrivatelyHeldCompaniesBasedInCalifornia;http://dbpedia.org/class/yago/PrivatelyHeldCompaniesBasedInMassachusetts;http://dbpedia.org/class/yago/SocialGroup107950920;http://dbpedia.org/class/yago/SocialMedia;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Company;http://dbpedia.org/ontology/Organisation;http://schema.org/Organization;http://umbel.org/umbel/rc/Business;http://umbel.org/umbel/rc/Organization;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q43229</j.0:hasRDFTypes>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Facebook.svg</j.0:hasImage>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>Facebook</j.0:hasEntityType>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasReferences>http://blog.okcupid.com/index.php/we-experiment-on-human-beings/;http://mashable.com/2011/02/07/facebook-privacy-guide/;http://money.cnn.com/2006/10/06/magazines/fortune/fastforward_facebook.fortune/index.htm;http://techcrunch.com/2010/04/25/the-age-of-facebook/;http://topics.nytimes.com/top/news/business/companies/facebook_inc/index.html;http://www.pnas.org/content/early/2014/07/02/1412469111.full.pdf+html;http://www.telegraph.co.uk/technology/facebook/;https://facebook.com/whitehat;https://m.facebook.com;https://www.facebook.com/;https://www.facebook.com/akramer/posts/10152987150867796</j.0:hasReferences>
+    <j.0:hasEntityName>Facebook</j.0:hasEntityName>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Facebook.svg?width=300</j.0:hasThumbnail>
+    <j.0:hasLabel>Facebook@en</j.0:hasLabel>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Facebook</j.0:hasLDSource>
+    <j.0:hasDescription>Facebook (formerly [thefacebook])  is an online social networking service headquartered in Menlo Park, California. Its website was launched on February 4, 2004, by Mark Zuckerberg with his college roommates and fellow Harvard University students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes. The founders had initially limited the website's membership to Harvard students, but later expanded it to colleges in the Boston area, the Ivy League, and Stanford University. It gradually added support for students at various other universities and later to high-school students. Facebook now allows anyone who claims to be at least 13 years old to become a registered user of the website. Its name comes from a colloquialism for the directory given to it by American universities students.After registering to use the site, users can create a user profile, add other users as "friends", exchange messages, post status updates and photos, share videos and receive notifications when others update their profiles. Additionally, users may join common-interest user groups, organized by workplace, school or college, or other characteristics, and categorize their friends into lists such as "People From Work" or "Close Friends". Facebook had over 1.3 billion active users as of June 2014. Due to the large volume of data collected about users, the service's privacy policies have faced scrutiny, among other criticisms. Facebook, Inc. held its initial public offering in February 2012 and began selling stock to the public three months later, reaching a peak market capitalization of $104 billion.@en</j.0:hasDescription>
+    <j.0:hasComment>Facebook (formerly [thefacebook])  is an online social networking service headquartered in Menlo Park, California. Its website was launched on February 4, 2004, by Mark Zuckerberg with his college roommates and fellow Harvard University students Eduardo Saverin, Andrew McCollum, Dustin Moskovitz and Chris Hughes. The founders had initially limited the website's membership to Harvard students, but later expanded it to colleges in the Boston area, the Ivy League, and Stanford University.@en</j.0:hasComment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A45">
+    <j.0:hasLDSource>http://dbpedia.org/resource/Twitter</j.0:hasLDSource>
+    <j.0:hasReferences>http://www.wired.com/2013/11/qa-with-chris-fry/;https://blog.twitter.com/2013/new-tweets-per-second-record-and-how;https://mobile.twitter.com/;https://mobile.twitter.com/session/new;https://twitter.com;https://twitter.com/twitter</j.0:hasReferences>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasRDFTypes>http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Company;http://dbpedia.org/ontology/Organisation;http://schema.org/Organization;http://umbel.org/umbel/rc/Business;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q43229</j.0:hasRDFTypes>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasEntityType>Twitter</j.0:hasEntityType>
+    <j.0:hasEntityName>Twitter</j.0:hasEntityName>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasDescription>Twitter is an online social networking service that enables users to send and read short 140-character messages called "tweets".Registered users can read and post tweets, but unregistered users can only read them.  Users access Twitter through the website interface, SMS, or mobile device app. Twitter Inc. is based in San Francisco and has more than 25 offices around the world.Twitter was created in March 2006 by Jack Dorsey, Evan Williams, Biz Stone and Noah Glass and by July 2006 the site was launched. The service rapidly gained worldwide popularity, with more than 100 million users who in 2012 posted 340 million tweets per day. The service also handled 1.6 billion search queries per day. In 2013 Twitter was one of the ten most-visited websites, and has been described as "the SMS of the Internet." As of December 2014, Twitter has more than 500 million users, out of which more than 284 million are active users.@en</j.0:hasDescription>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Twttr_sketch-Dorsey-2006.jpg</j.0:hasImage>
+    <j.0:hasLabel>Twitter@en</j.0:hasLabel>
+    <j.0:hasComment>Twitter is an online social networking service that enables users to send and read short 140-character messages called "tweets".Registered users can read and post tweets, but unregistered users can only read them.  Users access Twitter through the website interface, SMS, or mobile device app. Twitter Inc.@en</j.0:hasComment>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Twttr_sketch-Dorsey-2006.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasSentiment></j.0:hasSentiment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A46">
+    <j.0:hasEntityName>Omaze</j.0:hasEntityName>
+    <j.0:hasEntityType>Omaze</j.0:hasEntityType>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLabel> </j.0:hasLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A47">
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityType>#CastanhariNoTheNoite</j.0:hasEntityType>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasEntityName>#CastanhariNoTheNoite</j.0:hasEntityName>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A48">
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/BillMaherSept10.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences>http://billmaher.com;http://billmaher.com/;http://screen.yahoo.com/crazystupidpolitics/;http://www.avclub.com/content/node/52772;http://www.bullz-eye.com/movies/interviews/2009/bill_maher.htm;http://www.hbo.com/billmaher/;http://www.imdb.com/title/tt1592191/</j.0:hasReferences>
+    <j.0:hasEntityName>Bill Maher</j.0:hasEntityName>
+    <j.0:hasDescription>William "Bill" Maher, Jr.  (/ˈmɑːr/; born January 20, 1956) is an American political satirist, writer, producer, political commentator, television host, actor, media critic, and stand-up comedian. Before his role as the host of HBO's Real Time with Bill Maher, Maher hosted a similar late-night talk show called Politically Incorrect, originally on Comedy Central and later on ABC.Maher is known for his sarcastic attitude, political satire and sociopolitical commentary, which targets a wide swath of topics including religion, politics, bureaucracies of many kinds, political correctness, the mass media, greed among people and persons in positions of high political and social power, and the lack of intellectual curiosity in the electorate.Maher supports the legalization of cannabis and same-sex marriage. His critical views of religion were the basis for the 2008 documentary film Religulous.  He is a supporter of animal rights, currently serving on the board of PETA, and is an advisory board member of Project Reason. In 2005, Maher ranked at number 38 on Comedy Central's 100 greatest stand-up comedians of all time. Bill Maher received a Hollywood Walk of Fame star on September 14, 2010.@en</j.0:hasDescription>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasEntityType>Bill Maher</j.0:hasEntityType>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Actor109765278;http://dbpedia.org/class/yago/ActorsFromNewJersey;http://dbpedia.org/class/yago/ActorsFromNewYorkCity;http://dbpedia.org/class/yago/Adult109605289;http://dbpedia.org/class/yago/Advocate109774783;http://dbpedia.org/class/yago/Agnostic109779124;http://dbpedia.org/class/yago/Alumnus109786338;http://dbpedia.org/class/yago/AmericanAgnostics;http://dbpedia.org/class/yago/AmericanCannabisActivists;http://dbpedia.org/class/yago/AmericanComediansOfIrishDescent;http://dbpedia.org/class/yago/AmericanFilmActors;http://dbpedia.org/class/yago/AmericanLibertarians;http://dbpedia.org/class/yago/AmericanPeopleOfJewishDescent;http://dbpedia.org/class/yago/AmericanSatirists;http://dbpedia.org/class/yago/AmericanStand-upComedians;http://dbpedia.org/class/yago/AmericanTelevisionActors;http://dbpedia.org/class/yago/AmericanTelevisionTalkShowHosts;http://dbpedia.org/class/yago/AmericanWritersOfIrishDescent;http://dbpedia.org/class/yago/AnimalRightsAdvocates;http://dbpedia.org/class/yago/CausalAgent100007347;http://dbpedia.org/class/yago/Comedian109940146;http://dbpedia.org/class/yago/Communicator109610660;http://dbpedia.org/class/yago/CornellUniversityAlumni;http://dbpedia.org/class/yago/Disputant109615465;http://dbpedia.org/class/yago/DrugPolicyReformActivists;http://dbpedia.org/class/yago/Entertainer109616922;http://dbpedia.org/class/yago/Host110187130;http://dbpedia.org/class/yago/Humorist110191943;http://dbpedia.org/class/yago/Intellectual109621545;http://dbpedia.org/class/yago/Libertarian110257524;http://dbpedia.org/class/yago/LivingPeople;http://dbpedia.org/class/yago/LivingThing100004258;http://dbpedia.org/class/yago/Militant110315837;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/Organism100004475;http://dbpedia.org/class/yago/PeopleFromBeverlyHills,California;http://dbpedia.org/class/yago/PeopleFromRiverVale,NewJersey;http://dbpedia.org/class/yago/Performer110415638;http://dbpedia.org/class/yago/Person100007846;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/Reformer110515194;http://dbpedia.org/class/yago/ReligiousSkeptics;http://dbpedia.org/class/yago/Satirist110552742;http://dbpedia.org/class/yago/Scholar110557854;http://dbpedia.org/class/yago/Skeptic110604634;http://dbpedia.org/class/yago/Whole100003553;http://dbpedia.org/class/yago/Writer110794014;http://dbpedia.org/class/yago/WritersFromNewJersey;http://dbpedia.org/class/yago/WritersFromNewYork;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Artist;http://dbpedia.org/ontology/Comedian;http://dbpedia.org/ontology/Person;http://schema.org/Person;http://umbel.org/umbel/rc/Artist;http://umbel.org/umbel/rc/Comedian;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q215627;http://www.wikidata.org/entity/Q483501;http://www.wikidata.org/entity/Q5;http://xmlns.com/foaf/0.1/Person</j.0:hasRDFTypes>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/BillMaherSept10.jpg</j.0:hasImage>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLabel>Bill Maher@en</j.0:hasLabel>
+    <j.0:hasComment>William "Bill" Maher, Jr.  (/ˈmɑːr/; born January 20, 1956) is an American political satirist, writer, producer, political commentator, television host, actor, media critic, and stand-up comedian.@en</j.0:hasComment>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Bill_Maher</j.0:hasLDSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A49">
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasEntityName>Tonto Natural Bridge State Park</j.0:hasEntityName>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasEntityType>Tonto Natural Bridge State Park</j.0:hasEntityType>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A50">
+    <j.0:hasEntityType>#ViernesIntratable</j.0:hasEntityType>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityName>#ViernesIntratable</j.0:hasEntityName>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A51">
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityType>Martin Peter Dinklage Aidan Gillen Lena Headey Jack Gleeson</j.0:hasEntityType>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasEntityName>Martin Peter Dinklage Aidan Gillen Lena Headey Jack Gleeson</j.0:hasEntityName>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A52">
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>jimmy jimmy</j.0:hasEntityType>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasEntityName>jimmy jimmy</j.0:hasEntityName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A53">
+    <j.0:hasEntityType>Youtube</j.0:hasEntityType>
+    <j.0:hasLDSource>http://dbpedia.org/resource/YouTube</j.0:hasLDSource>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/YouTube_logo_2013.svg?width=300</j.0:hasThumbnail>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Abstraction100002137;http://dbpedia.org/class/yago/Acquiring100041899;http://dbpedia.org/class/yago/Acquisition100077419;http://dbpedia.org/class/yago/Act100030358;http://dbpedia.org/class/yago/Activity100407535;http://dbpedia.org/class/yago/BigTableImplementations;http://dbpedia.org/class/yago/Enforcement101127019;http://dbpedia.org/class/yago/Event100029378;http://dbpedia.org/class/yago/Execution101127379;http://dbpedia.org/class/yago/GoogleAcquisitions;http://dbpedia.org/class/yago/GoogleServices;http://dbpedia.org/class/yago/GroupAction101080366;http://dbpedia.org/class/yago/InternetPropertiesEstablishedIn2005;http://dbpedia.org/class/yago/Possession100032613;http://dbpedia.org/class/yago/Property113244109;http://dbpedia.org/class/yago/PsychologicalFeature100023100;http://dbpedia.org/class/yago/Relation100031921;http://dbpedia.org/class/yago/Service100577525;http://dbpedia.org/class/yago/SocialControl101123598;http://dbpedia.org/class/yago/Work100575741;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Company;http://dbpedia.org/ontology/Organisation;http://schema.org/Organization;http://umbel.org/umbel/rc/Business;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q43229</j.0:hasRDFTypes>
+    <j.0:hasReferences>http://video.pbs.org/video/2365039828/;http://www.nytimes.com/2012/07/01/magazine/on-youtube-amateur-is-the-new-pro.html?hpw;http://www.webcitation.org/6N1AhzYVF;http://www.youtube.com/yt/press/;https://developers.google.com/youtube/;https://www.youtube.com/</j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityName>Youtube</j.0:hasEntityName>
+    <j.0:hasDescription>YouTube is a video-sharing website headquartered in San Bruno, California. The service was created by three former PayPal employees in February 2005. In November 2006, it was bought by Google for US$1.65 billion. YouTube now operates as a Google subsidiary. The site allows users to upload, view, and share videos, and it makes use of Adobe Flash Video and HTML5 technology to display a wide variety of user-generated and corporate media video. Available content includes video clips, TV clips, music videos, and other content such as video blogging, short original videos, and educational videos.Most of the content on YouTube has been uploaded by individuals, but media corporations including CBS, the BBC, Vevo, Hulu, and other organizations offer some of their material via YouTube, as part of the YouTube partnership program. Unregistered users can watch videos, and registered users can upload videos to their channels. Videos considered to contain potentially offensive content are available only to registered users affirming themselves to be at least 18 years old.@en</j.0:hasDescription>
+    <j.0:hasComment>YouTube is a video-sharing website headquartered in San Bruno, California. The service was created by three former PayPal employees in February 2005. In November 2006, it was bought by Google for US$1.65 billion. YouTube now operates as a Google subsidiary. The site allows users to upload, view, and share videos, and it makes use of Adobe Flash Video and HTML5 technology to display a wide variety of user-generated and corporate media video.@en</j.0:hasComment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasLabel>YouTube@en</j.0:hasLabel>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/YouTube_logo_2013.svg</j.0:hasImage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A54">
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasEntityName>#UndateableLive</j.0:hasEntityName>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityType>#UndateableLive</j.0:hasEntityType>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLDSource></j.0:hasLDSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A55">
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityType>Lake Logan</j.0:hasEntityType>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityName>Lake Logan</j.0:hasEntityName>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasLabel> </j.0:hasLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A56">
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityType>FX Productions</j.0:hasEntityType>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasEntityName>FX Productions</j.0:hasEntityName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A57">
+    <j.0:hasLabel>Larry Flynt@en</j.0:hasLabel>
+    <j.0:hasReferences>http://www.larryflynt.com/;http://www.palgrave.com/products/title.aspx?PID=467494</j.0:hasReferences>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Larry_Flynt_2009.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Larry_Flynt_2009.jpg</j.0:hasImage>
+    <j.0:hasComment>Larry Claxton Flynt, Jr. (born November 1, 1942) is an American publisher and the president of Larry Flynt Publications (LFP).In 2003, Arena magazine listed him as #1 on the "50 Powerful People in Porn" list.LFP mainly produces sexually graphic videos and magazines, most notably Hustler. Flynt has fought several prominent legal battles involving the First Amendment, and has unsuccessfully run for public office.@en</j.0:hasComment>
+    <j.0:hasDescription>Larry Claxton Flynt, Jr. (born November 1, 1942) is an American publisher and the president of Larry Flynt Publications (LFP).In 2003, Arena magazine listed him as #1 on the "50 Powerful People in Porn" list.LFP mainly produces sexually graphic videos and magazines, most notably Hustler. Flynt has fought several prominent legal battles involving the First Amendment, and has unsuccessfully run for public office. He is paralyzed from the waist down due to injuries sustained in a 1978 attempted murder by Joseph Paul Franklin.@en</j.0:hasDescription>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityType>Larry Flynt</j.0:hasEntityType>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Agent109777353;http://dbpedia.org/class/yago/AmericanAtheists;http://dbpedia.org/class/yago/AmericanPornographers;http://dbpedia.org/class/yago/Atheist109820044;http://dbpedia.org/class/yago/AttemptedAssassinationSurvivors;http://dbpedia.org/class/yago/Booker109865954;http://dbpedia.org/class/yago/CausalAgent100007347;http://dbpedia.org/class/yago/Communicator109610660;http://dbpedia.org/class/yago/Disbeliever110015897;http://dbpedia.org/class/yago/Disputant109615465;http://dbpedia.org/class/yago/EnlistedPerson110058777;http://dbpedia.org/class/yago/FreeSpeechActivists;http://dbpedia.org/class/yago/LivingPeople;http://dbpedia.org/class/yago/LivingThing100004258;http://dbpedia.org/class/yago/Militant110315837;http://dbpedia.org/class/yago/Negotiator110351874;http://dbpedia.org/class/yago/NonreligiousPerson109625789;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/Organism100004475;http://dbpedia.org/class/yago/PeopleFromMagoffinCounty,Kentucky;http://dbpedia.org/class/yago/PeopleWithBipolarDisorder;http://dbpedia.org/class/yago/PeopleWithParaplegia;http://dbpedia.org/class/yago/Person100007846;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/Pornographer110455094;http://dbpedia.org/class/yago/Reformer110515194;http://dbpedia.org/class/yago/Representative110522035;http://dbpedia.org/class/yago/Serviceman110582746;http://dbpedia.org/class/yago/Showman110593745;http://dbpedia.org/class/yago/SkilledWorker110605985;http://dbpedia.org/class/yago/Soldier110622053;http://dbpedia.org/class/yago/StrokeSurvivors;http://dbpedia.org/class/yago/Survivor110681194;http://dbpedia.org/class/yago/Unfortunate109630641;http://dbpedia.org/class/yago/UnitedStatesArmySoldiers;http://dbpedia.org/class/yago/Whole100003553;http://dbpedia.org/class/yago/Worker109632518;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Person;http://schema.org/Person;http://umbel.org/umbel/rc/Actor;http://umbel.org/umbel/rc/Artist;http://umbel.org/umbel/rc/PersonWithOccupation;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q215627;http://www.wikidata.org/entity/Q5;http://xmlns.com/foaf/0.1/Person</j.0:hasRDFTypes>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Larry_Flynt</j.0:hasLDSource>
+    <j.0:hasEntityName>Larry Flynt</j.0:hasEntityName>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A58">
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasEntityType>#RDFamilyHoliday</j.0:hasEntityType>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityName>#RDFamilyHoliday</j.0:hasEntityName>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A59">
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasEntityName>#ANTM</j.0:hasEntityName>
+    <j.0:hasEntityType>#ANTM</j.0:hasEntityType>
+    <j.0:hasLDSource></j.0:hasLDSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A60">
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasEntityName>#Bellator147</j.0:hasEntityName>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityType>#Bellator147</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A61">
+    <j.0:hasImage></j.0:hasImage>
+    <j.0:hasEntityType>O.J. Simpson</j.0:hasEntityType>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLDSource>http://dbpedia.org/resource/O._J._Simpson</j.0:hasLDSource>
+    <j.0:hasLabel></j.0:hasLabel>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasEntityName>O.J. Simpson</j.0:hasEntityName>
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasDescription></j.0:hasDescription>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasComment></j.0:hasComment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A62">
+    <j.0:hasUrl> </j.0:hasUrl>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityType>Santa</j.0:hasEntityType>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityName>Santa</j.0:hasEntityName>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasDescription> </j.0:hasDescription>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A63">
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Actor109765278;http://dbpedia.org/class/yago/ActorsFromCalifornia;http://dbpedia.org/class/yago/AmericanComicsWriters;http://dbpedia.org/class/yago/AmericanFilmActors;http://dbpedia.org/class/yago/AmericanSoapOperaActors;http://dbpedia.org/class/yago/AmericanStageActors;http://dbpedia.org/class/yago/AmericanTelevisionActors;http://dbpedia.org/class/yago/AmericanVideoGameActors;http://dbpedia.org/class/yago/AmericanVoiceActors;http://dbpedia.org/class/yago/CausalAgent100007347;http://dbpedia.org/class/yago/Child109917593;http://dbpedia.org/class/yago/Communicator109610660;http://dbpedia.org/class/yago/Entertainer109616922;http://dbpedia.org/class/yago/Imp110200047;http://dbpedia.org/class/yago/Juvenile109622049;http://dbpedia.org/class/yago/LivingPeople;http://dbpedia.org/class/yago/LivingThing100004258;http://dbpedia.org/class/yago/MilitaryBrats;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/Organism100004475;http://dbpedia.org/class/yago/PeopleFromOakland,California;http://dbpedia.org/class/yago/Performer110415638;http://dbpedia.org/class/yago/Person100007846;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/Terror110702483;http://dbpedia.org/class/yago/Whole100003553;http://dbpedia.org/class/yago/Writer110794014;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Person;http://schema.org/Person;http://umbel.org/umbel/rc/Actor;http://umbel.org/umbel/rc/Artist;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q215627;http://www.wikidata.org/entity/Q5;http://xmlns.com/foaf/0.1/Person</j.0:hasRDFTypes>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityName>Mark Hamill</j.0:hasEntityName>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityType>Mark Hamill</j.0:hasEntityType>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Mark_Hamill_2010.jpg</j.0:hasImage>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Mark_Hamill</j.0:hasLDSource>
+    <j.0:hasReferences>http://www.americantheatrewing.org/seminars/detail/performance_04_87;http://www.fearnet.com/videos/b16126_sdcc_2009_mark_hamill_darksiders.html</j.0:hasReferences>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Mark_Hamill_2010.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasComment>Mark Richard Hamill (born September 25, 1951) is an American actor, writer, producer, and director. He is best known for portraying the hero Luke Skywalker in the 1977 film Star Wars and its two sequels, The Empire Strikes Back and Return of the Jedi. He is also well known for his role as Pvt. Griff in The Big Red One starring along side Lee Marvin in this 1980 war movie.@en</j.0:hasComment>
+    <j.0:hasDescription>Mark Richard Hamill (born September 25, 1951) is an American actor, writer, producer, and director. He is best known for portraying the hero Luke Skywalker in the 1977 film Star Wars and its two sequels, The Empire Strikes Back and Return of the Jedi. He is also well known for his role as Pvt. Griff in The Big Red One starring along side Lee Marvin in this 1980 war movie. Other early films in his career are Corvette Summer (1978), then Slipstream (1989), The Guyver (1991), Guyver: Dark Hero (1994), and Time Runner (1993).  In recent decades, he has become a prolific voice actor, most notably as The Joker in a number of Batman films, television series, and video games (beginning with Batman: The Animated Series in 1992).@en</j.0:hasDescription>
+    <j.0:hasLabel>Mark Hamill@en</j.0:hasLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A64">
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasEntityName>Simon Tofield</j.0:hasEntityName>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityType>Simon Tofield</j.0:hasEntityType>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A65">
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityType>La bonne</j.0:hasEntityType>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasEntityName>La bonne</j.0:hasEntityName>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A66">
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasEntityName>#PublicamenteAceptoQue</j.0:hasEntityName>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasEntityType>#PublicamenteAceptoQue</j.0:hasEntityType>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A67">
+    <j.0:hasEntityType>Carrie Underwood</j.0:hasEntityType>
+    <j.0:hasComment>Carrie Marie Underwood (born March 10, 1983) is an American singer, songwriter, and actress. She rose to fame as the winner of the fourth season of American Idol in 2005. Underwood has since become one of the most prominent mainstream recording artists in the music industry, setting and breaking several records throughout her career. Her achievements led her to be inducted into the Grand Ole Opry in 2008 and into the Oklahoma Music Hall of Fame in 2009.@en</j.0:hasComment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Carrie_Underwood_2,_2012.jpg</j.0:hasImage>
+    <j.0:hasEntityName>Carrie Underwood</j.0:hasEntityName>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Carrie_Underwood</j.0:hasLDSource>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasLabel>Carrie Underwood@en</j.0:hasLabel>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Carrie_Underwood_2,_2012.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Alumnus109786338;http://dbpedia.org/class/yago/AmericanCountryGuitarists;http://dbpedia.org/class/yago/AmericanCountrySingers;http://dbpedia.org/class/yago/AmericanFemaleGuitarists;http://dbpedia.org/class/yago/AmericanFemaleSingers;http://dbpedia.org/class/yago/AmericanPianists;http://dbpedia.org/class/yago/AmericanPopSingers;http://dbpedia.org/class/yago/AmericanVegans;http://dbpedia.org/class/yago/AristaRecordsArtists;http://dbpedia.org/class/yago/Artist109812338;http://dbpedia.org/class/yago/CausalAgent100007347;http://dbpedia.org/class/yago/Consumer109612848;http://dbpedia.org/class/yago/Creator109614315;http://dbpedia.org/class/yago/Eater110042300;http://dbpedia.org/class/yago/English-languageSingers;http://dbpedia.org/class/yago/Entertainer109616922;http://dbpedia.org/class/yago/Guitarist110151760;http://dbpedia.org/class/yago/Intellectual109621545;http://dbpedia.org/class/yago/LivingPeople;http://dbpedia.org/class/yago/LivingThing100004258;http://dbpedia.org/class/yago/Musician110339966;http://dbpedia.org/class/yago/Musician110340312;http://dbpedia.org/class/yago/MusiciansFromOklahoma;http://dbpedia.org/class/yago/NortheasternStateUniversityAlumni;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/Organism100004475;http://dbpedia.org/class/yago/PeopleFromMuskogee,Oklahoma;http://dbpedia.org/class/yago/Performer110415638;http://dbpedia.org/class/yago/Person100007846;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/Pianist110430665;http://dbpedia.org/class/yago/Scholar110557854;http://dbpedia.org/class/yago/Singer110599806;http://dbpedia.org/class/yago/User110741590;http://dbpedia.org/class/yago/Vegan110747424;http://dbpedia.org/class/yago/Vegetarian110747119;http://dbpedia.org/class/yago/Whole100003553;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Artist;http://dbpedia.org/ontology/MusicalArtist;http://dbpedia.org/ontology/Person;http://schema.org/MusicGroup;http://schema.org/Person;http://umbel.org/umbel/rc/Artist;http://umbel.org/umbel/rc/MusicalPerformer;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q215627;http://www.wikidata.org/entity/Q483501;http://www.wikidata.org/entity/Q5;http://xmlns.com/foaf/0.1/Person</j.0:hasRDFTypes>
+    <j.0:hasReferences>http://www.carrieunderwoodofficial.com</j.0:hasReferences>
+    <j.0:hasDescription>Carrie Marie Underwood (born March 10, 1983) is an American singer, songwriter, and actress. She rose to fame as the winner of the fourth season of American Idol in 2005. Underwood has since become one of the most prominent mainstream recording artists in the music industry, setting and breaking several records throughout her career. Her achievements led her to be inducted into the Grand Ole Opry in 2008 and into the Oklahoma Music Hall of Fame in 2009. She has won a vast array of awards, including six Grammy Awards, sixteen Billboard Music Awards, eleven Academy of Country Music Awards and eight American Music Awards, along with being nominated for a Golden Globe Award for Best Original Song.Her debut album, Some Hearts, was released in 2005. Bolstered by the huge crossover success of the singles "Jesus, Take the Wheel" and "Before He Cheats", it went on to become the fastest selling debut country album in Nielsen SoundScan history, the best-selling solo female debut album in country music history and the best-selling country album of the last ten years. Underwood won three Grammy Awards for the album, including Best New Artist. Her second album, Carnival Ride, released in 2007, had one of the biggest ever opening weeks by a female artist and earned Underwood two Grammy Awards, for the singles "Last Name" and "I Told You So". Her next two albums, 2009's Play On and 2012's Blown Away, were both their year's second best-selling release by a female artist. The former spawned the successful single "Cowboy Casanova" and the latter's single "Blown Away" won Underwood a Grammy Award. With more than 64 million records sold globally, her tour revenues and a net worth estimated by Forbes at over $110 million, Underwood is the biggest American Idol earner of all time.Recognized by Rolling Stone as the female vocalist of her generation in any genre and by Billboard as Country Music's reigning Queen, Underwood is the only solo country artist in the 2000s to have a number one hit on the Billboard Hot 100 and the first and only country artist to ever debut at number one on the Hot 100, as "Inside Your Heaven" topped the chart in 2005. She is also the female country artist with the most No. 1 hits on the Billboard Hot Country Songs chart, from 1991 to present, having 14 number one's and breaking her own Guinness Book record of ten. Some Hearts was named the No. 1 country album of the 2000s by Billboard and she was the top-ranked female artist on Billboard's Best Country Artists of the 2000s list. Time has listed Underwood as one of the 100 most influential people in the world.@en</j.0:hasDescription>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A68">
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasImage> </j.0:hasImage>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasEntityType>Halloween</j.0:hasEntityType>
+    <j.0:hasEntityName>Halloween</j.0:hasEntityName>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasComment> </j.0:hasComment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A69">
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <j.0:hasLabel></j.0:hasLabel>
+    <j.0:hasDescription></j.0:hasDescription>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityName>Blue Ridge Mountains</j.0:hasEntityName>
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Blue_Ridge_Mountains</j.0:hasLDSource>
+    <j.0:hasEntityType>Blue Ridge Mountains</j.0:hasEntityType>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasImage></j.0:hasImage>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment></j.0:hasComment>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A70">
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityName>#EnEste2016Planeo</j.0:hasEntityName>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>#EnEste2016Planeo</j.0:hasEntityType>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasLDSource></j.0:hasLDSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A71">
+    <j.0:hasUrl> </j.0:hasUrl>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityType>Robin Pathway</j.0:hasEntityType>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasEntityName>Robin Pathway</j.0:hasEntityName>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasImage> </j.0:hasImage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A72">
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityType>Robert Shapiro David Schwimmer Robert Kardashian Sarah Paulson Marcia Clark Courtney B. Vance Johnnie Cochran Bruce Green</j.0:hasEntityType>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasEntityName>Robert Shapiro David Schwimmer Robert Kardashian Sarah Paulson Marcia Clark Courtney B. Vance Johnnie Cochran Bruce Green</j.0:hasEntityName>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A73">
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasEntityName>#SweeterAcronyms</j.0:hasEntityName>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasEntityType>#SweeterAcronyms</j.0:hasEntityType>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSentiment></j.0:hasSentiment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A74">
+    <j.0:hasEntityName>Official</j.0:hasEntityName>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasEntityType>Official</j.0:hasEntityType>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences> </j.0:hasReferences>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A75">
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Emmy_statuette.jpg</j.0:hasImage>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasComment>An Emmy Award, or simply Emmy, recognizes excellence in the television industry, and corresponds to the Academy Award (for film), the Tony Award (for theatre), and the Grammy Award (for music).Because Emmy Awards are given in various sectors of the American television industry, they are presented in different annual ceremonies held  throughout the year.@en</j.0:hasComment>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Emmy_statuette.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasReferences>http://www.emmyonline.tv/;http://www.emmys.tv/awards</j.0:hasReferences>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasEntityName>Emmy Award</j.0:hasEntityName>
+    <j.0:hasLabel>Emmy Award@en</j.0:hasLabel>
+    <j.0:hasDescription>An Emmy Award, or simply Emmy, recognizes excellence in the television industry, and corresponds to the Academy Award (for film), the Tony Award (for theatre), and the Grammy Award (for music).Because Emmy Awards are given in various sectors of the American television industry, they are presented in different annual ceremonies held  throughout the year. The two events that receive the most media coverage are the Primetime Emmys and the Daytime Emmys, which recognize outstanding work in American primetime and daytime entertainment programming, respectively. Other notable Emmy Award ceremonies are those honoring national sports programming, national news and documentary shows, national business and financial reporting, and technological and engineering achievements in television. Regional Emmy Awards are also presented throughout the country at various times through the year, recognizing excellence in local and statewide television. In addition, International Emmys are awarded for excellence in TV programming produced and initially aired outside the United States.Three related but separate organizations present the Emmy Awards: the Academy of Television Arts &amp; Sciences (ATAS), the National Academy of Television Arts &amp; Sciences (NATAS), and the International Academy of Television Arts &amp; Sciences (IATAS). Each is responsible for administering a particular set of Emmy ceremonies.@en</j.0:hasDescription>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Emmy_Award</j.0:hasLDSource>
+    <j.0:hasEntityType>Emmy Award</j.0:hasEntityType>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Abstraction100002137;http://dbpedia.org/class/yago/AmericanTelevisionAwards;http://dbpedia.org/class/yago/Award106696483;http://dbpedia.org/class/yago/AwardsEstablishedIn1949;http://dbpedia.org/class/yago/Communication100033020;http://dbpedia.org/class/yago/EmmyAwards;http://dbpedia.org/class/yago/Signal106791372;http://dbpedia.org/class/yago/Symbol106806469;http://dbpedia.org/ontology/Award;http://umbel.org/umbel/rc/AwardPractice;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q618779</j.0:hasRDFTypes>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A76">
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityName>#FelizCumpleGuidoSardelli</j.0:hasEntityName>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityType>#FelizCumpleGuidoSardelli</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A77">
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasComment></j.0:hasComment>
+    <j.0:hasDescription></j.0:hasDescription>
+    <j.0:hasLDSource>http://dbpedia.org/resource/John_Cena</j.0:hasLDSource>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>John Cena</j.0:hasEntityType>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+    <j.0:hasImage></j.0:hasImage>
+    <j.0:hasLabel></j.0:hasLabel>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasEntityName>John Cena</j.0:hasEntityName>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A78">
+    <j.0:hasEntityName>HBO Online</j.0:hasEntityName>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasEntityType>HBO Online</j.0:hasEntityType>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasLDSource></j.0:hasLDSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A79">
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasEntityName>Zürich Niether</j.0:hasEntityName>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityType>Zürich Niether</j.0:hasEntityType>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A80">
+    <j.0:hasEntityType>Executive Producer</j.0:hasEntityType>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasComment> </j.0:hasComment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityName>Executive Producer</j.0:hasEntityName>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A81">
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasEntityName>Edge Coeur de pâquerette</j.0:hasEntityName>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityType>Edge Coeur de pâquerette</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A82">
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasEntityName>@f</j.0:hasEntityName>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasEntityType>@f</j.0:hasEntityType>
+    <j.0:hasReferences> </j.0:hasReferences>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A83">
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityName>#PremiosTwitterAwards2015</j.0:hasEntityName>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityType>#PremiosTwitterAwards2015</j.0:hasEntityType>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasUrl> </j.0:hasUrl>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A84">
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/AdministrativeDistrict108491826;http://dbpedia.org/class/yago/Country108544813;http://dbpedia.org/class/yago/District108552138;http://dbpedia.org/class/yago/Location100027167;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/Region108630985;http://dbpedia.org/class/yago/StatesAndTerritoriesEstablishedIn1789;http://dbpedia.org/class/yago/StatesOfTheConfederateStatesOfAmerica;http://dbpedia.org/class/yago/StatesOfTheSouthernUnitedStates;http://dbpedia.org/class/yago/StatesOfTheUnitedStates;http://dbpedia.org/class/yago/YagoGeoEntity;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity;http://dbpedia.org/ontology/AdministrativeRegion;http://dbpedia.org/ontology/Location;http://dbpedia.org/ontology/Place;http://dbpedia.org/ontology/PopulatedPlace;http://dbpedia.org/ontology/Region;http://schema.org/AdministrativeArea;http://schema.org/Place;http://umbel.org/umbel/rc/Location_Underspecified;http://umbel.org/umbel/rc/PopulatedPlace;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q3455524;http://www.wikidata.org/entity/Q486972</j.0:hasRDFTypes>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_North_Carolina.svg?width=300</j.0:hasThumbnail>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasEntityType>North Carolina</j.0:hasEntityType>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_North_Carolina.svg</j.0:hasImage>
+    <j.0:hasComment>North Carolina (/ˌnɔrθ kærəˈlaɪnə/) is a state in the Southeastern United States. The state borders South Carolina and Georgia to the south, Tennessee to the west, Virginia to the north, and the Atlantic Ocean to the east.  North Carolina is the 28th most extensive and the 9th most populous of the 50 United States. North Carolina is known as the Tar Heel State and the Old North State.North Carolina is composed of 100 counties.@en</j.0:hasComment>
+    <j.0:hasEntityName>North Carolina</j.0:hasEntityName>
+    <j.0:hasLDSource>http://dbpedia.org/resource/North_Carolina</j.0:hasLDSource>
+    <j.0:hasLabel>North Carolina@en</j.0:hasLabel>
+    <j.0:hasReferences>http://docsouth.unc.edu/blueridgeparkway/;http://docsouth.unc.edu/commland/;http://library.divinity.duke.edu/ncreligion;http://library.divinity.duke.edu/ncreligion/;http://northcarolinawineries.org/;http://quickfacts.census.gov/qfd/states/37000.html;http://statelibrary.dcr.state.nc.us/;http://tonto.eia.doe.gov/state/state_energy_profiles.cfm?sid=NC;http://www.ah.dcr.state.nc.us/;http://www.ers.usda.gov/data-products/state-fact-sheets/state-data.aspx?StateFIPS=37&amp;StateName=North%20Carolina#.U8UmL7EXtQs;http://www.exploreasheville.com/;http://www.lib.ncsu.edu/specialcollections/greenngrowing/;http://www.lib.unc.edu/ncc/;http://www.loc.gov/rr/program/bib/states/northcarolina/;http://www.nc.gov/;http://www.nccourts.org/Courts/Default.asp;http://www.ncecho.org/;http://www.questia.com/PM.qst?a=o&amp;d=59237933;http://www.questia.com/PM.qst?a=o&amp;d=65419833;http://www.questia.com/PM.qst?a=o&amp;d=98712979;http://www.theguardian.com/world/2013/sep/20/usaf-atomic-bomb-north-carolina-1961;http://www.usgs.gov/state/state.asp?State=NC</j.0:hasReferences>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasDescription>North Carolina (/ˌnɔrθ kærəˈlaɪnə/) is a state in the Southeastern United States. The state borders South Carolina and Georgia to the south, Tennessee to the west, Virginia to the north, and the Atlantic Ocean to the east.  North Carolina is the 28th most extensive and the 9th most populous of the 50 United States. North Carolina is known as the Tar Heel State and the Old North State.North Carolina is composed of 100 counties. North Carolina's two largest metropolitan areas are among the top ten fastest-growing in the country: its capital, Raleigh, and its largest city, Charlotte. In the past five decades, North Carolina's economy has undergone a transition from reliance upon tobacco, textiles, and furniture-making to a more diversified economy with engineering, energy, biotechnology, and finance sectors.North Carolina has a wide range of elevations, from sea level on the coast to 6,684 feet (2,037 m) at Mount Mitchell, the highest point in the Eastern US. The climate of the coastal plains is strongly influenced by the Atlantic Ocean. Most of the state falls in the humid subtropical climate zone. More than 300 miles (500 km) from the coast, the western, mountainous part of the state has a subtropical highland climate.@en</j.0:hasDescription>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A85">
+    <j.0:hasEntityName>#SaiDilmaVemJustinBieber</j.0:hasEntityName>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityType>#SaiDilmaVemJustinBieber</j.0:hasEntityType>
+    <j.0:hasImage> </j.0:hasImage>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLabel> </j.0:hasLabel>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A86">
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Seal_of_the_Los_Angeles_Police_Department.png</j.0:hasImage>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Los_Angeles_Police_Department</j.0:hasLDSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment>The Los Angeles Police Department (LAPD) is the police department of the city of Los Angeles, California.  With 9,843 officers and 2,773 civilian staff,  it is the third-largest municipal police department in the United States, after the New York City Police Department and the Chicago Police Department.@en</j.0:hasComment>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasDescription>The Los Angeles Police Department (LAPD) is the police department of the city of Los Angeles, California.  With 9,843 officers and 2,773 civilian staff,  it is the third-largest municipal police department in the United States, after the New York City Police Department and the Chicago Police Department. The department serves an area of 498 square miles (1,290 km2) and a population of 3,884,307 people.The LAPD has been fictionalized in numerous movies, novels and television shows throughout its history. The department has also been associated with a number of controversies, mainly concerned with racial animosity, police brutality and police corruption.@en</j.0:hasDescription>
+    <j.0:hasReferences>http://www.joinlapd.com;http://www.lapd.info/;http://www.lapdonline.org;http://www.lapdonline.org/;http://www.lapdonline.org/assets/pdf/cntprof.pdf;http://www.lapdonline.org/assets/pdf/devprof.pdf;http://www.lapdonline.org/assets/pdf/fthprof.pdf;http://www.lapdonline.org/assets/pdf/hbkprof.pdf;http://www.lapdonline.org/assets/pdf/hrbprof.pdf;http://www.lapdonline.org/assets/pdf/hwdprof.pdf;http://www.lapdonline.org/assets/pdf/msnprof.pdf;http://www.lapdonline.org/assets/pdf/nhdprof.pdf;http://www.lapdonline.org/assets/pdf/noeprof.pdf;http://www.lapdonline.org/assets/pdf/nwtprof.pdf;http://www.lapdonline.org/assets/pdf/ocbprof.pdf;http://www.lapdonline.org/assets/pdf/olyprof.pdf;http://www.lapdonline.org/assets/pdf/osbprof.pdf;http://www.lapdonline.org/assets/pdf/ovbprof.pdf;http://www.lapdonline.org/assets/pdf/owbprof.pdf;http://www.lapdonline.org/assets/pdf/pacprof.pdf;http://www.lapdonline.org/assets/pdf/rmpprof.pdf;http://www.lapdonline.org/assets/pdf/soeprof.pdf;http://www.lapdonline.org/assets/pdf/sowprof.pdf;http://www.lapdonline.org/assets/pdf/sstprof.pdf;http://www.lapdonline.org/assets/pdf/topprof.pdf;http://www.lapdonline.org/assets/pdf/vnyprof.pdf;http://www.lapdonline.org/assets/pdf/wilprof.pdf;http://www.lapdonline.org/assets/pdf/wlaprof.pdf;http://www.lapdonline.org/assets/pdf/wvaprof.pdf</j.0:hasReferences>
+    <j.0:hasLabel>Los Angeles Police Department@en</j.0:hasLabel>
+    <j.0:hasEntityName>LAPD</j.0:hasEntityName>
+    <j.0:hasEntityType>LAPD</j.0:hasEntityType>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Seal_of_the_Los_Angeles_Police_Department.png?width=300</j.0:hasThumbnail>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Abstraction100002137;http://dbpedia.org/class/yago/AdministrativeUnit108077292;http://dbpedia.org/class/yago/Agency108337324;http://dbpedia.org/class/yago/Department108114861;http://dbpedia.org/class/yago/Division108220714;http://dbpedia.org/class/yago/GovernmentDepartment108119821;http://dbpedia.org/class/yago/Group100031264;http://dbpedia.org/class/yago/LawEnforcementAgency108348815;http://dbpedia.org/class/yago/LocalDepartment108120384;http://dbpedia.org/class/yago/MunicipalPoliceDepartmentsOfCalifornia;http://dbpedia.org/class/yago/Organization108008335;http://dbpedia.org/class/yago/OrganizationsEstablishedIn1869;http://dbpedia.org/class/yago/PoliceDepartment108121542;http://dbpedia.org/class/yago/SocialGroup107950920;http://dbpedia.org/class/yago/Unit108189659;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity;http://www.w3.org/2002/07/owl#Thing;http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing</j.0:hasRDFTypes>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A87">
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasImage> </j.0:hasImage>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasEntityName>Peregrine Falcon Turnberry Lighthouse</j.0:hasEntityName>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasEntityType>Peregrine Falcon Turnberry Lighthouse</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A88">
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasDescription></j.0:hasDescription>
+    <j.0:hasEntityType>Thalassophobia</j.0:hasEntityType>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Thalassophobia</j.0:hasLDSource>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <j.0:hasImage></j.0:hasImage>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityName>Thalassophobia</j.0:hasEntityName>
+    <j.0:hasComment></j.0:hasComment>
+    <j.0:hasLabel></j.0:hasLabel>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A89">
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasEntityName>Sunset Salinas Kugeliger Weihnachtsmarkt Schwabacher</j.0:hasEntityName>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasEntityType>Sunset Salinas Kugeliger Weihnachtsmarkt Schwabacher</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A90">
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasEntityName>#MeEstresoCuando</j.0:hasEntityName>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasEntityType>#MeEstresoCuando</j.0:hasEntityType>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasImage> </j.0:hasImage>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A91">
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasEntityType>#TCMS12</j.0:hasEntityType>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasEntityName>#TCMS12</j.0:hasEntityName>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A92">
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityName>#WhichAviWouldYouCatfishWith</j.0:hasEntityName>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasEntityType>#WhichAviWouldYouCatfishWith</j.0:hasEntityType>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A93">
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasEntityName>Mesa Rodán Sunset</j.0:hasEntityName>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>Mesa Rodán Sunset</j.0:hasEntityType>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A94">
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityType>#PremiosTelehitC5</j.0:hasEntityType>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityName>#PremiosTelehitC5</j.0:hasEntityName>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasUrl> </j.0:hasUrl>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A95">
+    <j.0:hasLabel>Jimmy Kimmel@en</j.0:hasLabel>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/JimmyKimmelHWOFJan2013.jpg</j.0:hasImage>
+    <j.0:hasEntityName>Jimmy Kimmel</j.0:hasEntityName>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/JimmyKimmelHWOFJan2013.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasReferences>http://abc.go.com/latenight/jimmykimmel/index?pn=index;http://www.jimmykimmel.net/;http://www.lasvegassun.com/news/2000/jul/20/obituaries-for-july-20-2000/</j.0:hasReferences>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasComment>James Christian "Jimmy" Kimmel (born November 13, 1967) is an American comedian, voice actor, actor, screenwriter, producer, musician, television host, and radio personality. He is the host and creator of Jimmy Kimmel Live!, a late-night talk show that airs on ABC. Prior to that, Kimmel was best known as the co-host of Comedy Central's The Man Show and Win Ben Stein's Money.@en</j.0:hasComment>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Jimmy_Kimmel</j.0:hasLDSource>
+    <j.0:hasDescription>James Christian "Jimmy" Kimmel (born November 13, 1967) is an American comedian, voice actor, actor, screenwriter, producer, musician, television host, and radio personality. He is the host and creator of Jimmy Kimmel Live!, a late-night talk show that airs on ABC. Prior to that, Kimmel was best known as the co-host of Comedy Central's The Man Show and Win Ben Stein's Money. Kimmel is also a television producer, having produced shows such as Crank Yankers, Sports Show with Norm Macdonald, and The Andy Milonakis Show.@en</j.0:hasDescription>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Actor109765278;http://dbpedia.org/class/yago/ActorsFromNewYorkCity;http://dbpedia.org/class/yago/Adult109605289;http://dbpedia.org/class/yago/AmericanComedians;http://dbpedia.org/class/yago/AmericanFilmActors;http://dbpedia.org/class/yago/AmericanGameShowHosts;http://dbpedia.org/class/yago/AmericanPeopleOfGermanDescent;http://dbpedia.org/class/yago/AmericanPeopleOfIrishDescent;http://dbpedia.org/class/yago/AmericanPeopleOfItalianDescent;http://dbpedia.org/class/yago/AmericanTelevisionActors;http://dbpedia.org/class/yago/AmericanTelevisionProducers;http://dbpedia.org/class/yago/AmericanTelevisionTalkShowHosts;http://dbpedia.org/class/yago/AmericanTelevisionWriters;http://dbpedia.org/class/yago/CausalAgent100007347;http://dbpedia.org/class/yago/Comedian109940146;http://dbpedia.org/class/yago/Communicator109610660;http://dbpedia.org/class/yago/Creator109614315;http://dbpedia.org/class/yago/Entertainer109616922;http://dbpedia.org/class/yago/Host110187130;http://dbpedia.org/class/yago/LivingPeople;http://dbpedia.org/class/yago/LivingThing100004258;http://dbpedia.org/class/yago/Maker110284064;http://dbpedia.org/class/yago/Manufacturer110292316;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/Organism100004475;http://dbpedia.org/class/yago/PeopleFromBrooklyn;http://dbpedia.org/class/yago/Performer110415638;http://dbpedia.org/class/yago/Person100007846;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/Whole100003553;http://dbpedia.org/class/yago/Writer110794014;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Artist;http://dbpedia.org/ontology/Comedian;http://dbpedia.org/ontology/Person;http://schema.org/Person;http://umbel.org/umbel/rc/Comedian;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q215627;http://www.wikidata.org/entity/Q483501;http://www.wikidata.org/entity/Q5;http://xmlns.com/foaf/0.1/Person</j.0:hasRDFTypes>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityType>Jimmy Kimmel</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A96">
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Los_Angeles,_California.svg</j.0:hasImage>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/AdministrativeDistrict108491826;http://dbpedia.org/class/yago/Area108497294;http://dbpedia.org/class/yago/Center108523483;http://dbpedia.org/class/yago/CitiesInLosAngelesCounty,California;http://dbpedia.org/class/yago/City108524735;http://dbpedia.org/class/yago/CountySeat108547143;http://dbpedia.org/class/yago/CountySeatsInCalifornia;http://dbpedia.org/class/yago/District108552138;http://dbpedia.org/class/yago/GeographicalArea108574314;http://dbpedia.org/class/yago/HostCitiesOfTheSummerOlympicGames;http://dbpedia.org/class/yago/IncorporatedCitiesAndTownsInCalifornia;http://dbpedia.org/class/yago/Location100027167;http://dbpedia.org/class/yago/Municipality108626283;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/PopulatedCoastalPlacesInCalifornia;http://dbpedia.org/class/yago/PopulatedPlacesEstablishedIn1781;http://dbpedia.org/class/yago/PopulatedPlacesInTheUnitedStatesWithHispanicPluralityPopulations;http://dbpedia.org/class/yago/PortSettlementsInTheUnitedStates;http://dbpedia.org/class/yago/Region108630985;http://dbpedia.org/class/yago/Seat108647945;http://dbpedia.org/class/yago/Site108651247;http://dbpedia.org/class/yago/Tract108673395;http://dbpedia.org/class/yago/UrbanArea108675967;http://dbpedia.org/class/yago/YagoGeoEntity;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity;http://dbpedia.org/ontology/City;http://dbpedia.org/ontology/Location;http://dbpedia.org/ontology/Place;http://dbpedia.org/ontology/PopulatedPlace;http://dbpedia.org/ontology/Settlement;http://schema.org/City;http://schema.org/Place;http://umbel.org/umbel/rc/City;http://umbel.org/umbel/rc/Location_Underspecified;http://umbel.org/umbel/rc/PopulatedPlace;http://umbel.org/umbel/rc/Village;http://www.w3.org/2002/07/owl#Thing;http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing;http://www.wikidata.org/entity/Q486972;http://www.wikidata.org/entity/Q515</j.0:hasRDFTypes>
+    <j.0:hasComment>Los Angeles (/lɒs ˈændʒəlɨs/), officially the City of Los Angeles, often known by its initials L.A., is a major city in California's Southern California region, approximately 342 miles (551 km) south of San Francisco. With a population of 3,792,621 as of 2010, Los Angeles is the second-largest city in the United States, after New York City, and the most populous city in California.@en</j.0:hasComment>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasDescription>Los Angeles (/lɒs ˈændʒəlɨs/), officially the City of Los Angeles, often known by its initials L.A., is a major city in California's Southern California region, approximately 342 miles (551 km) south of San Francisco. With a population of 3,792,621 as of 2010, Los Angeles is the second-largest city in the United States, after New York City, and the most populous city in California. Los Angeles is known for its mediterranean climate, ethnic diversity, celebrity culture, traffic, and the film and television industry.Historically home to the Chumash and Tongva, Los Angeles was claimed by Juan Rodríguez Cabrillo for Spain in 1542 along with the rest of what would become Alta California. The city was officially founded on September 4, 1781, by Spanish governor Felipe de Neve. It became a part of Mexico in 1821 following the Mexican War of Independence. In 1848, at the end of the Mexican–American War, Los Angeles and the rest of California were purchased as part of the Treaty of Guadalupe Hidalgo, thereby becoming part of the United States. Los Angeles was incorporated as a municipality on April 4, 1850, five months before California achieved statehood.The city is the focal point of the larger Los Angeles metropolitan area and the Greater Los Angeles Area region, which contain 13 million and over 18 million people in respectively as of 2010, making it one of the most populous metropolitan areas in the world as well as the second-largest in the United States. Los Angeles is the seat of Los Angeles County, the most populated county in the United States. The city's inhabitants are referred to as Angelenos.Nicknamed the City of Angels, Los Angeles is a global city, with strengths in business, international trade, entertainment, culture, media, fashion, science, sports, technology, education, medicine and research. It has been ranked sixth in the Global Cities Index and 9th Global Economic Power Index. The city is home to renowned institutions covering a broad range of professional and cultural fields and is one of the most substantial economic engines within the United States. The Los Angeles combined statistical area (CSA) has a gross metropolitan product (GMP) of $831 billion (as of 2008), making it the third-largest in the world, after the Greater Tokyo and New York metropolitan areas. Los Angeles includes Hollywood and leads the world in the creation of television productions, video games, and recorded music; it is also one of the leaders in motion picture production. Additionally, Los Angeles hosted the Summer Olympic Games in 1932 and 1984.@en</j.0:hasDescription>
+    <j.0:hasEntityType>Los Angeles</j.0:hasEntityType>
+    <j.0:hasLabel>Los Angeles@en</j.0:hasLabel>
+    <j.0:hasEntityName>Los Angeles</j.0:hasEntityName>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Los_Angeles</j.0:hasLDSource>
+    <j.0:hasReferences>http://life.time.com/?attachment_id=4004;http://www.lacity.org</j.0:hasReferences>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Flag_of_Los_Angeles,_California.svg?width=300</j.0:hasThumbnail>
+    <j.0:hasSentiment></j.0:hasSentiment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A97">
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityType>#KIISJingleBall</j.0:hasEntityType>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityName>#KIISJingleBall</j.0:hasEntityName>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSentiment></j.0:hasSentiment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A98">
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityType>Crescent Moon Foundation</j.0:hasEntityType>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasEntityName>Crescent Moon Foundation</j.0:hasEntityName>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A99">
+    <j.0:hasDescription>CBS (corporate name CBS Broadcasting, Inc.) is an American commercial broadcast television network, which started as a radio network; it continues to operate a radio network and a portfolio of television and radio stations in large and mid-sized markets. The name is derived from the initials of the network's former name, Columbia Broadcasting System. The company's headquarters is in New York City, with major production facilities and operations in New York City and Los Angeles.The network is sometimes referred to as the "Eye Network", in reference to the shape of the company's logo. It has also been called the "Tiffany Network", which alludes to the perceived high quality of CBS programming during the tenure of its founder William S. Paley. It can also refer to some of CBS's first demonstrations of color television, which were held in a former Tiffany &amp; Co. building in New York City in 1950.The network has its origins in United Independent Broadcasters Inc., a collection of 16 radio stations that was bought by William S. Paley in 1928 and renamed the Columbia Broadcasting System. Under Paley's guidance, CBS would first become one of the largest radio networks in the United States and then one of the big three American broadcast television networks. In 1974, CBS dropped its full name and became known simply as CBS, Inc. The Westinghouse Electric Corporation acquired the network in 1995 and eventually adopted the name of the company it had bought to become CBS Corporation. In 2000, CBS came under the control of Viacom, which  began as a spin-off of CBS in 1971. In late 2005, Viacom split itself and reestablished CBS Corporation with the CBS television network at its core. CBS Corporation is controlled by Sumner Redstone through National Amusements, which also controls the current Viacom.@en</j.0:hasDescription>
+    <j.0:hasComment>CBS (corporate name CBS Broadcasting, Inc.) is an American commercial broadcast television network, which started as a radio network; it continues to operate a radio network and a portfolio of television and radio stations in large and mid-sized markets. The name is derived from the initials of the network's former name, Columbia Broadcasting System.@en</j.0:hasComment>
+    <j.0:hasEntityType>CBS</j.0:hasEntityType>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasLDSource>http://dbpedia.org/resource/CBS</j.0:hasLDSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Abstraction100002137;http://dbpedia.org/class/yago/CBSCorporationSubsidiaries;http://dbpedia.org/class/yago/CompaniesEstablishedIn1927;http://dbpedia.org/class/yago/Company108058098;http://dbpedia.org/class/yago/Group100031264;http://dbpedia.org/class/yago/Institution108053576;http://dbpedia.org/class/yago/Organization108008335;http://dbpedia.org/class/yago/SocialGroup107950920;http://dbpedia.org/class/yago/SubsidiaryCompany108003935;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/BroadcastNetwork;http://dbpedia.org/ontology/Broadcaster;http://dbpedia.org/ontology/Organisation;http://schema.org/Organization;http://umbel.org/umbel/rc/Business;http://umbel.org/umbel/rc/Organization;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#SocialPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q141683;http://www.wikidata.org/entity/Q15265344;http://www.wikidata.org/entity/Q43229</j.0:hasRDFTypes>
+    <j.0:hasReferences>http://promonet.cbs.com/external/CBSEyeDentity_Site/toc.html;http://www.cbs.com</j.0:hasReferences>
+    <j.0:hasLabel>CBS@en</j.0:hasLabel>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/CBS_logo.svg?width=300</j.0:hasThumbnail>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/CBS_logo.svg</j.0:hasImage>
+    <j.0:hasEntityName>CBS</j.0:hasEntityName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A100">
+    <j.0:hasLDSource>http://dbpedia.org/resource/Jon_Snow</j.0:hasLDSource>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasEntityType>Joffrey Jon Snow</j.0:hasEntityType>
+    <j.0:hasComment>Jon Snow (born 28 September 1947) is an English journalist and presenter, currently employed by ITN. He is best known as the longest-running presenter of Channel 4 News.Snow has held numerous honorary appointments, including as Chancellor of Oxford Brookes University from 2001 to 2008.@en</j.0:hasComment>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasReferences>http://blogs.channel4.com/snowblog/;http://iiea.com/events/jon-snow;http://www.channel4.com/news/snowmail</j.0:hasReferences>
+    <j.0:hasLabel>Jon Snow@en</j.0:hasLabel>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityName>Joffrey Jon Snow</j.0:hasEntityName>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Jon_Snow2.jpg</j.0:hasImage>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Jon_Snow2.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Announcer109795124;http://dbpedia.org/class/yago/BritishRadioJournalists;http://dbpedia.org/class/yago/Broadcaster109875786;http://dbpedia.org/class/yago/CausalAgent100007347;http://dbpedia.org/class/yago/Communicator109610660;http://dbpedia.org/class/yago/EnglishTelevisionJournalists;http://dbpedia.org/class/yago/Governor110140314;http://dbpedia.org/class/yago/ITNNewsreadersAndJournalists;http://dbpedia.org/class/yago/Journalist110224578;http://dbpedia.org/class/yago/Leader109623038;http://dbpedia.org/class/yago/LivingPeople;http://dbpedia.org/class/yago/LivingThing100004258;http://dbpedia.org/class/yago/Newscaster110356344;http://dbpedia.org/class/yago/Newsreader110356877;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/Organism100004475;http://dbpedia.org/class/yago/PeopleAssociatedWithOxfordBrookesUniversity;http://dbpedia.org/class/yago/PeopleAssociatedWithTheUniversityOfLiverpool;http://dbpedia.org/class/yago/PeopleEducatedAtStEdward'sSchool,Oxford;http://dbpedia.org/class/yago/PeopleFromSussex;http://dbpedia.org/class/yago/Person100007846;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/Politician110451263;http://dbpedia.org/class/yago/SchoolGovernors;http://dbpedia.org/class/yago/Whole100003553;http://dbpedia.org/class/yago/Writer110794014;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Person;http://schema.org/Person;http://umbel.org/umbel/rc/Journalist;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q215627;http://www.wikidata.org/entity/Q5;http://xmlns.com/foaf/0.1/Person</j.0:hasRDFTypes>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasDescription>Jon Snow (born 28 September 1947) is an English journalist and presenter, currently employed by ITN. He is best known as the longest-running presenter of Channel 4 News.Snow has held numerous honorary appointments, including as Chancellor of Oxford Brookes University from 2001 to 2008.@en</j.0:hasDescription>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A101">
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasEntityName>#KathNielChristmasLoveDuets</j.0:hasEntityName>
+    <j.0:hasEntityType>#KathNielChristmasLoveDuets</j.0:hasEntityType>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasComment> </j.0:hasComment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A102">
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasEntityName>#EDCNoMultishow</j.0:hasEntityName>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasEntityType>#EDCNoMultishow</j.0:hasEntityType>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A103">
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasEntityName>#RossArgentinaIsSorry</j.0:hasEntityName>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasEntityType>#RossArgentinaIsSorry</j.0:hasEntityType>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A104">
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasEntityType>#TeletonSomosTodos</j.0:hasEntityType>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasEntityName>#TeletonSomosTodos</j.0:hasEntityName>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLDSource></j.0:hasLDSource>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A105">
+    <j.0:hasEntityType>Cinemax</j.0:hasEntityType>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasLDSource>http://dbpedia.org/resource/CineMAX</j.0:hasLDSource>
+    <j.0:hasDescription></j.0:hasDescription>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+    <j.0:hasLabel></j.0:hasLabel>
+    <j.0:hasEntityName>Cinemax</j.0:hasEntityName>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasComment></j.0:hasComment>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <j.0:hasImage></j.0:hasImage>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A106">
+    <j.0:hasThumbnail>http://en.wikipedia.org/wiki/Special:FilePath/QuintonAndJeff.JPG?width=300</j.0:hasThumbnail>
+    <j.0:hasComment>Jeff Nimoy (Born June 25, 1966) is a voice actor and writer.@en</j.0:hasComment>
+    <j.0:hasEntityName>Jason Palmer</j.0:hasEntityName>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Jeff_Nimoy</j.0:hasLDSource>
+    <j.0:hasEntityType>Jason Palmer</j.0:hasEntityType>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasDescription>Jeff Nimoy (Born June 25, 1966) is a voice actor and writer.@en</j.0:hasDescription>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasReferences>http://groups.myspace.com/index.cfm?fuseaction=groups.groupProfile&amp;groupID=103325446&amp;Mytoken=B28EE3D0-FD6C-42FC-B822BDA17A82B98D55114469;http://www.adventuresinanime.com;http://www.animelodge.co.uk/jeff-nimoy-interview/</j.0:hasReferences>
+    <j.0:hasLabel>Jeff Nimoy@en</j.0:hasLabel>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasImage>http://en.wikipedia.org/wiki/Special:FilePath/QuintonAndJeff.JPG</j.0:hasImage>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Actor109765278;http://dbpedia.org/class/yago/Administrator109770949;http://dbpedia.org/class/yago/Alumnus109786338;http://dbpedia.org/class/yago/AmericanTelevisionDirectors;http://dbpedia.org/class/yago/AmericanTelevisionProducers;http://dbpedia.org/class/yago/AmericanTelevisionWriters;http://dbpedia.org/class/yago/AmericanVoiceActors;http://dbpedia.org/class/yago/CausalAgent100007347;http://dbpedia.org/class/yago/Communicator109610660;http://dbpedia.org/class/yago/Creator109614315;http://dbpedia.org/class/yago/Director110014939;http://dbpedia.org/class/yago/Entertainer109616922;http://dbpedia.org/class/yago/Head110162991;http://dbpedia.org/class/yago/Intellectual109621545;http://dbpedia.org/class/yago/Leader109623038;http://dbpedia.org/class/yago/LivingPeople;http://dbpedia.org/class/yago/LivingThing100004258;http://dbpedia.org/class/yago/Maker110284064;http://dbpedia.org/class/yago/Manufacturer110292316;http://dbpedia.org/class/yago/NewYorkUniversityAlumni;http://dbpedia.org/class/yago/Object100002684;http://dbpedia.org/class/yago/Organism100004475;http://dbpedia.org/class/yago/PeopleFromBrooklyn;http://dbpedia.org/class/yago/Performer110415638;http://dbpedia.org/class/yago/Person100007846;http://dbpedia.org/class/yago/PhysicalEntity100001930;http://dbpedia.org/class/yago/Scholar110557854;http://dbpedia.org/class/yago/Whole100003553;http://dbpedia.org/class/yago/Writer110794014;http://dbpedia.org/class/yago/YagoLegalActor;http://dbpedia.org/class/yago/YagoLegalActorGeo;http://dbpedia.org/ontology/Agent;http://dbpedia.org/ontology/Person;http://schema.org/Person;http://umbel.org/umbel/rc/Actor;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#Agent;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#NaturalPerson;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q215627;http://www.wikidata.org/entity/Q5;http://xmlns.com/foaf/0.1/Person</j.0:hasRDFTypes>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A107">
+    <j.0:hasDescription></j.0:hasDescription>
+    <j.0:hasComment></j.0:hasComment>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Foursquare</j.0:hasLDSource>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasImage></j.0:hasImage>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasLabel></j.0:hasLabel>
+    <j.0:hasEntityType>Foursquare</j.0:hasEntityType>
+    <j.0:hasEntityName>Foursquare</j.0:hasEntityName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A108">
+    <j.0:hasDescription> </j.0:hasDescription>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSMSource>Twitter</j.0:hasSMSource>
+    <j.0:hasEntityName>#</j.0:hasEntityName>
+    <j.0:hasWebsite>www.twitter.com</j.0:hasWebsite>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityType>#</j.0:hasEntityType>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A109">
+    <j.0:hasComment>Christmas or Christmas Day (Old English: Crīstesmæsse, meaning "Christ's Mass") is an annual festival commemorating the birth of Jesus Christ, observed most commonly on December 25 as a religious and cultural celebration among billions of people around the world. A feast central to the Christian liturgical year, it is prepared for by the season of Advent or Nativity Fast and is prolonged by the Octave of Christmas and further by the season of Christmastide.@en</j.0:hasComment>
+    <j.0:hasRDFTypes>http://dbpedia.org/class/yago/Abstraction100002137;http://dbpedia.org/class/yago/FundamentalQuantity113575869;http://dbpedia.org/class/yago/Leisure115137676;http://dbpedia.org/class/yago/Measure100033615;http://dbpedia.org/class/yago/TimeOff115118453;http://dbpedia.org/class/yago/TimePeriod115113229;http://dbpedia.org/class/yago/Vacation115137890;http://dbpedia.org/ontology/Holiday;http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#TimeInterval;http://www.w3.org/2002/07/owl#Thing;http://www.wikidata.org/entity/Q1445650</j.0:hasRDFTypes>
+    <j.0:hasLabel>Christmas@en</j.0:hasLabel>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasImage>http://commons.wikimedia.org/wiki/Special:FilePath/Nativity_tree2011.jpg</j.0:hasImage>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Christmas</j.0:hasLDSource>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasEntityType>Christmas</j.0:hasEntityType>
+    <j.0:hasEntityName>Christmas</j.0:hasEntityName>
+    <j.0:hasThumbnail>http://commons.wikimedia.org/wiki/Special:FilePath/Nativity_tree2011.jpg?width=300</j.0:hasThumbnail>
+    <j.0:hasReferences>http://books.google.ca/books?id=1XRjAyL8LogC&amp;lpg=PP1&amp;dq=Christmas%20Customs%20and%20Traditions&amp;pg=PP1#v=onepage&amp;q&amp;f=true;http://books.google.ca/books?id=ERahko4FXJgC&amp;lpg=PP1&amp;dq=The%20Origins%20of%20Christmas&amp;pg=PP1#v=onepage&amp;q&amp;f=true;http://books.google.ca/books?id=NngtujclaxoC&amp;lpg=PP1&amp;dq=There%20Really%20Is%20a%20Santa%20Claus%3A%20The%20History%20of%20St.%20Nicholas%20%26%20Christmas%20Holiday%20Traditions&amp;pg=PP1#v=onepage&amp;q&amp;f=true;http://www.gutenberg.org/etext/22042</j.0:hasReferences>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasDescription>Christmas or Christmas Day (Old English: Crīstesmæsse, meaning "Christ's Mass") is an annual festival commemorating the birth of Jesus Christ, observed most commonly on December 25 as a religious and cultural celebration among billions of people around the world. A feast central to the Christian liturgical year, it is prepared for by the season of Advent or Nativity Fast and is prolonged by the Octave of Christmas and further by the season of Christmastide. Christmas Day is a public holiday in many of the world's nations, is celebrated culturally by a large number of non-Christian people, and is an integral part of the Christmas and holiday season.The celebratory customs associated in various countries with Christmas have a mix of pre-Christian, Christian, and secular themes and origins. Popular modern customs of the holiday include gift giving, completing an Advent calendar or Advent wreath, Christmas music and caroling, an exchange of Christmas cards, church services, a special meal, and the display of various Christmas decorations, including Christmas trees, Christmas lights, nativity scenes, garlands, wreaths, mistletoe, and holly. In addition, several closely related and often interchangeable figures, known as Santa Claus, Father Christmas, Saint Nicholas, and Christkind, are associated with bringing gifts to children during the Christmas season and have their own body of traditions and lore. Because gift-giving and many other aspects of the Christmas festival involve heightened economic activity, the holiday has become a significant event and a key sales period for retailers and businesses. The economic impact of Christmas is a factor that has grown steadily over the past few centuries in many regions of the world.While the month and date of Jesus' birth are unknown, by the early-to-mid 4th century, the Western Christian Church had placed Christmas on December 25, a date later adopted in the East, although some churches celebrate on the December 25 of the older Julian calendar, which, in the Gregorian calendar, currently corresponds to January 7, the day after the Western Christian Church celebrates the Epiphany.  The date of Christmas may have initially been chosen to correspond with the day exactly nine months after the day on which early Christians believed that Jesus was conceived, or with one or more ancient polytheistic festivals that occurred near southern solstice (i.e., the Roman winter solstice); a further solar connection has been suggested because of a biblical verse identifying Jesus as the "Sun of righteousness".@en</j.0:hasDescription>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A110">
+    <j.0:hasEntityType>Producer</j.0:hasEntityType>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasEntityName>Producer</j.0:hasEntityName>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A111">
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasSMSource>Flicker</j.0:hasSMSource>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasWebsite>www.flicker.com</j.0:hasWebsite>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasEntityType>Scotland</j.0:hasEntityType>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasReferences> </j.0:hasReferences>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasEntityName>Scotland</j.0:hasEntityName>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A112">
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasReferences></j.0:hasReferences>
+    <j.0:hasLDSource>http://dbpedia.org/resource/Amy_Poehler</j.0:hasLDSource>
+    <j.0:hasEntityType>Amy Poehler</j.0:hasEntityType>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasEntityName>Amy Poehler</j.0:hasEntityName>
+    <j.0:hasImage></j.0:hasImage>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasThumbnail></j.0:hasThumbnail>
+    <j.0:hasRDFTypes></j.0:hasRDFTypes>
+    <j.0:hasLabel></j.0:hasLabel>
+    <j.0:hasDescription></j.0:hasDescription>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasComment></j.0:hasComment>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A113">
+    <rdf:type>http://my.asu.edu/ontologies/ser594/team8Ontology#Entity</rdf:type>
+    <j.0:hasComment> </j.0:hasComment>
+    <j.0:hasLabel> </j.0:hasLabel>
+    <j.0:hasSMSource>YouTube</j.0:hasSMSource>
+    <j.0:hasRDFTypes> </j.0:hasRDFTypes>
+    <j.0:hasEntityType>Warner Chappell Production Music Inc</j.0:hasEntityType>
+    <j.0:hasImage> </j.0:hasImage>
+    <j.0:hasTimestamp>1449291167293</j.0:hasTimestamp>
+    <j.0:hasEntityName>Warner Chappell Production Music Inc</j.0:hasEntityName>
+    <j.0:hasThumbnail> </j.0:hasThumbnail>
+    <j.0:hasDescription> </j.0:hasDescription>
+    <j.0:hasLDSource></j.0:hasLDSource>
+    <j.0:hasWebsite>www.youtube.com</j.0:hasWebsite>
+    <j.0:hasUrl> </j.0:hasUrl>
+    <j.0:hasSentiment></j.0:hasSentiment>
+    <j.0:hasReferences> </j.0:hasReferences>
+  </rdf:Description>
+</rdf:RDF>

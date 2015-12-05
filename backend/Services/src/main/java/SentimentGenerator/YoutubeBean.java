@@ -2,12 +2,13 @@ package SentimentGenerator;
 import java.io.Serializable;
 public class YoutubeBean implements Serializable{
 
-	private String videoId; // to watch a video, simply use https://www.youtube.com/watch?v=videoId
+	private String videoId;   // to watch a video, simply use https://www.youtube.com/watch?v=videoId
 	private String videoTitle;
 	private String description;
 	private String channelTitle;
 	private String thumbnailURL;
 	private String[] tags;
+	private String youtubeURL;
 
 
 	//setters
@@ -30,6 +31,10 @@ public class YoutubeBean implements Serializable{
 	public void settags(String[] tags){
 		this.tags = tags;
 	}
+	public void setyoutubeURL(String videoId){
+		this.youtubeURL = "https://www.youtube.com/watch?v=";
+		this.youtubeURL += videoId;
+	}
 
 	//getters
 	public String getvideoId(){
@@ -49,5 +54,8 @@ public class YoutubeBean implements Serializable{
 	}
 	public String[] gettags(){
 		return this.tags;
+	}
+	public String getYTUrl(){
+		return this.videoId;
 	}
 }

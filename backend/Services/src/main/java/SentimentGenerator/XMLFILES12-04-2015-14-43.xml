@@ -1,0 +1,19 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:wsa="http://my.asu.edu/ontologies/ser594/team8Ontology#" > 
+  <rdf:Description rdf:about="http://my.asu.edu/ontologies/ser594/team8Ontology#Entity">
+    <wsa:hasLDSource>DBpeiad</wsa:hasLDSource>
+    <wsa:hasTimestamp>12-04-2015-14-43</wsa:hasTimestamp>
+    <wsa:hasEntityType>MOHIT-PERSON</wsa:hasEntityType>
+    <wsa:hasSentiment>Positive</wsa:hasSentiment>
+    <wsa:hasImage>C:sad:</wsa:hasImage>
+    <wsa:hasThumbnail>D:Da:</wsa:hasThumbnail>
+    <wsa:hasReferences>www.face</wsa:hasReferences>
+    <wsa:hasDescription>IS ASU Student</wsa:hasDescription>
+    <wsa:hasRDFTypes>owl</wsa:hasRDFTypes>
+    <wsa:hasComment>MOHITCOMMENT</wsa:hasComment>
+    <wsa:hasLabel>MOHITLABEL</wsa:hasLabel>
+    <wsa:hasEntityName>Mohit</wsa:hasEntityName>
+    <wsa:hasWebsite>mohit.com</wsa:hasWebsite>
+  </rdf:Description>
+</rdf:RDF>

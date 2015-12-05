@@ -26,7 +26,9 @@ public class YoutubeHelper {
   	while ((temp = rd.readLine()) != null) {	    
 	    result.append(temp);
   	}
-
+    System.out.println("YOUTUBEHELPER");
+    System.out.println(result.toString());
+    System.out.println("YOUTUBEHELPER");
   	JSONObject obj = new JSONObject(result.toString());  
   	JSONArray items = obj.getJSONArray("items");
 
