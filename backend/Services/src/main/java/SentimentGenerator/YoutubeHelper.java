@@ -74,6 +74,7 @@ public class YoutubeHelper {
       yb.setchannelTitle(channelTitle);
       yb.setthumbnailURL(thumbnailURL);
       yb.settags(jsonArrayToStringArray(tags));
+      yb.setyoutubeURL(id);
   		youtubeBeans.add(yb);
 	  }	
 

@@ -9,41 +9,15 @@ import java.util.UUID;
 public class GenerateRDF{
 
 
- // public static void main (String args[]) {
-     
+public void generateRdf(List<EntityBean> entitylist, List<KeywordBean> keywordlist , String timeStamp, String cSentiment) throws IOException{
 
-      // some definitions
-    // String customURI = "http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword";
 
-    // // create an empty Model
-    // Model model = ModelFactory.createDefaultModel();
-
-    // model.setNsPrefix("wsa","http://my.asu.edu/ontologies/ser594/team8Ontology#");
-
-    // Property hasTimeStamp = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasTimestamp");
-    // Resource timestamp = model.createResource(customURI);
-    // timestamp.addProperty(hasTimeStamp,"12-04-2015-14-43");
-
-    // Property hasSMSource = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource");
-    // Resource smSource = model.createResource(customURI);
-    // smSource.addProperty(hasSMSource,"Twitter");
-
-    // Property hasSentiment = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSentiment");
-    // Resource sentiment = model.createResource(customURI);
-    // sentiment.addProperty(hasSentiment,"Positive");     
-
-    // Property hasKeywordText = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasKeywordText");
-    // Resource keywordText = model.createResource(customURI);
-    // keywordText.addProperty(hasKeywordText,"Paris");     
-
-    //  // now write the model in XML form to a file
-    // model.write(System.out);
-    
-  //}
-
-public void generateRdf(List<EntityBean> entitylist, List<KeywordBean> keywordlist , String timeStamp) throws IOException{
 
     Model m = ModelFactory.createDefaultModel();
+
+     m.read("wsa.rdf");
+
+
     m.setNsPrefix("wsa","http://my.asu.edu/ontologies/ser594/team8Ontology#");
 
     String timestamp = timeStamp;
@@ -57,31 +31,24 @@ public void generateRdf(List<EntityBean> entitylist, List<KeywordBean> keywordli
 
         }
         
-        String fileName = "wsa.rdf";
-        FileWriter out = new FileWriter( fileName );
-        try {
-            m.write(out);
-        }
-        finally {
-               try {
-                   out.close();
-               }
-               catch (IOException closeException) {
-                   // ignore
-               }
-        }
+        
     }
     if (keywordlist.size() > 0){
         for (int i = 0; i < keywordlist.size(); i++) {
 
-            KeywordBean eb = keywordlist.get(i);
+            KeywordBean kb = keywordlist.get(i);
 
-            // m = generateEntityRDF(m, eb.getEntityName(),eb.getDescription(),eb.getImage(),eb.getThumbnail(),eb.getRefrences(),eb.getRdfTypes(),eb.getLabel(),eb.getComment(),eb.getEntityType(),eb.getWebsite(),eb.getSentiment(),eb.getSocialMediaSource,eb.getWebUrl(),eb.getLinkedDataSource(),timestamp);
+             m = generateKeywordRdf(m, kb.getKeywordtext(),kb.getSentiment(),kb.getSocialMediaSource(),timestamp);
 
         }
-
-        
-        String fileName = "wsa.rdf";
+    }
+    // if(cSentiment != null) {
+    System.out.println("DDDDDDDDddd--------------------------------E3##_#_#_#_#_#_#_#_#_#_#_#_#__#_#_#_#_#_#_##########_________#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_");
+    System.out.println(cSentiment);
+    System.out.println("DDDDDDDDddd--------------------------------E3##_#_#_#_#_#_#_#_#_#_#_#_#__#_#_#_#_#_#_##########_________#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_#_");
+        m = writeCummulativeSentiment(m,timestamp, cSentiment);
+    // }
+    String fileName = "wsa.rdf";
         FileWriter out = new FileWriter( fileName );
         try {
             m.write(out);
@@ -94,12 +61,70 @@ public void generateRdf(List<EntityBean> entitylist, List<KeywordBean> keywordli
                    // ignore
                }
         }
-    }
+
+    System.out.println("RDF written");
 
 }
 
 
-  public void generateKeywordRdf(){
+  public Model generateKeywordRdf(Model m, String KeywordText,String Sentiment,String[] SocialMediaSource,String timeStamp){
+
+
+    String customURI = "http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword";
+
+    Model model = ModelFactory.createDefaultModel();
+
+    model.setNsPrefix("wsa","http://my.asu.edu/ontologies/ser594/team8Ontology#");
+
+    String uuidOne = UUID.randomUUID().toString();    
+
+    Property about = model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
+    Resource aboutKeyword = model.createResource(AnonId.create(uuidOne));
+     aboutKeyword.addProperty(about,customURI);
+
+    Property hasTimeStamp = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasTimestamp");
+     Resource timestamp = model.createResource(AnonId.create(uuidOne));
+     timestamp.addProperty(hasTimeStamp,timeStamp);
+
+     
+
+      if(KeywordText != null) {
+        Property hasKeywordText = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasKeywordText");
+        Resource hKeywordText = model.createResource(AnonId.create(uuidOne));
+        hKeywordText.addProperty(hasKeywordText,KeywordText);
+    } else {
+        Property hasKeywordText = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasKeywordText");
+        Resource hKeywordText = model.createResource(AnonId.create(uuidOne));
+        hKeywordText.addProperty(hasKeywordText," ");
+    }
+
+    if(Sentiment != null) {
+        Property hasSentiment = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSentiment");
+        Resource hSentiment = model.createResource(AnonId.create(uuidOne));
+        hSentiment.addProperty(hasSentiment,Sentiment); 
+    } else {
+        Property hasSentiment = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSentiment");
+        Resource hSentiment = model.createResource(AnonId.create(uuidOne));
+        hSentiment.addProperty(hasSentiment," "); 
+    }
+
+    if(SocialMediaSource.length > 0){
+
+        for (int i =0 ; i <SocialMediaSource.length; i++){
+            Property hasSMSource = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource");
+            Resource hSMSource = model.createResource(AnonId.create(uuidOne));
+            if(SocialMediaSource[i] != null) {
+                hSMSource.addProperty(hasSMSource,SocialMediaSource[i]); 
+            } else {
+                hSMSource.addProperty(hasSMSource, " "); 
+            }
+            
+        }
+    }
+
+    m.add(model);
+     // now write the model in XML form to a file
+    return m;
 
   }
   public Model generateEntityRDF(Model m, String EntityName,String Description,String Image,String Thumbnail,String References,String RdfTypes,String Label,String Comment,String EntityType,String Website,String Sentiment,String[] SocialMediaSource,String[] WebUrl,String LinkedDataSource,String timeStamp){
@@ -280,82 +305,11 @@ public void generateRdf(List<EntityBean> entitylist, List<KeywordBean> keywordli
     return m;
   }
 
- public Model newKeywordWrite(Model m, String timeStamp){
-    
 
-    String customURI = "http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword";
-
-    Model model = ModelFactory.createDefaultModel();
-
-    model.setNsPrefix("wsa","http://my.asu.edu/ontologies/ser594/team8Ontology#");
-
-    String uuidOne = UUID.randomUUID().toString();    
-
-    Property about = model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-    Resource aboutKeyword = model.createResource(AnonId.create(uuidOne));
-     aboutKeyword.addProperty(about,customURI);
-
-    Property hasTimeStamp = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasTimestamp");
-     Resource timestamp = model.createResource(AnonId.create(uuidOne));
-     timestamp.addProperty(hasTimeStamp,timeStamp);
-
-    Property hasSMSource = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource");
-     Resource smSource = model.createResource(AnonId.create(uuidOne));
-     smSource.addProperty(hasSMSource,"Youtube");
-
-     Property hasSentiment = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSentiment");
-     Resource sentiment = model.createResource(AnonId.create(uuidOne));
-     sentiment.addProperty(hasSentiment,"Negative");     
-
-     Property hasKeywordText = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasKeywordText");
-     Resource keywordText = model.createResource(AnonId.create(uuidOne));
-     keywordText.addProperty(hasKeywordText,"Obama");     
-    m.add(model);
-
-    
-    return m;
- }
-
- public Model newEntityWrite(Model m, String timeStamp){
-    
-
-    String customURI = "http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword";
-
-    Model model = ModelFactory.createDefaultModel();
-
-    model.setNsPrefix("wsa","http://my.asu.edu/ontologies/ser594/team8Ontology#");
-
-    String uuidOne = UUID.randomUUID().toString();    
-
-    Property about = model.createProperty("http://www.w3.org/1999/02/22-rdf-syntax-ns#type");
-    Resource aboutKeyword = model.createResource(AnonId.create(uuidOne));
-     aboutKeyword.addProperty(about,customURI);
-
-    Property hasTimeStamp = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasTimestamp");
-     Resource timestamp = model.createResource(AnonId.create(uuidOne));
-     timestamp.addProperty(hasTimeStamp,timeStamp);
-
-    Property hasSMSource = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource");
-     Resource smSource = model.createResource(AnonId.create(uuidOne));
-     smSource.addProperty(hasSMSource,"Youtube");
-
-     Property hasSentiment = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSentiment");
-     Resource sentiment = model.createResource(AnonId.create(uuidOne));
-     sentiment.addProperty(hasSentiment,"Negative");     
-
-     Property hasKeywordText = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasKeywordText");
-     Resource keywordText = model.createResource(AnonId.create(uuidOne));
-     keywordText.addProperty(hasKeywordText,"Obama");     
-    m.add(model);
-
-    
-    return m;
- }
-
- public Model newCSWrite(Model m, String timeStamp){
+ public Model writeCummulativeSentiment(Model m, String timeStamp, String Sentiment){
    
 
-    String customURI = "http://my.asu.edu/ontologies/ser594/team8Ontology#Keyword";
+    String customURI = "http://my.asu.edu/ontologies/ser594/team8Ontology#CumulativeSentiment";
 
     Model model = ModelFactory.createDefaultModel();
 
@@ -368,20 +322,19 @@ public void generateRdf(List<EntityBean> entitylist, List<KeywordBean> keywordli
      aboutKeyword.addProperty(about,customURI);
 
     Property hasTimeStamp = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasTimestamp");
-     Resource timestamp = model.createResource(AnonId.create(uuidOne));
-     timestamp.addProperty(hasTimeStamp,timeStamp);
+    Resource timestamp = model.createResource(AnonId.create(uuidOne));
+    timestamp.addProperty(hasTimeStamp,timeStamp);
 
-    Property hasSMSource = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSMSource");
-     Resource smSource = model.createResource(AnonId.create(uuidOne));
-     smSource.addProperty(hasSMSource,"Youtube");
 
-     Property hasSentiment = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasSentiment");
-     Resource sentiment = model.createResource(AnonId.create(uuidOne));
-     sentiment.addProperty(hasSentiment,"Negative");     
-
-     Property hasKeywordText = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasKeywordText");
-     Resource keywordText = model.createResource(AnonId.create(uuidOne));
-     keywordText.addProperty(hasKeywordText,"Obama");     
+    if(Sentiment != null) {
+        Property hasSentiment = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasCSentiment");
+        Resource hSentiment = model.createResource(AnonId.create(uuidOne));
+        hSentiment.addProperty(hasSentiment,Sentiment); 
+    } else {
+        Property hasSentiment = model.createProperty("http://my.asu.edu/ontologies/ser594/team8Ontology#hasCSentiment");
+        Resource hSentiment = model.createResource(AnonId.create(uuidOne));
+        hSentiment.addProperty(hasSentiment," "); 
+    }
     
     m.add(model);
 

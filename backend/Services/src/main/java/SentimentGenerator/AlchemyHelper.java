@@ -73,21 +73,28 @@ public class AlchemyHelper {
     for (int i = 0; i < entities.length(); i++) {
       JSONObject o = entities.getJSONObject(i);
       String sentiment = "";
-      if (o.has("docSentiment")){
+      // if (o.has("docSentiment")){
+      if (o.has("sentiment")){
         sentiment = o.getJSONObject("sentiment").getString("type");
       }else{
-        sentiment = "";
+        sentiment = "NoSentimentReturned";
       }
       String name = o.getString("text");      
       String dbpedia = "";
       if (o.has("disambiguated")) {
         if (o.getJSONObject("disambiguated").has("dbpedia")) {
           dbpedia = o.getJSONObject("disambiguated").getString("dbpedia");
+        }else{
+          dbpedia = "doesn't have DBPEDIALINK";
         }
+      }else{
+          dbpedia = "doesn't have DBPEDIALINK";
       }
       String type = "";
       if (o.has("type")) {
-         type = o.getString("text");
+         type = o.getString("type");
+      }else{
+        type = "gotNoType";
       }
       EntityBean eb = new EntityBean();
       eb.setEntityName(name);
@@ -118,18 +125,19 @@ public class AlchemyHelper {
     while ((temp = rd.readLine()) != null) {      
       result.append(temp);
     }
-    JSONObject obj = new JSONObject(result.toString());    
-    JSONArray keywords = obj.getJSONArray("keywords");
+    JSONObject obj = new JSONObject(result.toString()); 
     List<KeywordBean> keywordBeans = new ArrayList<KeywordBean>();
-    for (int i = 0; i < keywords.length(); i++) {
-      JSONObject o = keywords.getJSONObject(i);
-      String sentiment = o.getJSONObject("sentiment").getString("type");
-      String name = o.getString("text");
-      KeywordBean kb = new KeywordBean();
-      kb.setKeywordtext(name);
-      kb.setSentiment(sentiment);
-
-      keywordBeans.add(kb);
+    if (obj.has("keywords") ){  
+      JSONArray keywords = obj.getJSONArray("keywords");
+      for (int i = 0; i < keywords.length(); i++) {
+        JSONObject o = keywords.getJSONObject(i);
+        String sentiment = o.getJSONObject("sentiment").getString("type");
+        String name = o.getString("text");
+        KeywordBean kb = new KeywordBean();
+        kb.setKeywordtext(name);
+        kb.setSentiment(sentiment);
+        keywordBeans.add(kb);
+      }
     }
 
     return keywordBeans;
