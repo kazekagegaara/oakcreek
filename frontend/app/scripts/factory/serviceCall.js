@@ -11,19 +11,19 @@
   		function serviceCall(serviceName,callMethod){  		
         /*jshint validthis: true */	
   			this.url = {
-  				domain : localStorage.surveyAppServerSettings,
+  				
   				method : callMethod,
   				name : serviceName 
   			};  			
   		}
 
   		serviceCall.prototype.call = function(payload,success,error,mockURL){
-  			var serviceURL = mockURL || this.url.domain + "/" + this.url.name;  			
+  			var serviceURL = mockURL ||  "http://localhost:8080"+ "/" + this.url.name + "?" + payload;
+        console.log(payload);  		
   			$http(
 			    { 
 			      method: this.url.method,		      
-			      url: serviceURL,
-			      data: payload
+			      url: serviceURL			      
 			    }
 	  		).
 	    	success(function(data, status, headers, config) {

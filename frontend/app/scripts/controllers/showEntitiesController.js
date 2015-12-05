@@ -20,6 +20,8 @@
       $scope.showDetails = function(name,type) {        
         console.log(name);
         console.log(type);
+        activeData.setSelectedEntity(name);
+        activeData.setSelectedType(type);
         $scope.changePage("/entityDetails");
       };
 

@@ -25,8 +25,10 @@
   		};
 
       $scope.getDetails = function() {
-        var detailsCall = new serviceCall("getSentiments","GET");        
-        detailsCall.call("",$scope.detailsCallSuccess,$scope.serviceError,"json/getEntities.json");        
+        var timestamp = activeData.getTimestamp();
+        var detailsCall = new serviceCall("getEntitiesAndKeywords","GET");    
+        var params = "timeStamp="+timestamp;    
+        detailsCall.call(params,$scope.detailsCallSuccess,$scope.serviceError);//,"json/getEntities.json");        
       };
 
       $scope.serviceError = function(data, status, headers, config){

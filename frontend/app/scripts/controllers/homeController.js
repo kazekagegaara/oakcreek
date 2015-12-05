@@ -15,12 +15,12 @@
 
       $scope.getSentiment = function() {
         var sentimentCall = new serviceCall("getSentiments","GET");        
-        sentimentCall.call("",$scope.sentimentCallSuccess,$scope.serviceError,"json/getSentiment.json");
+        sentimentCall.call("",$scope.sentimentCallSuccess,$scope.serviceError);//,"json/getSentiment.json");
       };
 
       $scope.getHistory = function() {
         var historyCall = new serviceCall("getHistory","GET");        
-        historyCall.call("",$scope.historyCallSuccess,$scope.serviceError,"json/getHistory.json");        
+        historyCall.call("",$scope.historyCallSuccess,$scope.serviceError);//"json/getHistory.json");        
       }
 
       $scope.serviceError = function(data, status, headers, config){
@@ -37,6 +37,7 @@
       $scope.sentimentCallSuccess = function(data, status, headers, config){
         console.log(data);
         activeData.setSentiment(data.result);
+        activeData.setTimestamp(data.timestamp);
         console.log(activeData.getSentiment());
         $scope.changePage("/showSentiment");
       };

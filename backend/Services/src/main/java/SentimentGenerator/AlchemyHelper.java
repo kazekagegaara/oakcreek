@@ -40,7 +40,7 @@ public class AlchemyHelper {
     if (obj.has("docSentiment")){
   	 return obj.getJSONObject("docSentiment").getString("type");
     }else{
-      return "No sentiment returned.";
+      return "neutral";
     }
  }
 

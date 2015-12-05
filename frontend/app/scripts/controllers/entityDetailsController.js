@@ -3,7 +3,7 @@
 'use strict';
 	
 	//Load controller
-  	angular.module('socialSentimentApp').controller('entityDetailsController', ['$scope','$location','$timeout','serviceCall',function($scope,$location,$timeout,serviceCall) {
+  	angular.module('socialSentimentApp').controller('entityDetailsController', ['$scope','$location','$timeout','serviceCall','activeData',function($scope,$location,$timeout,serviceCall,activeData) {
     
       $scope.EntityName = '';
       $scope.Description = '';
@@ -21,8 +21,12 @@
 
 
       $scope.controllerInit = function(){
+        var timestamp = activeData.getTimestamp();
+        var selectedEntity = activeData.getSelectedEntity();
+        var selectedType = activeData.getSelectedType();
+        var params = "timeStamp="+timestamp+"&NAME="+selectedEntity+"&TYPE="+selectedType;
         var entityDetailsCall = new serviceCall("getDetails","GET");
-        entityDetailsCall.call("",$scope.entityDetailsCallSuccess,$scope.serviceError,"json/getDetails.json");                
+        entityDetailsCall.call(params,$scope.entityDetailsCallSuccess,$scope.serviceError);//,"json/getDetails.json");                
   	  };
           
       $scope.serviceError = function(data, status, headers, config){
