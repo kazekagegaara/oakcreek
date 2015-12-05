@@ -63,7 +63,6 @@ public class EntityBean implements Serializable{
 		this.LinkedDataSource = LinkedDataSource;
 	}
 
-
 	//getters
 
 	public String getEntityName(){

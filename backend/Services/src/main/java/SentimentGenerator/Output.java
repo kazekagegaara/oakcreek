@@ -6,7 +6,7 @@ public class Output {
     private final String result;
     private final String timestamp;
     
-    public Output(long id, String result , String timestamp) {
+    public Output(long id, String result, String timestamp) {
         this.id = id;
         this.result = result;
         this.timestamp = timestamp;
@@ -17,7 +17,7 @@ public class Output {
     }
 
     public String getResult() {
-        return result;
+        return this.result;
     }
     public String getTimestamp() {
         return timestamp;

@@ -48,6 +48,7 @@ public class FlickrHelper {
       fb.setserver(server);
       fb.setfarm(farm);
       fb.settitle(title);
+      fb.setflickerURL(farm,server,imageId,secret);
       flickrBeans.add(fb);
     }
     //System.out.println(flickrBeans.toString());
