@@ -5,24 +5,24 @@
 	//Load controller
   	angular.module('socialSentimentApp').service('activeData', function(){
   		
-      this.questions = [];
-      this.surveyID = '';
+      this.entities = [];    
+      this.sentiment = '';
       
-      this.setSurveyQuestions = function(questions){
-        this.questions = questions;
+      this.setSentiment = function(sentiment){
+        this.sentiment = sentiment;
       };     
   		
-      this.getSurveyQuestions = function(){
-        return this.questions;
-      };
+      this.getSentiment = function(){
+        return this.sentiment;
+      };  
 
-      this.setSurveyID = function(id){
-        this.surveyID = id;
-      };
-
-      this.getSurveyID = function(){
-        return this.surveyID;
-      };
+      this.setEntities = function(entities){
+        this.entities = entities;
+      };     
+      
+      this.getEntities = function(){
+        return this.entities;
+      };            
   		
   	});
 

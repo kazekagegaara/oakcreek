@@ -1,0 +1,64 @@
+{
+	"id": 4,
+	"entity": [{
+		"name": "Los Angeles",
+		"sentiment": "positive"
+	}, {
+		"name": "O.J. Simpson",
+		"sentiment": "neutral"
+	}, {
+		"name": "#PremiosTwitterAwards2015",
+		"sentiment": "neutral"
+	}, {
+		"name": "#ALDUBRendezvous",
+		"sentiment": "neutral"
+	}, {
+		"name": "jimmy jimmy",
+		"sentiment": "neutral"
+	}, {
+		"name": "Martin Peter Dinklage Aidan Gillen Lena Headey Jack Gleeson",
+		"sentiment": "neutral"
+	}, {
+		"name": "Thrones Official",
+		"sentiment": "neutral"
+	}, {
+		"name": "Scotland",
+		"sentiment": "positive"
+	}, {
+		"name": "#BlueNeighbourhood",
+		"sentiment": "neutral"
+	}, {
+		"name": "sonsbeck Sunset",
+		"sentiment": "neutral"
+	}, {
+		"name": "#ViernesIntratable",
+		"sentiment": "positive"
+	}, {
+		"name": "Mark Hamill",
+		"sentiment": "positive"
+	}, {
+		"name": "Batman",
+		"sentiment": "positive"
+	}, {
+		"name": "Sofia Vergara",
+		"sentiment": "negative"
+	}, {
+		"name": "#NASCARawards",
+		"sentiment": "positive"
+	}, {
+		"name": "#SweeterAcronyms",
+		"sentiment": "positive"
+	}, {
+		"name": "Kamala El Mediterráneo",
+		"sentiment": "positive"
+	}, {
+		"name": "James Corden",
+		"sentiment": "positive"
+	}, {
+		"name": "#RDFamilyHoliday",
+		"sentiment": "positive"
+	}, {
+		"name": "#LoMejorDeDiciembre",
+		"sentiment": "positive"
+	}]
+}

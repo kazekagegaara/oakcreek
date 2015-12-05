@@ -3,18 +3,19 @@
 'use strict';
 	
 	//Load controller
-  	angular.module('socialSentimentApp').controller('showSentimentController', ['$scope','$location',function($scope,$location) {
+  	angular.module('socialSentimentApp').controller('showSentimentController', ['$scope','$location','$timeout','activeData','serviceCall',function($scope,$location,$timeout,activeData,serviceCall) {
 
-  		$scope.sentiment = "Positive";
+  		$scope.sentiment = "";
 
       $scope.controllerInit = function() {
-        if($scope.sentiment === "Positive") {
+        $scope.sentiment = activeData.getSentiment();
+        if($scope.sentiment === "positive") {
           $scope.sentimentColor = {"color":"green"};
-        } else if($scope.sentiment === "Negative") {
+        } else if($scope.sentiment === "negative") {
           $scope.sentimentColor = {"color":"red"};
-        } else if($scope.sentiment === "Mixed") {
+        } else if($scope.sentiment === "mixed") {
           $scope.sentimentColor = {"color":"gray"};
-        } else if($scope.sentiment === "Neutral") {
+        } else if($scope.sentiment === "neutral") {
           $scope.sentimentColor = {"color":"white"};
         }
       };
@@ -24,6 +25,20 @@
   		};
 
       $scope.getDetails = function() {
+        var detailsCall = new serviceCall("getSentiments","GET");
+        $timeout(function() {
+          detailsCall.call("",$scope.detailsCallSuccess,$scope.serviceError,"json/getEntities.json");        
+        }, 2000);      
+      };
+
+      $scope.serviceError = function(data, status, headers, config){
+        console.log(data);
+        alert("Error! Please try again later.");
+      };
+
+      $scope.detailsCallSuccess = function(data, status, headers, config){
+        console.log(data);
+        activeData.setEntities(data.entity);
         $scope.changePage("/showEntities");
       };
 

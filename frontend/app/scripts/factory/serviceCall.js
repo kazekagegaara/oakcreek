@@ -19,9 +19,6 @@
 
   		serviceCall.prototype.call = function(payload,success,error,mockURL){
   			var serviceURL = mockURL || this.url.domain + "/" + this.url.name;  			
-  			console.log(serviceURL);
-  			console.log(this.url.method);
-  			console.log(payload);
   			$http(
 			    { 
 			      method: this.url.method,		      
